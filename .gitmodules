@@ -1,4 +1,0 @@
-[submodule "jasmine"]
-	path = submodules/jasmine
-	url = https://github.com/gn-avramenko/jasmine.git
-	branch = v2
