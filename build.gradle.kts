@@ -11,6 +11,7 @@ apply<com.gridnine.jasmine.gradle.plugin.JasmineConfigPlugin>()
 
 jasmine {
     kotlinVersion = "1.3.71"
+    libRelativePath = "submodules/jasmine/lib"
     plugins("submodules/jasmine/plugins") {
         plugin("com.gridnine.jasmine.server.core")
     }
@@ -18,3 +19,11 @@ jasmine {
 
 apply<com.gridnine.jasmine.gradle.plugin.JasminePlugin>()
 
+repositories{
+    mavenCentral()
+}
+
+project.configurations.create("compile")
+dependencies{
+    "compile"(files("submodules/jasmine/lib/spf-1.0.jar"))
+}
