@@ -14,6 +14,7 @@ jasmine {
     libRelativePath = "submodules/jasmine/lib"
     plugins("submodules/jasmine/plugins") {
         plugin("com.gridnine.jasmine.server.core")
+        plugin("com.gridnine.jasmine.server.core.test")
     }
 }
 
