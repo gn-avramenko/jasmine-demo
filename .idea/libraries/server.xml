@@ -5,8 +5,10 @@
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/7c4f3c474fb2c041d8028740440937705ebb473a/logback-classic-1.2.3.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.3/864344400c3d4d92dfeb0a305dc87d953677c03c/logback-core-1.2.3.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.10.3/f7ee7b55c7d292ac72fbaa7648c089f069c938d2/jackson-core-2.10.3.jar!/"/>
+         <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.200/f7533fe7cb8e99c87a43d325a77b4b678ad9031a/h2-1.4.200.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/com.mchange/c3p0/0.9.5.5/37dfc3021e5589d65ff2ae0becf811510b87ab01/c3p0-0.9.5.5.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/com.mchange/mchange-commons-java/0.2.19/7a4bee38ea02bd7dee776869b19fb3f6861d6acf/mchange-commons-java-0.2.19.jar!/"/>
+         <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/com.nothome/javaxdelta/2.0.1/d4f5d077f1b15c6f67595015d69572303ad3f66d/javaxdelta-2.0.1.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.30/ad32909314fe2ba02cec036434c0addd19bcc580/tomcat-embed-core-9.0.30.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-el/9.0.30/406e0c7cc45204c0f81853d73e8cfedfa4e00945/tomcat-embed-el-9.0.30.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-jasper/9.0.30/b57b6cc276bf7fd3f32cb13c405a7cb8382069c7/tomcat-embed-jasper-9.0.30.jar!/"/>
@@ -20,14 +22,17 @@
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.30/d58bebff8cbf70ff52b59208586095f467656c30/jul-to-slf4j-1.7.30.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.30/b5a4b6d16ab13e34a88fae84c35cd5d68cac922c/slf4j-api-1.7.30.jar!/"/>
+         <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/trove/trove/1.0.2/112b40581ab9a4d3de4636d49985a7f686d181c8/trove-1.0.2.jar!/"/>
       </CLASSES>
       <JAVADOC/>
       <SOURCES>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/cfd5385e0c5ed1c8a5dce57d86e79cf357153a64/logback-classic-1.2.3-sources.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.3/3ebabe69eba0196af9ad3a814f723fb720b9101e/logback-core-1.2.3-sources.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.10.3/5b24f64c1a3351a550651b072887ac56a0af120c/jackson-core-2.10.3-sources.jar!/"/>
+         <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.200/3b5883b7a5a05b932c699760f0854ca565785a84/h2-1.4.200-sources.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/com.mchange/c3p0/0.9.5.5/7a86790c4f73d20112e0bbfb9718384950569169/c3p0-0.9.5.5-sources.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/com.mchange/mchange-commons-java/0.2.19/91a05a2e27efc8e8b95638926d6e0bf41d1cdd2c/mchange-commons-java-0.2.19-sources.jar!/"/>
+         <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/com.nothome/javaxdelta/2.0.1/c99bfecfaa91279b8a3d7d25a99cbbda107c903d/javaxdelta-2.0.1-sources.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.30/73fc8b54346500884e0af113a26b7e5501bf3121/tomcat-embed-core-9.0.30-sources.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-el/9.0.30/44e03a34483dde0bc2e41db049f81cbe8756088e/tomcat-embed-el-9.0.30-sources.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-jasper/9.0.30/b503a1a202fc2b6c2cfa23f9b56905b33537344e/tomcat-embed-jasper-9.0.30-sources.jar!/"/>

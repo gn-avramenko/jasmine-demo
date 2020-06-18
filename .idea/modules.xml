@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.core.iml" filepath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.core.iml" group="jasmine-demo" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.core.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.core.test.iml" group="jasmine-demo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.db.h2.iml" filepath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.db.h2.iml" group="jasmine-demo" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.spf.iml" filepath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.spf.iml" group="jasmine-demo" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jasmine-demo.iml" filepath="$PROJECT_DIR$/.idea/modules/jasmine-demo.iml" group="jasmine-demo" />
     </modules>

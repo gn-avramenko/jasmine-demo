@@ -16,6 +16,7 @@ jasmine {
         plugin("com.gridnine.jasmine.server.core")
         plugin("com.gridnine.jasmine.server.spf")
         plugin("com.gridnine.jasmine.server.core.test")
+        plugin("com.gridnine.jasmine.server.db.h2")
     }
 }
 
