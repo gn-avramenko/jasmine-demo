@@ -1,3 +1,7 @@
 .gradle
 build
 /lib/externals.txt
+/plugins/com.gridnine.jasmine.server.demo/source-gen/com/gridnine/jasmine/server/demo/model/domain/
+/plugins/com.gridnine.jasmine.server.demo/classes/
+/data/db/
+/logs/
