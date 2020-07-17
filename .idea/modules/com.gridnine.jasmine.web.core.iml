@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../submodules/jasmine/plugins/com.gridnine.jasmine.web.core/resources/webapp-core" />
+    <output-test url="file://$MODULE_DIR$/../../submodules/jasmine/plugins/com.gridnine.jasmine.web.core/resources/webapp-core" />
+    <content url="file://$MODULE_DIR$/../../submodules/jasmine/plugins/com.gridnine.jasmine.web.core">
+      <sourceFolder url="file://$MODULE_DIR$/../../submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source-gen" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../submodules/jasmine/plugins/com.gridnine.jasmine.web.core/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/../../submodules/jasmine/plugins/com.gridnine.jasmine.web.core/resources/webapp-core" />
+    </content>
+    <orderEntry type="jdk" jdkName="Kotlin SDK" jdkType="KotlinSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="web_js" level="project" />
+  </component>
+</module>
