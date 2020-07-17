@@ -27,7 +27,7 @@
     </filter-mapping>
     <filter>
         <filter-name>auth</filter-name>
-        <filter-class>com.gridnine.jasmine.server.sandbox.rest.SandboxAuthFilter</filter-class>
+        <filter-class>com.gridnine.jasmine.server.demo.rest.DemoAuthFilter</filter-class>
     </filter>
     <filter-mapping>
         <filter-name>auth</filter-name>

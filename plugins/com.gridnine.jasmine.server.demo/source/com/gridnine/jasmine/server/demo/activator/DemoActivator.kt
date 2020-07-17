@@ -14,11 +14,13 @@ import com.gridnine.jasmine.server.core.storage.StorageRegistry
 import com.gridnine.jasmine.server.core.storage.search.SearchQuery
 import com.gridnine.jasmine.server.core.utils.AuthUtils
 import com.gridnine.jasmine.server.core.web.WebAppFilter
+import com.gridnine.jasmine.server.core.web.WebApplication
 import com.gridnine.jasmine.server.core.web.WebServerConfig
 import com.gridnine.jasmine.server.demo.model.domain.*
 import com.gridnine.jasmine.server.demo.storage.DemoComplexDocumentIndexHandler
 import com.gridnine.jasmine.server.demo.storage.DemoComplexDocumentVariantIndexHandler
 import com.gridnine.jasmine.server.demo.storage.DemoUserAccountIndexHandler
+import java.io.File
 import java.time.LocalDate
 import java.time.LocalDateTime
 import java.util.*
@@ -30,7 +32,10 @@ class DemoActivator : IPluginActivator {
         StorageRegistry.get().register(DemoComplexDocumentVariantIndexHandler())
         StorageRegistry.get().register(DemoUserAccountIndexHandler())
 
-
+        val demoApp = WebApplication("", javaClass.classLoader.getResource("jasmine_demo")
+                ?: File("lib/jasmine_demo.war").toURI().toURL(),
+                javaClass.classLoader)
+        WebServerConfig.get().addApplication(demoApp)
 
         WebServerConfig.get().globalFilters.add(WebAppFilter("nocache", NoCacheFilter::class))
         WebServerConfig.get().globalFilters.add(WebAppFilter("dev-kt-files", KotlinFileDevFilter::class))
