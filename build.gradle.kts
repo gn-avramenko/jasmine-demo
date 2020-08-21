@@ -19,9 +19,12 @@ jasmine {
         plugin("com.gridnine.jasmine.server.db.h2")
         plugin("com.gridnine.jasmine.server.standard")
         plugin("com.gridnine.jasmine.web.core")
+        plugin("com.gridnine.jasmine.web.easyui")
+
     }
     plugins("plugins"){
         plugin("com.gridnine.jasmine.server.demo")
+        plugin("com.gridnine.jasmine.web.demo")
     }
 }
 

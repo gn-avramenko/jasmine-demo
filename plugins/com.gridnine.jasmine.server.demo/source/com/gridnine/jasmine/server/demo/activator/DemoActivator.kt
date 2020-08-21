@@ -6,6 +6,7 @@
 
 package com.gridnine.jasmine.server.demo.activator
 
+import com.gridnine.jasmine.server.core.app.Environment
 import com.gridnine.jasmine.server.core.app.IPluginActivator
 import com.gridnine.jasmine.server.core.rest.KotlinFileDevFilter
 import com.gridnine.jasmine.server.core.rest.NoCacheFilter
@@ -20,6 +21,10 @@ import com.gridnine.jasmine.server.demo.model.domain.*
 import com.gridnine.jasmine.server.demo.storage.DemoComplexDocumentIndexHandler
 import com.gridnine.jasmine.server.demo.storage.DemoComplexDocumentVariantIndexHandler
 import com.gridnine.jasmine.server.demo.storage.DemoUserAccountIndexHandler
+import com.gridnine.jasmine.server.demo.storage.DemoWorkspaceProvider
+import com.gridnine.jasmine.server.demo.web.DemoAuthFilter
+import com.gridnine.jasmine.server.standard.model.domain.*
+import com.gridnine.jasmine.server.standard.rest.WorkspaceProvider
 import java.io.File
 import java.time.LocalDate
 import java.time.LocalDateTime
@@ -32,13 +37,39 @@ class DemoActivator : IPluginActivator {
         StorageRegistry.get().register(DemoComplexDocumentVariantIndexHandler())
         StorageRegistry.get().register(DemoUserAccountIndexHandler())
 
-        val demoApp = WebApplication("", javaClass.classLoader.getResource("jasmine_demo")
-                ?: File("lib/jasmine_demo.war").toURI().toURL(),
+        val jasmineCoreWebapp = WebApplication("/jasmine-core", javaClass.classLoader.getResource("jasmine-core")
+                ?:  File("lib/jasmine-core.war").toURI().toURL(),
+                javaClass.classLoader)
+        WebServerConfig.get().addApplication(jasmineCoreWebapp)
+        val demoApp = WebApplication("", javaClass.classLoader.getResource("jasmine-demo-index")
+                ?: File("lib/jasmine-demo-index.war").toURI().toURL(),
                 javaClass.classLoader)
         WebServerConfig.get().addApplication(demoApp)
 
+        val easyuiLibWebapp = WebApplication("/easyui-lib", javaClass.classLoader.getResource("easyui-lib")
+                ?:  File("lib/easyui-lib.war").toURI().toURL(),
+                javaClass.classLoader)
+        WebServerConfig.get().addApplication(easyuiLibWebapp)
+
+        val easyuiLoaderWebapp = WebApplication("/easyui-loader", javaClass.classLoader.getResource("easyui-loader")
+                ?:  File("lib/easyui-loader.war").toURI().toURL(),
+                javaClass.classLoader)
+        WebServerConfig.get().addApplication(easyuiLoaderWebapp)
+
+        val jqueryLibWebapp = WebApplication("/jquery-lib", javaClass.classLoader.getResource("jquery-lib")
+                ?:  File("lib/jquery-lib.war").toURI().toURL(),
+                javaClass.classLoader)
+        WebServerConfig.get().addApplication(jqueryLibWebapp)
+
+        val jasmineDemoAdminWebapp = WebApplication("/jasmine-demo", javaClass.classLoader.getResource("jasmine-demo")
+                ?:  File("lib/jasmine-demo.war").toURI().toURL(),
+                javaClass.classLoader)
+        WebServerConfig.get().addApplication(jasmineDemoAdminWebapp)
+
         WebServerConfig.get().globalFilters.add(WebAppFilter("nocache", NoCacheFilter::class))
         WebServerConfig.get().globalFilters.add(WebAppFilter("dev-kt-files", KotlinFileDevFilter::class))
+        WebServerConfig.get().globalFilters.add(WebAppFilter("demo-auth-filter", DemoAuthFilter::class))
+        Environment.publish(WorkspaceProvider::class, DemoWorkspaceProvider())
     }
 
     override fun activate() {
@@ -105,4 +136,6 @@ class DemoActivator : IPluginActivator {
     private fun randomInt(max: Int): Int {
         return (max * Math.random()).roundToInt()
     }
+
+
 }

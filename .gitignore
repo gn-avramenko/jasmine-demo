@@ -7,3 +7,6 @@ build
 /logs/
 /submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/classes/
 /submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source-gen/com/gridnine/jasmine/server/standard/model/rest/
+/plugins/com.gridnine.jasmine.web.demo/source-gen/
+/plugins/com.gridnine.jasmine.web.demo/resources/jasmine-demo/
+/temp/
