@@ -56,10 +56,20 @@ class DemoActivator : IPluginActivator {
                 javaClass.classLoader)
         WebServerConfig.get().addApplication(easyuiLoaderWebapp)
 
+        val easyuiAdapterWebapp = WebApplication("/easyui-adapter", javaClass.classLoader.getResource("easyui-adapter")
+                ?:  File("lib/easyui-adapter.war").toURI().toURL(),
+                javaClass.classLoader)
+        WebServerConfig.get().addApplication(easyuiAdapterWebapp)
+
         val jqueryLibWebapp = WebApplication("/jquery-lib", javaClass.classLoader.getResource("jquery-lib")
                 ?:  File("lib/jquery-lib.war").toURI().toURL(),
                 javaClass.classLoader)
         WebServerConfig.get().addApplication(jqueryLibWebapp)
+
+        val easyUiWebapp = WebApplication("/jasmine-easyui", javaClass.classLoader.getResource("jasmine-easyui")
+                ?:  File("lib/jasmine-easyui.war").toURI().toURL(),
+                javaClass.classLoader)
+        WebServerConfig.get().addApplication(easyUiWebapp)
 
         val jasmineDemoAdminWebapp = WebApplication("/jasmine-demo", javaClass.classLoader.getResource("jasmine-demo")
                 ?:  File("lib/jasmine-demo.war").toURI().toURL(),

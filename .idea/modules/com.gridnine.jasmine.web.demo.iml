@@ -11,5 +11,6 @@
       <orderEntry type="sourceFolder" forTests="false"/>
       <orderEntry type="library" name="web_js" level="project"/>
       <orderEntry type="module" module-name="com.gridnine.jasmine.web.core"/>
+      <orderEntry type="module" module-name="com.gridnine.jasmine.web.easyui"/>
    </component>
 </module>

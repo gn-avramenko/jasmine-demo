@@ -3,5 +3,6 @@
     <parameter id="kotlin-output-dir" value="resources/jasmine-demo"/>
     <dependencies>
         <plugin-dependency plugin-id="com.gridnine.jasmine.web.core"/>
+        <plugin-dependency plugin-id="com.gridnine.jasmine.web.easyui"/>
     </dependencies>
 </plugin>
