@@ -67,6 +67,8 @@ class DemoWorkspaceProvider : WorkspaceProvider {
                 item.columns.add(DemoComplexDocumentIndex.dateProperty.name)
                 item.columns.add(DemoComplexDocumentIndex.dateTimeProperty.name)
                 item.columns.add(DemoComplexDocumentIndex.floatProperty.name)
+                item.columns.add(DemoComplexDocumentIndex.entityRefProperty.name)
+                item.filters.addAll(item.columns)
                 item.listId = DemoComplexDocumentIndex::class.qualifiedName
                 item.displayName = "Сложные объекты"
                 group.items.add(item)

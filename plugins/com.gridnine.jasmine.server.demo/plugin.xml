@@ -10,7 +10,7 @@
         <parameter id="relative-path" value="source/com/gridnine/jasmine/server/demo/model/demo-model-domain.xml"/>
         <parameter id="url" value="com/gridnine/jasmine/server/demo/model/demo-model-domain.xml"/>
         <parameter id="dest-server-plugin-id" value="com.gridnine.jasmine.server.demo"/>
-<!--        <parameter id="dest-client-plugin-id" value="com.gridnine.jasmine.web.demo"/>-->
+        <parameter id="dest-client-plugin-id" value="com.gridnine.jasmine.web.demo"/>
     </extension>
 <!--    <extension point-id="ui-metadata">-->
 <!--        <parameter id="file" value="plugins/com.gridnine.jasmine.server.demo/source/com/gridnine/jasmine/server/demo/model/demo-model-ui.xml"/>-->
@@ -22,7 +22,7 @@
         <parameter id="relative-path" value="source/com/gridnine/jasmine/server/demo/model/demo-rest.xml"/>
         <parameter id="url" value="com/gridnine/jasmine/server/demo/model/demo-rest.xml"/>
         <parameter id="dest-server-plugin-id" value="com.gridnine.jasmine.server.demo"/>
-<!--        <parameter id="dest-client-plugin-id" value="com.gridnine.jasmine.web.demo"/>-->
+        <parameter id="dest-client-plugin-id" value="com.gridnine.jasmine.web.demo"/>
     </extension>
     <extension point-id="activator">
         <parameter id="class" value="com.gridnine.jasmine.server.demo.activator.DemoActivator"/>
