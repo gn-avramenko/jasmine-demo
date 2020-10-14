@@ -51,6 +51,11 @@ class DemoActivator : IPluginActivator {
                 javaClass.classLoader)
         WebServerConfig.get().addApplication(easyuiLibWebapp)
 
+        val selectLibWebapp = WebApplication("/select2-lib", javaClass.classLoader.getResource("select2-lib")
+                ?:  File("lib/select2-lib.war").toURI().toURL(),
+                javaClass.classLoader)
+        WebServerConfig.get().addApplication(selectLibWebapp)
+
         val easyuiLoaderWebapp = WebApplication("/easyui-loader", javaClass.classLoader.getResource("easyui-loader")
                 ?:  File("lib/easyui-loader.war").toURI().toURL(),
                 javaClass.classLoader)
