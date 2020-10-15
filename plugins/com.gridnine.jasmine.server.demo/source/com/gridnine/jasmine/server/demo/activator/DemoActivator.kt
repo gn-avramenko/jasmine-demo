@@ -109,7 +109,7 @@ class DemoActivator : IPluginActivator {
                 complexObject.booleanProperty = randomInt(1) == 1
                 complexObject.dateProperty = LocalDate.of(2000 + randomInt(20), randomInt(11) + 1, randomInt(27) + 1)
                 complexObject.dateTimeProperty = LocalDateTime.of(2000 + randomInt(20), randomInt(11) + 1, randomInt(27) + 1, randomInt(23), randomInt(59), randomInt(59))
-                complexObject.entityRefProperty = Storage.get().findUniqueDocumentReference(DemoUserAccountIndex::class, DemoUserAccountIndex.login, "user${randomInt(10)}")
+                complexObject.entityRefProperty = Storage.get().findUniqueDocumentReference(DemoUserAccountIndex::class, DemoUserAccountIndex.loginProperty, "user${randomInt(10)}")
                 complexObject.enumProperty = DemoEnum.valueOf("ELEMENT_${randomInt(1) + 1}")
                 complexObject.floatProperty = (randomInt(100).toDouble() / 10.toDouble()).toBigDecimal()
                 complexObject.integerProperty = randomInt(100)
@@ -117,7 +117,7 @@ class DemoActivator : IPluginActivator {
                 for(m in 0..5){
                     val nestedObject = DemoNestedDocument()
                     nestedObject.textColumn = "string_${randomInt(10)}"
-                    nestedObject.entityRefColumn = Storage.get().findUniqueDocumentReference(DemoUserAccountIndex::class, DemoUserAccountIndex.login, "user${randomInt(10)}")
+                    nestedObject.entityRefColumn = Storage.get().findUniqueDocumentReference(DemoUserAccountIndex::class, DemoUserAccountIndex.loginProperty, "user${randomInt(10)}")
                     nestedObject.enumColumn = DemoEnum.valueOf("ELEMENT_${randomInt(1) + 1}")
                     nestedObject.floatColumn = (randomInt(100).toDouble() / 10.toDouble()).toBigDecimal()
                     nestedObject.integerColumn =randomInt(100)

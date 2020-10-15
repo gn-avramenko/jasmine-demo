@@ -16,7 +16,7 @@ class DemoUserAccountLoginPropertyHandler : CacheConfiguration.CachedPropertyHan
     }
 
     override fun getPropertyName(): String {
-        return DemoUserAccountIndex.login.name
+        return DemoUserAccountIndex.loginProperty.name
     }
 
     override fun getIdentityClass(): KClass<DemoUserAccount> {

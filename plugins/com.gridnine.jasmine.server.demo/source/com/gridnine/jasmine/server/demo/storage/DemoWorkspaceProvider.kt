@@ -36,17 +36,17 @@ class DemoWorkspaceProvider : WorkspaceProvider {
             val group = WorkspaceGroup()
             group.displayName = "Настройки"
             val item = ListWorkspaceItem()
-            item.columns.add(DemoUserAccountIndex.login.name)
-            item.columns.add(DemoUserAccountIndex.name.name)
-            item.filters.add(DemoUserAccountIndex.login.name)
+            item.columns.add(DemoUserAccountIndex.loginProperty.name)
+            item.columns.add(DemoUserAccountIndex.nameProperty.name)
+            item.filters.add(DemoUserAccountIndex.loginProperty.name)
             val order = SortOrder()
             order.orderType = SortOrderType.ASC
-            order.field = DemoUserAccountIndex.login.name
+            order.field = DemoUserAccountIndex.loginProperty.name
             item.listId = DemoUserAccountIndex::class.qualifiedName
             item.displayName = "Профили"
             run {
                 val criterion = SimpleWorkspaceCriterion()
-                criterion.property = DemoUserAccountIndex.login.name
+                criterion.property = DemoUserAccountIndex.loginProperty.name
                 criterion.condition = WorkspaceSimpleCriterionCondition.EQUALS
                 val value = WorkspaceSimpleCriterionStringValues()
                 value.values.add("admin")
@@ -61,13 +61,13 @@ class DemoWorkspaceProvider : WorkspaceProvider {
             group.displayName = "Объекты"
             run {
                 val item = ListWorkspaceItem()
-                item.columns.add(DemoComplexDocumentIndex.stringProperty.name)
-                item.columns.add(DemoComplexDocumentIndex.enumProperty.name)
-                item.columns.add(DemoComplexDocumentIndex.booleanProperty.name)
-                item.columns.add(DemoComplexDocumentIndex.dateProperty.name)
-                item.columns.add(DemoComplexDocumentIndex.dateTimeProperty.name)
-                item.columns.add(DemoComplexDocumentIndex.floatProperty.name)
-                item.columns.add(DemoComplexDocumentIndex.entityRefProperty.name)
+                item.columns.add(DemoComplexDocumentIndex.stringPropertyProperty.name)
+                item.columns.add(DemoComplexDocumentIndex.enumPropertyProperty.name)
+                item.columns.add(DemoComplexDocumentIndex.booleanPropertyProperty.name)
+                item.columns.add(DemoComplexDocumentIndex.datePropertyProperty.name)
+                item.columns.add(DemoComplexDocumentIndex.dateTimePropertyProperty.name)
+                item.columns.add(DemoComplexDocumentIndex.floatPropertyProperty.name)
+                item.columns.add(DemoComplexDocumentIndex.entityRefPropertyProperty.name)
                 item.filters.addAll(item.columns)
                 item.listId = DemoComplexDocumentIndex::class.qualifiedName
                 item.displayName = "Сложные объекты"
@@ -75,7 +75,7 @@ class DemoWorkspaceProvider : WorkspaceProvider {
             }
             run {
                 val item = ListWorkspaceItem()
-                item.columns.add(DemoComplexDocumentVariantIndex.title.name)
+                item.columns.add(DemoComplexDocumentVariantIndex.titleProperty.name)
                 item.listId = DemoComplexDocumentVariantIndex::class.qualifiedName
                 item.displayName = "Вложенные объекты"
                 group.items.add(item)

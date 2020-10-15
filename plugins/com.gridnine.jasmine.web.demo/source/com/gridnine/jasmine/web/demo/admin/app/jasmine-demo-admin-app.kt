@@ -10,11 +10,14 @@ import com.gridnine.jasmine.web.core.StandardRestClient
 import com.gridnine.jasmine.web.core.activator.CoreActivatorJS
 import com.gridnine.jasmine.web.core.mainframe.MainFrame
 import com.gridnine.jasmine.web.core.remote.StandardRpcManager
+import com.gridnine.jasmine.web.core.ui.ClientRegistry
+import com.gridnine.jasmine.web.core.ui.ObjectHandler
 import com.gridnine.jasmine.web.core.ui.UiLibraryAdapter
 import com.gridnine.jasmine.web.core.ui.components.MenuButtonConfiguration
 import com.gridnine.jasmine.web.core.ui.components.StandardMenuItem
 import com.gridnine.jasmine.web.demo.DomainReflectionUtilsJS
 import com.gridnine.jasmine.web.demo.RestReflectionUtilsJS
+import com.gridnine.jasmine.web.demo.admin.user.DemoUserAccountObjectHandler
 import com.gridnine.jasmine.web.easyui.activator.EasyUiActivator
 import kotlin.browser.window
 
@@ -46,6 +49,7 @@ fun main() {
 
         }
         mainFrame.build(it.workspace)
+        ClientRegistry.get().register(DemoUserAccountObjectHandler())
         UiLibraryAdapter.get().showWindow(mainFrame)
     }
 }
