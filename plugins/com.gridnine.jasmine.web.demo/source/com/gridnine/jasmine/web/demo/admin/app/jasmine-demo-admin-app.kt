@@ -8,6 +8,7 @@ package com.gridnine.jasmine.web.demo.admin.app
 import com.gridnine.jasmine.server.standard.model.rest.GetWorkspaceRequestJS
 import com.gridnine.jasmine.web.core.StandardRestClient
 import com.gridnine.jasmine.web.core.activator.CoreActivatorJS
+import com.gridnine.jasmine.web.core.application.EnvironmentJS
 import com.gridnine.jasmine.web.core.mainframe.MainFrame
 import com.gridnine.jasmine.web.core.remote.StandardRpcManager
 import com.gridnine.jasmine.web.core.ui.ClientRegistry
@@ -51,5 +52,6 @@ fun main() {
         mainFrame.build(it.workspace)
         ClientRegistry.get().register(DemoUserAccountObjectHandler())
         UiLibraryAdapter.get().showWindow(mainFrame)
+        EnvironmentJS.publish(mainFrame)
     }
 }

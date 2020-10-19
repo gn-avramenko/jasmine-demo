@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui xmlns="http://xtrip.gridnine.com/jasmine/ui">
+    <grid-container id="com.gridnine.jasmine.web.demo.DemoUserAccountEditor" columns-count="1">
+        <row>
+            <cell caption="login" id="login">
+                <text-box />
+            </cell>
+        </row>
+        <row>
+            <cell caption="name" id="name">
+                <text-box />
+            </cell>
+        </row>
+    </grid-container>
+</ui>
