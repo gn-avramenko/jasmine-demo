@@ -18,6 +18,7 @@ import com.gridnine.jasmine.web.core.ui.components.MenuButtonConfiguration
 import com.gridnine.jasmine.web.core.ui.components.StandardMenuItem
 import com.gridnine.jasmine.web.demo.DomainReflectionUtilsJS
 import com.gridnine.jasmine.web.demo.RestReflectionUtilsJS
+import com.gridnine.jasmine.web.demo.UiReflectionUtilsJS
 import com.gridnine.jasmine.web.demo.admin.user.DemoUserAccountObjectHandler
 import com.gridnine.jasmine.web.easyui.activator.EasyUiActivator
 import kotlin.browser.window
@@ -32,6 +33,7 @@ fun main() {
     coreActivator.configure(config)
     EasyUiActivator().configure(config)
     DomainReflectionUtilsJS.registerWebDomainClasses()
+    UiReflectionUtilsJS.registerWebUiClasses()
     RestReflectionUtilsJS.registerWebRestClasses()
     coreActivator.activate().then { StandardRestClient.standard_standard_getWorkspace(GetWorkspaceRequestJS())}.then {
 
