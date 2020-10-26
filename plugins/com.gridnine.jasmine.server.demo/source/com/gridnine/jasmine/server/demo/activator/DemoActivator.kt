@@ -18,12 +18,14 @@ import com.gridnine.jasmine.server.core.web.WebAppFilter
 import com.gridnine.jasmine.server.core.web.WebApplication
 import com.gridnine.jasmine.server.core.web.WebServerConfig
 import com.gridnine.jasmine.server.demo.model.domain.*
+import com.gridnine.jasmine.server.demo.rest.DemoUserAccountEditorHandler
 import com.gridnine.jasmine.server.demo.storage.DemoComplexDocumentIndexHandler
 import com.gridnine.jasmine.server.demo.storage.DemoComplexDocumentVariantIndexHandler
 import com.gridnine.jasmine.server.demo.storage.DemoUserAccountIndexHandler
 import com.gridnine.jasmine.server.demo.storage.DemoWorkspaceProvider
 import com.gridnine.jasmine.server.demo.web.DemoAuthFilter
 import com.gridnine.jasmine.server.standard.model.domain.*
+import com.gridnine.jasmine.server.standard.rest.ObjectEditorsRegistry
 import com.gridnine.jasmine.server.standard.rest.WorkspaceProvider
 import java.io.File
 import java.time.LocalDate
@@ -85,6 +87,7 @@ class DemoActivator : IPluginActivator {
         WebServerConfig.get().globalFilters.add(WebAppFilter("dev-kt-files", KotlinFileDevFilter::class))
         WebServerConfig.get().globalFilters.add(WebAppFilter("demo-auth-filter", DemoAuthFilter::class))
         Environment.publish(WorkspaceProvider::class, DemoWorkspaceProvider())
+        ObjectEditorsRegistry.get().register(DemoUserAccountEditorHandler())
     }
 
     override fun activate() {

@@ -8,11 +8,18 @@ package com.gridnine.jasmine.web.demo.admin.user
 import com.gridnine.jasmine.server.demo.model.domain.DemoUserAccountIndexJS
 import com.gridnine.jasmine.web.core.ui.AutocompleteHandler
 import com.gridnine.jasmine.web.core.ui.BaseObjectHandler
+import com.gridnine.jasmine.web.core.ui.WebComponent
+import com.gridnine.jasmine.web.core.ui.WebEditor
 
 class DemoUserAccountObjectHandler : BaseObjectHandler(DemoUserAccountIndexJS.objectId){
     override fun createAutocompleteHandler(): AutocompleteHandler {
         return AutocompleteHandler.createMetadataBasedAutocompleteHandler(objectId)
     }
+
+    override fun createWebEditor(parent: WebComponent): WebEditor<*, *, *> {
+        return DemoUserAccountWebEditor(parent)
+    }
+
 
     override fun getId(): String {
         return DemoUserAccountIndexJS.objectId

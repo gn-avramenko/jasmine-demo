@@ -35,6 +35,7 @@ fun main() {
     DomainReflectionUtilsJS.registerWebDomainClasses()
     UiReflectionUtilsJS.registerWebUiClasses()
     RestReflectionUtilsJS.registerWebRestClasses()
+
     coreActivator.activate().then { StandardRestClient.standard_standard_getWorkspace(GetWorkspaceRequestJS())}.then {
 
         var mainFrame = MainFrame()
