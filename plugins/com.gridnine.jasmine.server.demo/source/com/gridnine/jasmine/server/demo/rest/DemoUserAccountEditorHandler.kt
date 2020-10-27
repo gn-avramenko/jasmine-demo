@@ -37,4 +37,9 @@ class DemoUserAccountEditorHandler:ObjectEditorHandler<DemoUserAccount, DemoUser
     override fun getTitle(entity: DemoUserAccount, vmEntity: DemoUserAccountEditorVM, vsEntity: DemoUserAccountEditorVS, ctx: MutableMap<String, Any?>): String? {
         return entity.name
     }
+
+    override fun write(entity: DemoUserAccount, vmEntity: DemoUserAccountEditorVM, ctx: MutableMap<String, Any?>) {
+        entity.login = vmEntity.login
+        entity.name = vmEntity.name
+    }
 }
