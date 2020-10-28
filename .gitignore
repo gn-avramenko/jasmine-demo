@@ -10,3 +10,4 @@ build
 /plugins/com.gridnine.jasmine.web.demo/source-gen/
 /plugins/com.gridnine.jasmine.web.demo/resources/jasmine-demo/
 /temp/
+/plugins/com.gridnine.jasmine.server.demo/source-gen/

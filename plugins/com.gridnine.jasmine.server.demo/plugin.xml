@@ -27,4 +27,9 @@
     <extension point-id="activator">
         <parameter id="class" value="com.gridnine.jasmine.server.demo.activator.DemoActivator"/>
     </extension>
+    <extension point-id="web-messages">
+        <parameter id="relative-path" value="source/com/gridnine/jasmine/server/demo/model/demo-web-messages.xml"/>
+        <parameter id="url" value="com/gridnine/jasmine/server/demo/model/demo-web-messages.xml"/>
+        <parameter id="dest-client-plugin-id" value="com.gridnine.jasmine.web.demo"/>
+    </extension>
 </plugin>

@@ -53,7 +53,9 @@ class DemoUserAccountWebEditor(aParent: WebComponent): WebEditor<DemoUserAccount
 
     override fun readData(vm: DemoUserAccountEditorVMJS, vs: DemoUserAccountEditorVSJS) {
         loginWidget.setValue(vm.login)
+        vs.login?.let { loginWidget.configure(it) }
         nameWidget.setValue(vm.name)
+        vs.name?.let { nameWidget.configure(it) }
     }
 
     override fun setReadonly(value: Boolean) {

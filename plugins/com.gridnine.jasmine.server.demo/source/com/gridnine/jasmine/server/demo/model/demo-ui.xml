@@ -12,4 +12,17 @@
             </cell>
         </row>
     </grid-container>
+    <grid-container id="com.gridnine.jasmine.web.demo.DemoChangePasswordEditor" columns-count="1">
+        <row>
+            <cell caption="password" id="password">
+                <password-box/>
+            </cell>
+        </row>
+        <row>
+            <cell caption="retypePassword" id="retypePassword">
+                <password-box/>
+            </cell>
+        </row>
+    </grid-container>
+
 </ui>

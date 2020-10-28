@@ -5,7 +5,10 @@
 
 package com.gridnine.jasmine.server.demo.rest
 
+import com.gridnine.jasmine.server.core.model.ui.TextBoxConfiguration
+import com.gridnine.jasmine.server.core.utils.TextUtils
 import com.gridnine.jasmine.server.demo.model.domain.DemoUserAccount
+import com.gridnine.jasmine.server.standard.StandardServerMessagesFactory
 import com.gridnine.jasmine.server.standard.rest.ObjectEditorHandler
 import com.gridnine.jasmine.web.demo.DemoUserAccountEditorVM
 import com.gridnine.jasmine.web.demo.DemoUserAccountEditorVS
@@ -29,6 +32,9 @@ class DemoUserAccountEditorHandler:ObjectEditorHandler<DemoUserAccount, DemoUser
         return DemoUserAccountEditorVV::class
     }
 
+    override fun fillSettings(entity: DemoUserAccount, vsEntity: DemoUserAccountEditorVS, vmEntity: DemoUserAccountEditorVM, ctx: MutableMap<String, Any?>) {
+        vsEntity.login = TextBoxConfiguration{notEditable = true}
+    }
     override fun read(entity: DemoUserAccount, vmEntity: DemoUserAccountEditorVM, ctx: MutableMap<String, Any?>) {
         vmEntity.login  = entity.login
         vmEntity.name = entity.name
@@ -41,5 +47,14 @@ class DemoUserAccountEditorHandler:ObjectEditorHandler<DemoUserAccount, DemoUser
     override fun write(entity: DemoUserAccount, vmEntity: DemoUserAccountEditorVM, ctx: MutableMap<String, Any?>) {
         entity.login = vmEntity.login
         entity.name = vmEntity.name
+    }
+
+    override fun validate(vmEntity: DemoUserAccountEditorVM, vvEntity: DemoUserAccountEditorVV, ctx: MutableMap<String, Any?>) {
+        if(TextUtils.isBlank(vmEntity.login)){
+            vvEntity.login = StandardServerMessagesFactory.EMPTY_FIELD().toString()
+        }
+        if(TextUtils.isBlank(vmEntity.name)){
+            vvEntity.name = StandardServerMessagesFactory.EMPTY_FIELD().toString()
+        }
     }
 }

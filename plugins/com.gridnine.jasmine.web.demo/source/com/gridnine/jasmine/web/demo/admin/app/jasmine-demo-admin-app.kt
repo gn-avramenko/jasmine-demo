@@ -16,6 +16,7 @@ import com.gridnine.jasmine.web.core.ui.ObjectHandler
 import com.gridnine.jasmine.web.core.ui.UiLibraryAdapter
 import com.gridnine.jasmine.web.core.ui.components.MenuButtonConfiguration
 import com.gridnine.jasmine.web.core.ui.components.StandardMenuItem
+import com.gridnine.jasmine.web.demo.DemoWebMessagesInitializerJS
 import com.gridnine.jasmine.web.demo.DomainReflectionUtilsJS
 import com.gridnine.jasmine.web.demo.RestReflectionUtilsJS
 import com.gridnine.jasmine.web.demo.UiReflectionUtilsJS
@@ -54,7 +55,9 @@ fun main() {
         }
         mainFrame.build(it.workspace)
         ClientRegistry.get().register(DemoUserAccountObjectHandler())
+        DemoWebMessagesInitializerJS.initialize()
         UiLibraryAdapter.get().showWindow(mainFrame)
         EnvironmentJS.publish(mainFrame)
+
     }
 }
