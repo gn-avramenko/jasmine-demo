@@ -6,10 +6,7 @@
 package com.gridnine.jasmine.web.demo.admin.user
 
 import com.gridnine.jasmine.server.core.model.l10n.L10nMetaRegistryJS
-import com.gridnine.jasmine.web.core.ui.DefaultUIParameters
-import com.gridnine.jasmine.web.core.ui.UiLibraryAdapter
-import com.gridnine.jasmine.web.core.ui.WebComponent
-import com.gridnine.jasmine.web.core.ui.WebEditor
+import com.gridnine.jasmine.web.core.ui.*
 import com.gridnine.jasmine.web.core.ui.components.WebGridLayoutCell
 import com.gridnine.jasmine.web.core.ui.components.WebGridLayoutContainer
 import com.gridnine.jasmine.web.core.ui.widgets.GridCellWidget
@@ -17,9 +14,9 @@ import com.gridnine.jasmine.web.core.ui.widgets.PasswordBoxWidget
 import com.gridnine.jasmine.web.core.ui.widgets.TextBoxWidget
 import com.gridnine.jasmine.web.demo.*
 
-class DemoChangePasswordWebEditor(aParent: WebComponent): WebEditor<DemoChangePasswordEditorVMJS, DemoChangePasswordEditorVSJS, DemoChangePasswordEditorVVJS> {
+class DemoUserAccountChangePasswordWebEditor(aParent: WebComponent?): WebEditor<DemoChangePasswordEditorVMJS, DemoChangePasswordEditorVSJS, DemoChangePasswordEditorVVJS>, HasDivId {
 
-    private val parent:WebComponent
+    private val parent:WebComponent?
     private val delegate:WebGridLayoutContainer
 
     val passwordWidget: PasswordBoxWidget
@@ -92,6 +89,10 @@ class DemoChangePasswordWebEditor(aParent: WebComponent): WebEditor<DemoChangePa
     override fun showValidation(validation: DemoChangePasswordEditorVVJS) {
         validation.password?.let { passwordWidget.showValidationError(it) }?:passwordWidget.resetValidation()
         validation.retypePassword?.let { retypePasswordWidget.showValidationError(it) }?:retypePasswordWidget.resetValidation()
+    }
+
+    override fun getId(): String {
+        return delegate.getId()
     }
 
 }

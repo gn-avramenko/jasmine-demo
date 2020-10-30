@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<messages-bundle xmlns="http://xtrip.gridnine.com/jasmine/server-messages"  id = "demo" factory-class="com.gridnine.jasmine.server.demo.DemoServerMessagesFactory">
+    <message id="PASSWORDS_MUST_BE_EQUALS"/>
+</messages-bundle>
+
+
+
