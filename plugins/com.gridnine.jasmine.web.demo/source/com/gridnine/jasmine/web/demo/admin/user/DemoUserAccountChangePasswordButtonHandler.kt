@@ -14,7 +14,6 @@ import com.gridnine.jasmine.web.core.ui.UiLibraryAdapter
 import com.gridnine.jasmine.web.core.utils.UiUtils
 import com.gridnine.jasmine.web.demo.DemoRestClient
 import com.gridnine.jasmine.web.demo.DemoWebMessagesJS
-import kotlin.browser.window
 
 class DemoUserAccountChangePasswordButtonHandler:ObjectEditorButton<DemoUserAccountWebEditor> {
     override fun getId(): String {
@@ -34,7 +33,7 @@ class DemoUserAccountChangePasswordButtonHandler:ObjectEditorButton<DemoUserAcco
     }
 
     override fun getWeight(): Double {
-        return 101.toDouble()
+        return 99.0
     }
 
     override fun onClick(value: ObjectEditor<DemoUserAccountWebEditor>) {
@@ -45,14 +44,14 @@ class DemoUserAccountChangePasswordButtonHandler:ObjectEditorButton<DemoUserAcco
             button {
                 displayName = CoreWebMessagesJS.ok
                 handler = {dialog ->
-                    val vm = dialog.getEditor().getData()
+                    val vm = dialog.getContent().getData()
                     val request = DemoChangePasswordRequestJS()
                     request.userAccountUid = value.obj.objectUid!!
                     request.vm = vm
                     DemoRestClient.demo_demo_changePassword(request).then {
                         UiUtils.showMessage(it.message)
                         if(!it.success){
-                            dialog.getEditor().showValidation(it.vv!!)
+                            dialog.getContent().showValidation(it.vv!!)
                             return@then
                         }
                         dialog.close()
