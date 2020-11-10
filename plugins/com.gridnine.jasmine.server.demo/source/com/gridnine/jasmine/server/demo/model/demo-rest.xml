@@ -12,6 +12,15 @@
                 <property id="message" type="ENTITY" class-name="com.gridnine.jasmine.server.standard.rest.Message" lateinit="true"/>
             </response>
         </operation>
+        <operation id="createUser" handler="com.gridnine.jasmine.server.demo.rest.DemoCreateUserRestHandler">
+            <request id="com.gridnine.jasmine.server.demo.rest.DemoCreateUserRequest">
+                <property id="vm" type="ENTITY" class-name="com.gridnine.jasmine.web.demo.DemoUserNewAccountEditorVM" lateinit="true"/>
+            </request>
+            <response id="com.gridnine.jasmine.server.demo.rest.DemoCreateUserResponse">
+                <property id="vv" type="ENTITY" class-name="com.gridnine.jasmine.web.demo.DemoUserNewAccountEditorVV"/>
+                <property id="objectUid" type="STRING"/>
+            </response>
+        </operation>
     </group>
 
 </rest>

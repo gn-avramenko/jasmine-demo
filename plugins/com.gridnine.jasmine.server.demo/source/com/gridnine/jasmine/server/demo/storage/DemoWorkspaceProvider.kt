@@ -44,15 +44,6 @@ class DemoWorkspaceProvider : WorkspaceProvider {
             order.field = DemoUserAccountIndex.loginProperty.name
             item.listId = DemoUserAccountIndex::class.qualifiedName
             item.displayName = "Профили"
-            run {
-                val criterion = SimpleWorkspaceCriterion()
-                criterion.property = DemoUserAccountIndex.loginProperty.name
-                criterion.condition = WorkspaceSimpleCriterionCondition.EQUALS
-                val value = WorkspaceSimpleCriterionStringValues()
-                value.values.add("admin")
-                criterion.value = value
-                item.criterions.add(criterion)
-            }
             group.items.add(item)
             result.groups.add(group)
         }

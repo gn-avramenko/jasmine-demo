@@ -25,4 +25,21 @@
         </row>
     </grid-container>
 
+    <grid-container id="com.gridnine.jasmine.web.demo.DemoUserNewAccountEditor" columns-count="1">
+        <row>
+            <cell caption="login" id="login">
+                <text-box />
+            </cell>
+        </row>
+        <row>
+            <cell caption="password" id="password">
+                <password-box />
+            </cell>
+        </row>
+        <row>
+            <cell caption="retypePassword" id="retypePassword">
+                <password-box />
+            </cell>
+        </row>
+    </grid-container>
 </ui>

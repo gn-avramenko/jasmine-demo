@@ -21,6 +21,7 @@ import com.gridnine.jasmine.web.demo.RestReflectionUtilsJS
 import com.gridnine.jasmine.web.demo.UiReflectionUtilsJS
 import com.gridnine.jasmine.web.demo.admin.user.DemoUserAccountObjectHandler
 import com.gridnine.jasmine.web.demo.admin.user.DemoUserAccountChangePasswordButtonHandler
+import com.gridnine.jasmine.web.demo.admin.user.DemoUserAccountCreateUserListButtonHandler
 import com.gridnine.jasmine.web.easyui.activator.EasyUiActivator
 import kotlin.browser.window
 
@@ -56,6 +57,7 @@ fun main() {
         mainFrame.build(it.workspace)
         ClientRegistry.get().register(DemoUserAccountObjectHandler())
         ClientRegistry.get().register(DemoUserAccountChangePasswordButtonHandler())
+        ClientRegistry.get().register(DemoUserAccountCreateUserListButtonHandler())
         DemoWebMessagesInitializerJS.initialize()
         UiLibraryAdapter.get().showWindow(mainFrame)
         EnvironmentJS.publish(mainFrame)
