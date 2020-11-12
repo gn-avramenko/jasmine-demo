@@ -19,6 +19,7 @@ import com.gridnine.jasmine.web.demo.DemoWebMessagesInitializerJS
 import com.gridnine.jasmine.web.demo.DomainReflectionUtilsJS
 import com.gridnine.jasmine.web.demo.RestReflectionUtilsJS
 import com.gridnine.jasmine.web.demo.UiReflectionUtilsJS
+import com.gridnine.jasmine.web.demo.admin.complex.DemoComplexDocumentObjectHandler
 import com.gridnine.jasmine.web.demo.admin.user.DemoUserAccountObjectHandler
 import com.gridnine.jasmine.web.demo.admin.user.DemoUserAccountChangePasswordButtonHandler
 import com.gridnine.jasmine.web.demo.admin.user.DemoUserAccountCreateUserListButtonHandler
@@ -58,6 +59,7 @@ fun main() {
         ClientRegistry.get().register(DemoUserAccountObjectHandler())
         ClientRegistry.get().register(DemoUserAccountChangePasswordButtonHandler())
         ClientRegistry.get().register(DemoUserAccountCreateUserListButtonHandler())
+        ClientRegistry.get().register(DemoComplexDocumentObjectHandler())
         DemoWebMessagesInitializerJS.initialize()
         UiLibraryAdapter.get().showWindow(mainFrame)
         EnvironmentJS.publish(mainFrame)

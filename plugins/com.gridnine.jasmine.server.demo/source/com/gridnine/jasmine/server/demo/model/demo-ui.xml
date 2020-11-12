@@ -42,4 +42,26 @@
             </cell>
         </row>
     </grid-container>
+    <tile-space id="com.gridnine.jasmine.web.demo.DemoComplexDocumentTileSpace">
+        <overview caption="complexDocument.overview" >
+            <grid-container id="com.gridnine.jasmine.web.demo.DemoComplexDocumentOverviewEditor" columns-count="1">
+                <row>
+                    <cell caption="stringProperty" id="stringProperty">
+                        <text-box/>
+                    </cell>
+                </row>
+            </grid-container>
+        </overview>
+        <tile caption="simpleFields" id="simpleFields">
+            <full-view >
+                <grid-container id="com.gridnine.jasmine.web.demo.DemoComplexDocumentSimpleFieldsEditor">
+                    <row>
+                        <cell caption="complexDocument.stringProperty" id="stringProperty">
+                            <text-box/>
+                        </cell>
+                    </row>
+                </grid-container>
+            </full-view>
+        </tile>
+    </tile-space>
 </ui>

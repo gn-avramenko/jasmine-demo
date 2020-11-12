@@ -18,6 +18,7 @@ import com.gridnine.jasmine.server.core.web.WebAppFilter
 import com.gridnine.jasmine.server.core.web.WebApplication
 import com.gridnine.jasmine.server.core.web.WebServerConfig
 import com.gridnine.jasmine.server.demo.model.domain.*
+import com.gridnine.jasmine.server.demo.rest.DemoComplexDocumentEditorHandler
 import com.gridnine.jasmine.server.demo.rest.DemoUserAccountEditorHandler
 import com.gridnine.jasmine.server.demo.storage.DemoComplexDocumentIndexHandler
 import com.gridnine.jasmine.server.demo.storage.DemoComplexDocumentVariantIndexHandler
@@ -88,6 +89,7 @@ class DemoActivator : IPluginActivator {
         WebServerConfig.get().globalFilters.add(WebAppFilter("demo-auth-filter", DemoAuthFilter::class))
         Environment.publish(WorkspaceProvider::class, DemoWorkspaceProvider())
         ObjectEditorsRegistry.get().register(DemoUserAccountEditorHandler())
+        ObjectEditorsRegistry.get().register(DemoComplexDocumentEditorHandler())
     }
 
     override fun activate() {
