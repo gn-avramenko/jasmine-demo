@@ -8,6 +8,7 @@ package com.gridnine.jasmine.web.demo.admin.complex
 import com.gridnine.jasmine.server.core.model.l10n.L10nMetaRegistryJS
 import com.gridnine.jasmine.web.core.ui.WebComponent
 import com.gridnine.jasmine.web.core.ui.widgets.TileSpaceWidget
+import com.gridnine.jasmine.web.demo.DemoComplexDocumentSimpleFieldsEditorVMJS
 import com.gridnine.jasmine.web.demo.DemoComplexDocumentTileSpaceVMJS
 import com.gridnine.jasmine.web.demo.DemoComplexDocumentTileSpaceVSJS
 import com.gridnine.jasmine.web.demo.DemoComplexDocumentTileSpaceVVJS
@@ -17,6 +18,8 @@ class DemoComplexDocumentWebEditor(aParent: WebComponent): TileSpaceWidget<DemoC
     height = "100%"
     val overviewEditor = DemoComplexDocumentOverviewWebEditor(widget)
     overview(L10nMetaRegistryJS.get().messages["com.gridnine.jasmine.web.demo.DemoComplexDocumentTileSpace"]!!["overview"] ?: error(""), overviewEditor)
+    val simpleFieldsEditor = DemoComplexDocumentSimpleFieldsWebEditor(widget)
+    tile("simpleFields", L10nMetaRegistryJS.get().messages["com.gridnine.jasmine.web.demo.DemoComplexDocumentTileSpace"]!!["simpleFields"] ?: error(""), simpleFieldsEditor)
 })
 
 

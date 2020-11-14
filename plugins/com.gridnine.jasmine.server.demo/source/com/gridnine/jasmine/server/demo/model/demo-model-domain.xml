@@ -19,26 +19,26 @@
         <property id="integerColumn" type="INT"/>
         <property id="floatColumn" type="BIG_DECIMAL"/>
     </nested-document>
-    <nested-document id="com.gridnine.jasmine.server.demo.model.domain.BaseSandboxNavigatorVariant" abstract="true">
+    <nested-document id="com.gridnine.jasmine.server.demo.model.domain.BaseDemoNavigatorVariant" abstract="true">
         <property id="title" type="STRING"/>
     </nested-document>
-    <nested-document id="com.gridnine.jasmine.server.demo.model.domain.DemoNavigatorVariant1" extends="com.gridnine.jasmine.server.demo.model.domain.BaseSandboxNavigatorVariant">
+    <nested-document id="com.gridnine.jasmine.server.demo.model.domain.DemoNavigatorVariant1" extends="com.gridnine.jasmine.server.demo.model.domain.BaseDemoNavigatorVariant">
         <property id="intValue" type="INT" non-nullable="true"/>
     </nested-document>
-    <nested-document id="com.gridnine.jasmine.server.demo.model.domain.DemoNavigatorVariant2" extends="com.gridnine.jasmine.server.demo.model.domain.BaseSandboxNavigatorVariant">
+    <nested-document id="com.gridnine.jasmine.server.demo.model.domain.DemoNavigatorVariant2" extends="com.gridnine.jasmine.server.demo.model.domain.BaseDemoNavigatorVariant">
         <property id="dateValue" type="LOCAL_DATE"/>
     </nested-document>
     <document id="com.gridnine.jasmine.server.demo.model.domain.DemoComplexDocument">
         <property id="stringProperty" type="STRING"/>
         <property id="floatProperty" type="BIG_DECIMAL"/>
-        <property id="integerProperty" type="INT" non-nullable="true"/>
+        <property id="integerProperty" type="INT"/>
         <property id="booleanProperty" type="BOOLEAN" non-nullable="true"/>
         <property id="entityRefProperty" type="ENTITY_REFERENCE" class-name="com.gridnine.jasmine.server.demo.model.domain.DemoUserAccount"/>
         <property id="enumProperty" type="ENUM" class-name="com.gridnine.jasmine.server.demo.model.domain.DemoEnum"/>
         <property id="dateProperty" type="LOCAL_DATE"/>
         <property id="dateTimeProperty" type="LOCAL_DATE_TIME"/>
         <collection id="entityCollection" element-type="NESTED_DOCUMENT" element-class-name="com.gridnine.jasmine.server.demo.model.domain.DemoNestedDocument"/>
-        <collection id="nestedDocuments" element-type="NESTED_DOCUMENT" element-class-name="com.gridnine.jasmine.server.demo.model.domain.BaseSandboxNavigatorVariant"/>
+        <collection id="nestedDocuments" element-type="NESTED_DOCUMENT" element-class-name="com.gridnine.jasmine.server.demo.model.domain.BaseDemoNavigatorVariant"/>
     </document>
 
     <index id="com.gridnine.jasmine.server.demo.model.domain.DemoComplexDocumentIndex" document="com.gridnine.jasmine.server.demo.model.domain.DemoComplexDocument">

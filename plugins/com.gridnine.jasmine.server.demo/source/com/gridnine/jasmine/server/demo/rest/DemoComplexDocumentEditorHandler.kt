@@ -34,6 +34,13 @@ class DemoComplexDocumentEditorHandler :ObjectEditorHandler<DemoComplexDocument,
         vmEntity.overview.stringProperty = entity.stringProperty
         vmEntity.simpleFields = DemoComplexDocumentSimpleFieldsEditorVM()
         vmEntity.simpleFields.stringProperty = entity.stringProperty
+        vmEntity.simpleFields.booleanProperty = entity.booleanProperty
+        vmEntity.simpleFields.dateProperty = entity.dateProperty
+        vmEntity.simpleFields.dateTimeProperty = entity.dateTimeProperty
+        vmEntity.simpleFields.entityRefProperty = entity.entityRefProperty
+        vmEntity.simpleFields.enumProperty = entity.enumProperty
+        vmEntity.simpleFields.floatProperty = entity.floatProperty
+        vmEntity.simpleFields.integerProperty = entity.integerProperty
     }
 
     override fun fillSettings(entity: DemoComplexDocument, vsEntity: DemoComplexDocumentTileSpaceVS, vmEntity: DemoComplexDocumentTileSpaceVM, ctx: MutableMap<String, Any?>) {
@@ -42,7 +49,14 @@ class DemoComplexDocumentEditorHandler :ObjectEditorHandler<DemoComplexDocument,
     }
 
     override fun write(entity: DemoComplexDocument, vmEntity: DemoComplexDocumentTileSpaceVM, ctx: MutableMap<String, Any?>) {
-        //noops
+        entity.stringProperty = vmEntity.simpleFields.stringProperty
+        entity.booleanProperty = vmEntity.simpleFields.booleanProperty
+        entity.dateProperty = vmEntity.simpleFields.dateProperty
+        entity.dateTimeProperty= vmEntity.simpleFields.dateTimeProperty
+        entity.entityRefProperty = vmEntity.simpleFields.entityRefProperty
+        entity.enumProperty = vmEntity.simpleFields.enumProperty
+        entity.floatProperty  =vmEntity.simpleFields.floatProperty
+        entity.integerProperty = vmEntity.simpleFields.integerProperty
     }
 
     override fun validate(vmEntity: DemoComplexDocumentTileSpaceVM, vvEntity: DemoComplexDocumentTileSpaceVV, ctx: MutableMap<String, Any?>) {
@@ -53,4 +67,7 @@ class DemoComplexDocumentEditorHandler :ObjectEditorHandler<DemoComplexDocument,
         }
     }
 
+    override fun getTitle(entity: DemoComplexDocument, vmEntity: DemoComplexDocumentTileSpaceVM, vsEntity: DemoComplexDocumentTileSpaceVS, ctx: MutableMap<String, Any?>): String? {
+        return entity.stringProperty
+    }
 }

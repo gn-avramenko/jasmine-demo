@@ -46,18 +46,53 @@
         <overview caption="complexDocument.overview" >
             <grid-container id="com.gridnine.jasmine.web.demo.DemoComplexDocumentOverviewEditor" columns-count="1">
                 <row>
-                    <cell caption="stringProperty" id="stringProperty">
+                    <cell caption="complexDocument.stringProperty" id="stringProperty">
                         <text-box/>
                     </cell>
                 </row>
             </grid-container>
         </overview>
-        <tile caption="simpleFields" id="simpleFields">
+        <tile caption="complexDocument.simpleFields" id="simpleFields">
             <full-view >
                 <grid-container id="com.gridnine.jasmine.web.demo.DemoComplexDocumentSimpleFieldsEditor">
                     <row>
                         <cell caption="complexDocument.stringProperty" id="stringProperty">
                             <text-box/>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell caption="complexDocument.floatProperty" id="floatProperty">
+                           <float-number-box/>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell caption="complexDocument.integerProperty" id="integerProperty">
+                            <integer-number-box/>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell caption="complexDocument.booleanProperty" id="booleanProperty">
+                            <boolean-box/>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell caption="complexDocument.entityRefProperty" id="entityRefProperty">
+                            <entity-select-box objectId="com.gridnine.jasmine.server.demo.model.domain.DemoUserAccount"/>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell caption="complexDocument.enumProperty" id="enumProperty">
+                            <enum-select-box enumId="com.gridnine.jasmine.server.demo.model.domain.DemoEnum"/>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell caption="complexDocument.dateProperty" id="dateProperty">
+                            <date-box/>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell caption="complexDocument.dateTimeProperty" id="dateTimeProperty">
+                            <date-time-box/>
                         </cell>
                     </row>
                 </grid-container>
