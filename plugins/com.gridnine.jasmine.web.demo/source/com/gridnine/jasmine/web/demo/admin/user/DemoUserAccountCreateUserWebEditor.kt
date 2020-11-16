@@ -103,9 +103,9 @@ class DemoUserAccountCreateUserWebEditor(aParent: WebComponent?): WebEditor<Demo
     }
 
     override fun showValidation(validation: DemoUserNewAccountEditorVVJS) {
-        validation.login?.let { loginWidget.showValidationError(it) }?:loginWidget.resetValidation()
-        validation.password?.let { passwordWidget.showValidationError(it) }?:passwordWidget.resetValidation()
-        validation.retypePassword?.let { retypePasswordWidget.showValidationError(it) }?:retypePasswordWidget.resetValidation()
+        validation.login?.let { loginWidget.showValidation(it) }
+        validation.password?.let { passwordWidget.showValidation(it) }
+        validation.retypePassword?.let { retypePasswordWidget.showValidation(it) }
     }
 
     override fun getId(): String {

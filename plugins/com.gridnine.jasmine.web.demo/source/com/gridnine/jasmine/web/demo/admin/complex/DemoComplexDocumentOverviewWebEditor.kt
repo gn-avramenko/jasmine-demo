@@ -75,7 +75,7 @@ class DemoComplexDocumentOverviewWebEditor(aParent: WebComponent): WebEditor<Dem
     }
 
     override fun showValidation(validation: DemoComplexDocumentOverviewEditorVVJS) {
-        validation.stringProperty?.let { stringPropertyWidget.showValidationError(it) }?:stringPropertyWidget.resetValidation()
+        validation.stringProperty?.let { stringPropertyWidget.showValidation(it) }
     }
 
 }

@@ -87,8 +87,8 @@ class DemoUserAccountChangePasswordWebEditor(aParent: WebComponent?): WebEditor<
     }
 
     override fun showValidation(validation: DemoChangePasswordEditorVVJS) {
-        validation.password?.let { passwordWidget.showValidationError(it) }?:passwordWidget.resetValidation()
-        validation.retypePassword?.let { retypePasswordWidget.showValidationError(it) }?:retypePasswordWidget.resetValidation()
+        validation.password?.let { passwordWidget.showValidation(it) }
+        validation.retypePassword?.let { retypePasswordWidget.showValidation(it) }
     }
 
     override fun getId(): String {

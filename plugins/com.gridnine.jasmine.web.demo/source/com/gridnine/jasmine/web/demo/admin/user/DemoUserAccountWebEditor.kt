@@ -91,8 +91,8 @@ class DemoUserAccountWebEditor(aParent: WebComponent): WebEditor<DemoUserAccount
     }
 
     override fun showValidation(validation: DemoUserAccountEditorVVJS) {
-        validation.login?.let { loginWidget.showValidationError(it) }?:loginWidget.resetValidation()
-        validation.name?.let { nameWidget.showValidationError(it) }?:nameWidget.resetValidation()
+        validation.login?.let { loginWidget.showValidation(it) }
+        validation.name?.let { nameWidget.showValidation(it) }
     }
 
 }

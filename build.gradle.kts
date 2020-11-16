@@ -1,5 +1,7 @@
 import com.gridnine.jasmine.gradle.plugin.jasmine
-
+plugins {
+    kotlin("js") version "1.4.10"
+}
 buildscript {
     dependencies{
         "classpath"(files("submodules/jasmine/build-scripts/build/classes/kotlin/main"))
@@ -10,7 +12,7 @@ buildscript {
 apply<com.gridnine.jasmine.gradle.plugin.JasmineConfigPlugin>()
 
 jasmine {
-    kotlinVersion = "1.3.71"
+    kotlinVersion = "1.4.10"
     libRelativePath = "submodules/jasmine/lib"
     plugins("submodules/jasmine/plugins") {
         plugin("com.gridnine.jasmine.server.core")
@@ -37,4 +39,19 @@ repositories{
 project.configurations.create("compile")
 dependencies{
     "compile"(files("submodules/jasmine/lib/spf-1.0.jar"))
+}
+
+
+kotlin {
+    js {
+        sourceSets["main"].apply {
+            kotlin.srcDir("submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source")
+            kotlin.srcDir("submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source-gen")
+            kotlin.srcDir("submodules/jasmine/plugins/com.gridnine.jasmine.web.easyui/source")
+            kotlin.srcDir("plugins/com.gridnine.jasmine.web.demo/source")
+            kotlin.srcDir("plugins/com.gridnine.jasmine.web.demo/source-gen")
+        }
+        // To build distributions and run tests for browser or Node.js use one or both of:
+        browser()
+    }
 }
