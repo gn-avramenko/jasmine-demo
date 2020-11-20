@@ -98,5 +98,29 @@
                 </grid-container>
             </full-view>
         </tile>
+        <tile caption="complexDocument.nestedDocuments" id="nestedDocuments">
+            <full-view>
+                <navigator id="com.gridnine.jasmine.web.demo.DemoComplexDocumentNestedDocumentsEditor">
+                    <variant>
+                        <grid-container id="com.gridnine.jasmine.web.demo.DemoComplexDocumentVariant1Editor">
+                            <row>
+                                <cell caption="variant1.intValue" id="intValue">
+                                    <integer-number-box non-nullable="true"/>
+                                </cell>
+                            </row>
+                        </grid-container>
+                    </variant>
+                    <variant>
+                        <grid-container id="com.gridnine.jasmine.web.demo.DemoComplexDocumentVariant2Editor">
+                            <row>
+                                <cell caption="variant2.dateValue" id="dateValue">
+                                    <date-box/>
+                                </cell>
+                            </row>
+                        </grid-container>
+                    </variant>
+                </navigator>
+            </full-view>
+        </tile>
     </tile-space>
 </ui>

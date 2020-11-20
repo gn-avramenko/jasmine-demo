@@ -7,10 +7,7 @@ package com.gridnine.jasmine.web.demo.admin.complex
 
 import com.gridnine.jasmine.server.core.model.l10n.L10nMetaRegistryJS
 import com.gridnine.jasmine.server.demo.model.domain.DemoEnumJS
-import com.gridnine.jasmine.web.core.ui.DefaultUIParameters
-import com.gridnine.jasmine.web.core.ui.UiLibraryAdapter
-import com.gridnine.jasmine.web.core.ui.WebComponent
-import com.gridnine.jasmine.web.core.ui.WebEditor
+import com.gridnine.jasmine.web.core.ui.*
 import com.gridnine.jasmine.web.core.ui.components.WebGridLayoutCell
 import com.gridnine.jasmine.web.core.ui.components.WebGridLayoutContainer
 import com.gridnine.jasmine.web.core.ui.widgets.*
@@ -29,6 +26,7 @@ class DemoComplexDocumentSimpleFieldsWebEditor(private val parent:WebComponent):
     val enumPropertyWidget:EnumValueWidget<DemoEnumJS>
     val datePropertyWidget:DateBoxWidget
     val dateTimePropertyWidget:DateTimeBoxWidget
+    val entityRefPropertyWidget:EntitySelectWidget
 
     init {
         delegate.defineColumn(DefaultUIParameters.controlWidthAsString)
@@ -96,6 +94,16 @@ class DemoComplexDocumentSimpleFieldsWebEditor(private val parent:WebComponent):
         }
         delegate.addCell(WebGridLayoutCell(dateTimePropertyWidgetCell))
         dateTimePropertyWidget = dateTimePropertyWidgetCell.widget
+        delegate.addRow()
+        val entityRefPropertyWidgetCell = GridCellWidget(delegate,L10nMetaRegistryJS.get().messages["com.gridnine.jasmine.web.demo.DemoComplexDocumentSimpleFieldsEditor"]?.get("entityRefProperty")
+                ?: "???") { par ->
+            EntitySelectWidget(par) {
+                width = "100%"
+                handler = ClientRegistry.get().get(ObjectHandler.TYPE, "com.gridnine.jasmine.server.demo.model.domain.DemoUserAccountJS")!!.getAutocompleteHandler()
+            }
+        }
+        delegate.addCell(WebGridLayoutCell(entityRefPropertyWidgetCell))
+        entityRefPropertyWidget = entityRefPropertyWidgetCell.widget
     }
 
     override fun readData(vm: DemoComplexDocumentSimpleFieldsEditorVMJS, vs: DemoComplexDocumentSimpleFieldsEditorVSJS) {
@@ -113,6 +121,8 @@ class DemoComplexDocumentSimpleFieldsWebEditor(private val parent:WebComponent):
         vs.enumProperty?.let { enumPropertyWidget.configure(it) }
         dateTimePropertyWidget.setValue(vm.dateTimeProperty)
         vs.dateTimeProperty?.let { dateTimePropertyWidget.configure(it) }
+        entityRefPropertyWidget.setValue(vm.entityRefProperty)
+        vs.entityRefProperty?.let { entityRefPropertyWidget.configure(it) }
     }
 
     override fun setReadonly(value: Boolean) {
@@ -123,6 +133,7 @@ class DemoComplexDocumentSimpleFieldsWebEditor(private val parent:WebComponent):
         enumPropertyWidget.setReadonly(value)
         datePropertyWidget.setReadonly(value)
         dateTimePropertyWidget.setReadonly(value)
+        entityRefPropertyWidget.setReadonly(value)
     }
 
     override fun getParent(): WebComponent? {
@@ -142,6 +153,7 @@ class DemoComplexDocumentSimpleFieldsWebEditor(private val parent:WebComponent):
         result.enumProperty = enumPropertyWidget.getValue()
         result.dateProperty = datePropertyWidget.getValue()
         result.dateTimeProperty = dateTimePropertyWidget.getValue()
+        result.entityRefProperty = entityRefPropertyWidget.getValue()
         return result
     }
 
@@ -164,6 +176,7 @@ class DemoComplexDocumentSimpleFieldsWebEditor(private val parent:WebComponent):
         validation.enumProperty?.let { enumPropertyWidget.showValidation(it) }
         validation.dateProperty?.let { datePropertyWidget.showValidation(it) }
         validation.dateTimeProperty?.let { dateTimePropertyWidget.showValidation(it) }
+        validation.entityRefProperty?.let { entityRefPropertyWidget.showValidation(it) }
     }
 
 }

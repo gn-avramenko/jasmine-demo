@@ -1,7 +1,7 @@
 import com.gridnine.jasmine.gradle.plugin.jasmine
-plugins {
-    kotlin("js") version "1.4.10"
-}
+//plugins {
+//    kotlin("js") version "1.4.10"
+//}
 buildscript {
     dependencies{
         "classpath"(files("submodules/jasmine/build-scripts/build/classes/kotlin/main"))
@@ -42,16 +42,16 @@ dependencies{
 }
 
 
-kotlin {
-    js {
-        sourceSets["main"].apply {
-            kotlin.srcDir("submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source")
-            kotlin.srcDir("submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source-gen")
-            kotlin.srcDir("submodules/jasmine/plugins/com.gridnine.jasmine.web.easyui/source")
-            kotlin.srcDir("plugins/com.gridnine.jasmine.web.demo/source")
-            kotlin.srcDir("plugins/com.gridnine.jasmine.web.demo/source-gen")
-        }
-        // To build distributions and run tests for browser or Node.js use one or both of:
-        browser()
-    }
-}
+//kotlin {
+//    js {
+//        sourceSets["main"].apply {
+//            kotlin.srcDir("submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source")
+//            kotlin.srcDir("submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source-gen")
+//            kotlin.srcDir("submodules/jasmine/plugins/com.gridnine.jasmine.web.easyui/source")
+//            kotlin.srcDir("plugins/com.gridnine.jasmine.web.demo/source")
+//            kotlin.srcDir("plugins/com.gridnine.jasmine.web.demo/source-gen")
+//        }
+//        // To build distributions and run tests for browser or Node.js use one or both of:
+//        browser()
+//    }
+//}

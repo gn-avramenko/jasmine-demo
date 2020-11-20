@@ -48,8 +48,13 @@ class DemoComplexDocumentVariantIndexHandler:IndexHandler<DemoComplexDocument, D
         val result = arrayListOf<DemoComplexDocumentVariantIndex>()
         doc.nestedDocuments.forEach {
             val idx = DemoComplexDocumentVariantIndex()
-            idx.title = it.title
             idx.uid = it.uid
+            if(it is DemoNavigatorVariant1){
+                idx.title = "Вариант 1, значение ${it.intValue}"
+            }
+            if(it is DemoNavigatorVariant2){
+                idx.title = "Вариант 2, значение ${it.dateValue}"
+            }
             result.add(idx)
         }
         return result;

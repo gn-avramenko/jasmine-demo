@@ -95,4 +95,8 @@ class DemoUserAccountWebEditor(aParent: WebComponent): WebEditor<DemoUserAccount
         validation.name?.let { nameWidget.showValidation(it) }
     }
 
+    override fun navigate(id: String): Boolean {
+        return false
+    }
+
 }
