@@ -9,8 +9,10 @@ import com.gridnine.jasmine.server.core.model.ui.BaseNavigatorVariantVMJS
 import com.gridnine.jasmine.web.core.ui.WebComponent
 import com.gridnine.jasmine.web.core.ui.WebEditorInterceptor
 import com.gridnine.jasmine.web.core.ui.widgets.NavigatorWidget
+import com.gridnine.jasmine.web.core.utils.MiscUtilsJS
 import com.gridnine.jasmine.web.core.utils.UiUtils
 import com.gridnine.jasmine.web.demo.*
+import kotlin.js.Date
 
 class DemoComplexDocumentNestedDocumentsWebEditor(parent:WebComponent):
         NavigatorWidget<DemoComplexDocumentNestedDocumentsEditorVMJS, DemoComplexDocumentNestedDocumentsEditorVSJS, DemoComplexDocumentNestedDocumentsEditorVVJS>(parent,{widget ->
@@ -26,12 +28,5 @@ class DemoComplexDocumentNestedDocumentsWebEditor(parent:WebComponent):
         interceptors.forEach {
             it.onInit(this)
         }
-        setRemoveHandler {item->
-            val data = item.getData() as BaseNavigatorVariantVMJS
-            UiUtils.confirm("<nobr>Вы действительно хотите удалить<nobr> ${data.title}?"){
-                removeTab(data.uid)
-            }
-        }
     }
-
 }

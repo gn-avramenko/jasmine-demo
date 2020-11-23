@@ -33,7 +33,7 @@ class DemoComplexDocumentEditorHandler :ObjectEditorHandler<DemoComplexDocument,
 
     override fun read(entity: DemoComplexDocument, vmEntity: DemoComplexDocumentTileSpaceVM, ctx: MutableMap<String, Any?>) {
         vmEntity.overview = DemoComplexDocumentOverviewEditorVM()
-        vmEntity.overview.stringProperty = entity.stringProperty
+        vmEntity.overview!!.stringProperty = entity.stringProperty
         vmEntity.simpleFields = DemoComplexDocumentSimpleFieldsEditorVM()
         vmEntity.simpleFields.stringProperty = entity.stringProperty
         vmEntity.simpleFields.booleanProperty = entity.booleanProperty
@@ -96,11 +96,14 @@ class DemoComplexDocumentEditorHandler :ObjectEditorHandler<DemoComplexDocument,
                 if (variantVM is DemoComplexDocumentVariant1EditorVM) {
                     val res = DemoNavigatorVariant1()
                     res.uid = variantVM.uid
+                    res
                 } else {
                     val res = DemoNavigatorVariant2()
                     res.uid = variantVM.uid
+                    res
                 }
             }
+            entity.nestedDocuments.add(item)
             if (variantVM is DemoComplexDocumentVariant1EditorVM) {
                 val res = item as DemoNavigatorVariant1
                 res.intValue = variantVM.intValue

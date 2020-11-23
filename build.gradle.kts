@@ -1,4 +1,4 @@
-import com.gridnine.jasmine.gradle.plugin.jasmine
+import com.gridnine.jasmine.gradle.plugin.*
 //plugins {
 //    kotlin("js") version "1.4.10"
 //}

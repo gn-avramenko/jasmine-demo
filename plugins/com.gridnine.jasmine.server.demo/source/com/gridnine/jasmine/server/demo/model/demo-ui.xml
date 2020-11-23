@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui xmlns="http://xtrip.gridnine.com/jasmine/ui">
+    <enum id="com.gridnine.jasmine.web.demo.NestedDocumentVariant">
+        <enum-item id="VARIANT1"/>
+        <enum-item id="VARIANT2"/>
+    </enum>
     <grid-container id="com.gridnine.jasmine.web.demo.DemoUserAccountEditor" columns-count="1">
         <row>
             <cell caption="login" id="login">
