@@ -140,14 +140,12 @@ class DemoActivator : IPluginActivator {
 
     private fun createVariant1(): DemoNavigatorVariant1 {
         val nestedObject = DemoNavigatorVariant1()
-        nestedObject.uid = UUID.randomUUID().toString()
         nestedObject.title = "string_${randomInt(10)}"
         nestedObject.intValue = randomInt(100)
         return nestedObject
     }
     private fun createVariant2(): DemoNavigatorVariant2 {
         val nestedObject = DemoNavigatorVariant2()
-        nestedObject.uid = UUID.randomUUID().toString()
         nestedObject.title = "string_${randomInt(10)}"
         nestedObject.dateValue = LocalDate.of(2000 + randomInt(20), randomInt(11) + 1, randomInt(27) + 1)
         return nestedObject

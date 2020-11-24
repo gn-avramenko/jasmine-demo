@@ -9,6 +9,7 @@ import com.gridnine.jasmine.server.core.utils.TextUtils
 import com.gridnine.jasmine.server.demo.model.domain.DemoComplexDocument
 import com.gridnine.jasmine.server.demo.model.domain.DemoNavigatorVariant1
 import com.gridnine.jasmine.server.demo.model.domain.DemoNavigatorVariant2
+import com.gridnine.jasmine.server.demo.model.domain.DemoNestedDocument
 import com.gridnine.jasmine.server.standard.StandardServerMessagesFactory
 import com.gridnine.jasmine.server.standard.rest.ObjectEditorHandler
 import com.gridnine.jasmine.web.demo.*
@@ -60,6 +61,17 @@ class DemoComplexDocumentEditorHandler :ObjectEditorHandler<DemoComplexDocument,
                 vmEntity.nestedDocuments.values.add(variant)
             }
         }
+        vmEntity.table = DemoComplexDocumentTableEditorVM()
+        entity.entityCollection.forEach {collItem ->
+            val vmItem = DemoComplexDocumentTableVM()
+            vmEntity.table.table.add(vmItem)
+            vmItem.uid = collItem.uid
+            vmItem.textColumn = collItem.textColumn
+            vmItem.entityRefColumn = collItem.entityRefColumn
+            vmItem.enumColumn = collItem.enumColumn
+            vmItem.floatColumn = collItem.floatColumn
+            vmItem.integerColumn = collItem.integerColumn
+        }
     }
 
     override fun fillSettings(entity: DemoComplexDocument, vsEntity: DemoComplexDocumentTileSpaceVS, vmEntity: DemoComplexDocumentTileSpaceVM, ctx: MutableMap<String, Any?>) {
@@ -77,6 +89,12 @@ class DemoComplexDocumentEditorHandler :ObjectEditorHandler<DemoComplexDocument,
                 variant.uid = doc.uid
                 vsEntity.nestedDocuments.values.add(variant)
             }
+        }
+        vsEntity.table = DemoComplexDocumentTableEditorVS()
+        entity.entityCollection.forEach {collItem ->
+            val vsItem = DemoComplexDocumentTableVS()
+            vsEntity.table.table.add(vsItem)
+            vsItem.uid = collItem.uid
         }
     }
 
@@ -113,6 +131,21 @@ class DemoComplexDocumentEditorHandler :ObjectEditorHandler<DemoComplexDocument,
                 res.dateValue = variantVM.dateValue
             }
         }
+        val tempDocs2 = ArrayList(entity.entityCollection)
+        entity.entityCollection.clear()
+        vmEntity.table.table.forEach { variantVM ->
+            val item = tempDocs2.find { it.uid == variantVM.uid }?: run {
+                val elm = DemoNestedDocument()
+                elm.uid =  variantVM.uid
+                elm
+            }
+            entity.entityCollection.add(item)
+           item.entityRefColumn = variantVM.entityRefColumn
+            item.enumColumn = variantVM.enumColumn
+            item.floatColumn = variantVM.floatColumn
+            item.integerColumn = variantVM.integerColumn
+            item.textColumn = variantVM.textColumn
+        }
     }
 
     override fun validate(vmEntity: DemoComplexDocumentTileSpaceVM, vvEntity: DemoComplexDocumentTileSpaceVV, ctx: MutableMap<String, Any?>) {
@@ -134,6 +167,13 @@ class DemoComplexDocumentEditorHandler :ObjectEditorHandler<DemoComplexDocument,
                 vvEntity.nestedDocuments.values.add(variant)
             }
         }
+        vvEntity.table = DemoComplexDocumentTableEditorVV()
+        vmEntity.table.table.forEach {
+            val item = DemoComplexDocumentTableVV()
+            item.uid = it.uid
+            vvEntity.table.table.add(item)
+        }
+
     }
 
     override fun getTitle(entity: DemoComplexDocument, vmEntity: DemoComplexDocumentTileSpaceVM, vsEntity: DemoComplexDocumentTileSpaceVS, ctx: MutableMap<String, Any?>): String? {

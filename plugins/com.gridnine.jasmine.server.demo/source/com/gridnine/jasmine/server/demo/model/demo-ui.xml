@@ -126,5 +126,32 @@
                 </navigator>
             </full-view>
         </tile>
+        <tile id="table" caption="complexDocument.collection">
+            <full-view>
+                <grid-container id="com.gridnine.jasmine.web.demo.DemoComplexDocumentTableEditor">
+                    <row>
+                        <cell id="table">
+                            <table-box id="com.gridnine.jasmine.web.demo.DemoComplexDocumentTable">
+                                <column id = "textColumn" caption="table.textColumn" pref-width="100px">
+                                    <text-box/>
+                                </column>
+                                <column id = "enumColumn" caption="table.enumColumn" pref-width="100px">
+                                    <enum-select-box enumId="com.gridnine.jasmine.server.demo.model.domain.DemoEnum"/>
+                                </column>
+                                <column id = "entityRefColumn" caption="table.entityRefColumn" pref-width="200px">
+                                    <entity-select-box objectId="com.gridnine.jasmine.server.demo.model.domain.DemoUserAccount"/>
+                                </column>
+                                <column id = "integerColumn" caption="table.integerColumn" pref-width="50px">
+                                    <integer-number-box />
+                                </column>
+                                <column id = "floatColumn" caption="table.floatColumn" pref-width="100px">
+                                    <float-number-box/>
+                                </column>
+                            </table-box>
+                        </cell>
+                    </row>
+                </grid-container>
+            </full-view>
+        </tile>
     </tile-space>
 </ui>
