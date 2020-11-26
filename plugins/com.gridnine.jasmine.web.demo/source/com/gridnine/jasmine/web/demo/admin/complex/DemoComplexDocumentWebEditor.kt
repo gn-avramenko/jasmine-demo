@@ -23,6 +23,8 @@ class DemoComplexDocumentWebEditor(aParent: WebComponent): TileSpaceWidget<DemoC
     tile("simpleFields", L10nMetaRegistryJS.get().messages["com.gridnine.jasmine.web.demo.DemoComplexDocumentTileSpace"]!!["simpleFields"] ?: error(""), simpleFieldsEditor)
     val nestedDocumentsEditor = DemoComplexDocumentNestedDocumentsWebEditor(widget)
     tile("nestedDocuments", L10nMetaRegistryJS.get().messages["com.gridnine.jasmine.web.demo.DemoComplexDocumentTileSpace"]!!["nestedDocuments"] ?: error(""), nestedDocumentsEditor)
+    val collectionEditor = DemoComplexDocumentCollectionWebEditor(widget)
+    tile("table", L10nMetaRegistryJS.get().messages["com.gridnine.jasmine.web.demo.DemoComplexDocumentTileSpace"]!!["table"] ?: error(""), collectionEditor)
 })
 
 

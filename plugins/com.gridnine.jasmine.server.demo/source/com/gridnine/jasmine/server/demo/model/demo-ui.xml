@@ -132,9 +132,6 @@
                     <row>
                         <cell id="table">
                             <table-box id="com.gridnine.jasmine.web.demo.DemoComplexDocumentTable">
-                                <column id = "textColumn" caption="table.textColumn" pref-width="100px">
-                                    <text-box/>
-                                </column>
                                 <column id = "enumColumn" caption="table.enumColumn" pref-width="100px">
                                     <enum-select-box enumId="com.gridnine.jasmine.server.demo.model.domain.DemoEnum"/>
                                 </column>
@@ -146,6 +143,9 @@
                                 </column>
                                 <column id = "floatColumn" caption="table.floatColumn" pref-width="100px">
                                     <float-number-box/>
+                                </column>
+                                <column id = "textColumn" caption="table.textColumn" pref-width="100px">
+                                    <text-box/>
                                 </column>
                             </table-box>
                         </cell>
