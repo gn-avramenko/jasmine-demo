@@ -26,14 +26,14 @@ class DemoComplexDocumentCollectionWebEditor(private val parent:WebComponent): W
         delegate.addRow()
         tableWidget = TableBoxWidget(parent){
             width = "100%"
-            column("enumColumn", EnumSelectBoxWidgetDescriptionJS(false, "com.gridnine.jasmine.server.demo.model.domain.DemoEnumJS" ), L10nMetaRegistryJS.get().messages["com.gridnine.jasmine.web.demo.DemoComplexDocumentTable"]!!["enumColumn"] ?: error(""), null)
-            column("entityRefColumn", EntitySelectBoxWidgetDescriptionJS(false, "com.gridnine.jasmine.server.demo.model.domain.DemoUserAccountJS"), L10nMetaRegistryJS.get().messages["com.gridnine.jasmine.web.demo.DemoComplexDocumentTable"]!!["entityRefColumn"] ?: error(""), null)
-            column("integerColumn",IntegerNumberBoxWidgetDescriptionJS(false, false), L10nMetaRegistryJS.get().messages["com.gridnine.jasmine.web.demo.DemoComplexDocumentTable"]!!["integerColumn"] ?: error(""), null)
-            column("floatColumn", FloatNumberBoxWidgetDescriptionJS(false), L10nMetaRegistryJS.get().messages["com.gridnine.jasmine.web.demo.DemoComplexDocumentTable"]!!["floatColumn"] ?: error(""), null)
-            column("textColumn", TextBoxWidgetDescriptionJS(false), L10nMetaRegistryJS.get().messages["com.gridnine.jasmine.web.demo.DemoComplexDocumentTable"]!!["textColumn"] ?: error(""), null)
+            column("enumColumn", EnumSelectBoxWidgetDescriptionJS(false, "com.gridnine.jasmine.server.demo.model.domain.DemoEnumJS" ), L10nMetaRegistryJS.get().messages["com.gridnine.jasmine.web.demo.DemoComplexDocumentTable"]!!["enumColumn"] ?: error(""), 100)
+            column("entityRefColumn", EntitySelectBoxWidgetDescriptionJS(false, "com.gridnine.jasmine.server.demo.model.domain.DemoUserAccountJS"), L10nMetaRegistryJS.get().messages["com.gridnine.jasmine.web.demo.DemoComplexDocumentTable"]!!["entityRefColumn"] ?: error(""), 200)
+            column("integerColumn",IntegerNumberBoxWidgetDescriptionJS(false, false), L10nMetaRegistryJS.get().messages["com.gridnine.jasmine.web.demo.DemoComplexDocumentTable"]!!["integerColumn"] ?: error(""), 50)
+            column("floatColumn", FloatNumberBoxWidgetDescriptionJS(false), L10nMetaRegistryJS.get().messages["com.gridnine.jasmine.web.demo.DemoComplexDocumentTable"]!!["floatColumn"] ?: error(""), 100)
+            column("textColumn", TextBoxWidgetDescriptionJS(false), L10nMetaRegistryJS.get().messages["com.gridnine.jasmine.web.demo.DemoComplexDocumentTable"]!!["textColumn"] ?: error(""), 100)
             showToolsColumn = true
-            toolsColumnMaxWidth = "50px"
-
+            vmFactory = {DemoComplexDocumentTableVMJS()}
+            vsFactory = {DemoComplexDocumentTableVSJS()}
         }
         delegate.addCell(WebGridLayoutCell(tableWidget))
 
