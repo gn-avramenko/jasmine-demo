@@ -10,6 +10,7 @@ import com.gridnine.jasmine.web.core.StandardRestClient
 import com.gridnine.jasmine.web.core.activator.CoreActivatorJS
 import com.gridnine.jasmine.web.core.application.EnvironmentJS
 import com.gridnine.jasmine.web.core.mainframe.MainFrame
+import com.gridnine.jasmine.web.core.mainframe.workspaceEditor.WorkspaceEditorTabHandler
 import com.gridnine.jasmine.web.core.remote.StandardRpcManager
 import com.gridnine.jasmine.web.core.ui.ClientRegistry
 import com.gridnine.jasmine.web.core.ui.UiLibraryAdapter
@@ -45,6 +46,12 @@ fun main() {
         mainFrame.configure {
             tools.add(MenuButtonConfiguration{
                 icon = "core:settings"
+                elements.add(StandardMenuItem{
+                    title = "Редактор рабочей области"
+                    handler = {
+                       mainFrame.openTab(WorkspaceEditorTabHandler(), Unit)
+                    }
+                })
                 elements.add(StandardMenuItem{
                     title = "Выход"
                     handler = {
