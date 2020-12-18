@@ -25,8 +25,12 @@ class DemoWorkspaceProvider : WorkspaceProvider {
                 ?: createDemoWorkspace()
     }
 
-    override fun saveWorkspace(workspace: Workspace): Workspace {
-        TODO("Not yet implemented")
+    override fun saveWorkspace(workspace: Workspace):Workspace {
+        val loginName = AuthUtils.getCurrentUser()
+                ?: throw IllegalArgumentException("user is not logged in")
+        workspace.uid = "${loginName}_workspace"
+        Storage.get().saveDocument(workspace)
+        return workspace
     }
 
     private fun createDemoWorkspace(): Workspace {
