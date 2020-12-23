@@ -105,6 +105,7 @@
         <tile caption="complexDocument.nestedDocuments" id="nestedDocuments">
             <full-view>
                 <navigator id="com.gridnine.jasmine.web.demo.DemoComplexDocumentNestedDocumentsEditor">
+                    <interceptor>com.gridnine.jasmine.web.demo.admin.complex.DemoComplexDocumentNestedDocumentWebEditorInterceptor</interceptor>
                     <variant>
                         <grid-container id="com.gridnine.jasmine.web.demo.DemoComplexDocumentVariant1Editor">
                             <row>
@@ -132,19 +133,19 @@
                     <row>
                         <cell id="table">
                             <table-box id="com.gridnine.jasmine.web.demo.DemoComplexDocumentTable">
-                                <column id = "enumColumn" caption="table.enumColumn" pref-width="100px">
+                                <column id = "enumColumn" caption="table.enumColumn" pref-width="100">
                                     <enum-select-box enumId="com.gridnine.jasmine.server.demo.model.domain.DemoEnum"/>
                                 </column>
-                                <column id = "entityRefColumn" caption="table.entityRefColumn" pref-width="200px">
+                                <column id = "entityRefColumn" caption="table.entityRefColumn" pref-width="200">
                                     <entity-select-box objectId="com.gridnine.jasmine.server.demo.model.domain.DemoUserAccount"/>
                                 </column>
-                                <column id = "integerColumn" caption="table.integerColumn" pref-width="50px">
+                                <column id = "integerColumn" caption="table.integerColumn" pref-width="50">
                                     <integer-number-box />
                                 </column>
-                                <column id = "floatColumn" caption="table.floatColumn" pref-width="100px">
+                                <column id = "floatColumn" caption="table.floatColumn" pref-width="100">
                                     <float-number-box/>
                                 </column>
-                                <column id = "textColumn" caption="table.textColumn" pref-width="100px">
+                                <column id = "textColumn" caption="table.textColumn" pref-width="100">
                                     <text-box/>
                                 </column>
                             </table-box>

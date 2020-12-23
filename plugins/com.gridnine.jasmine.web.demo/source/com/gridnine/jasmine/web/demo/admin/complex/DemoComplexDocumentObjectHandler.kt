@@ -11,6 +11,7 @@ import com.gridnine.jasmine.web.core.ui.AutocompleteHandler
 import com.gridnine.jasmine.web.core.ui.BaseObjectHandler
 import com.gridnine.jasmine.web.core.ui.WebComponent
 import com.gridnine.jasmine.web.core.ui.WebEditor
+import com.gridnine.jasmine.web.demo.DemoComplexDocumentTileSpace
 
 class DemoComplexDocumentObjectHandler : BaseObjectHandler(DemoComplexDocumentIndexJS.objectId){
     override fun createAutocompleteHandler(): AutocompleteHandler {
@@ -18,7 +19,7 @@ class DemoComplexDocumentObjectHandler : BaseObjectHandler(DemoComplexDocumentIn
     }
 
     override fun createWebEditor(parent: WebComponent): WebEditor<*, *, *> {
-        return DemoComplexDocumentWebEditor(parent)
+        return DemoComplexDocumentTileSpace(parent)
     }
 
 

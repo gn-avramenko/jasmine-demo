@@ -12,10 +12,12 @@ import com.gridnine.jasmine.web.core.mainframe.ObjectEditor
 import com.gridnine.jasmine.web.core.ui.ObjectEditorButton
 import com.gridnine.jasmine.web.core.ui.UiLibraryAdapter
 import com.gridnine.jasmine.web.core.utils.UiUtils
+import com.gridnine.jasmine.web.demo.DemoChangePasswordEditor
 import com.gridnine.jasmine.web.demo.DemoRestClient
+import com.gridnine.jasmine.web.demo.DemoUserAccountEditor
 import com.gridnine.jasmine.web.demo.DemoWebMessagesJS
 
-class DemoUserAccountChangePasswordButtonHandler:ObjectEditorButton<DemoUserAccountWebEditor> {
+class DemoUserAccountChangePasswordButtonHandler:ObjectEditorButton<DemoUserAccountEditor> {
     override fun getId(): String {
         return DemoUserAccountChangePasswordButtonHandler::class.simpleName!!
     }
@@ -36,11 +38,11 @@ class DemoUserAccountChangePasswordButtonHandler:ObjectEditorButton<DemoUserAcco
         return 99.0
     }
 
-    override fun onClick(value: ObjectEditor<DemoUserAccountWebEditor>) {
-        UiLibraryAdapter.get().showDialog<DemoUserAccountChangePasswordWebEditor>(value.rootWebEditor){
+    override fun onClick(value: ObjectEditor<DemoUserAccountEditor>) {
+        UiLibraryAdapter.get().showDialog<DemoChangePasswordEditor>(value.rootWebEditor){
             title = DemoWebMessagesJS.changePassword
             expandToMainFrame = false
-            editor = DemoUserAccountChangePasswordWebEditor(null)
+            editor = DemoChangePasswordEditor(null)
             button {
                 displayName = CoreWebMessagesJS.ok
                 handler = {dialog ->
@@ -63,7 +65,7 @@ class DemoUserAccountChangePasswordButtonHandler:ObjectEditorButton<DemoUserAcco
         }
     }
 
-    override fun isEnabled(value: ObjectEditor<DemoUserAccountWebEditor>): Boolean {
+    override fun isEnabled(value: ObjectEditor<DemoUserAccountEditor>): Boolean {
         return !value.readOnly
     }
 

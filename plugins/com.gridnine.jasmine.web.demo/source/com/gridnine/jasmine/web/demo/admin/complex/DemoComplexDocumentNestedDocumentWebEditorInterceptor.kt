@@ -12,8 +12,8 @@ import com.gridnine.jasmine.web.core.utils.UiUtils
 import com.gridnine.jasmine.web.demo.*
 import kotlin.js.Date
 
-class DemoComplexDocumentNestedDocumentWebEditorInterceptor : WebEditorInterceptor<DemoComplexDocumentNestedDocumentsWebEditor>{
-    override fun onInit(editor: DemoComplexDocumentNestedDocumentsWebEditor) {
+class DemoComplexDocumentNestedDocumentWebEditorInterceptor : WebEditorInterceptor<DemoComplexDocumentNestedDocumentsEditor>{
+    override fun onInit(editor: DemoComplexDocumentNestedDocumentsEditor) {
         editor.setRemoveHandler {item->
             val data = item.getData() as BaseNavigatorVariantVMJS
             UiUtils.confirm("<nobr>Вы действительно хотите удалить<nobr> ${data.title}?"){

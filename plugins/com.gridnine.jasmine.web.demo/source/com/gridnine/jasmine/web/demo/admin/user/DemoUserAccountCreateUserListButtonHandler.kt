@@ -14,6 +14,7 @@ import com.gridnine.jasmine.web.core.ui.ObjectsList
 import com.gridnine.jasmine.web.core.ui.UiLibraryAdapter
 import com.gridnine.jasmine.web.core.utils.MiscUtilsJS
 import com.gridnine.jasmine.web.demo.DemoRestClient
+import com.gridnine.jasmine.web.demo.DemoUserNewAccountEditor
 import com.gridnine.jasmine.web.demo.DemoWebMessagesJS
 
 class DemoUserAccountCreateUserListButtonHandler :ListButtonHandler<DemoUserAccountIndexJS>{
@@ -35,9 +36,9 @@ class DemoUserAccountCreateUserListButtonHandler :ListButtonHandler<DemoUserAcco
     }
 
     override fun onClick(value: ObjectsList<DemoUserAccountIndexJS>) {
-        UiLibraryAdapter.get().showDialog<DemoUserAccountCreateUserWebEditor>(value.getDataGrid()){
+        UiLibraryAdapter.get().showDialog<DemoUserNewAccountEditor>(value.getDataGrid()){
             title = DemoWebMessagesJS.CreateUser
-            editor = DemoUserAccountCreateUserWebEditor(null)
+            editor = DemoUserNewAccountEditor(null)
             button {
                 displayName = DemoWebMessagesJS.Create
                 handler = {wd ->
