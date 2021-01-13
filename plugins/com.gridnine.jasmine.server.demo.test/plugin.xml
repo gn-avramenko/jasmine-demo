@@ -1,0 +1,10 @@
+<plugin xmlns="http://xtrip.gridnine.com/spf" id="com.gridnine.jasmine.server.demo.test">
+    <parameter id="type" value="SERVER_TEST"/>
+    <dependencies>
+        <plugin-dependency plugin-id="com.gridnine.jasmine.server.core"/>
+        <plugin-dependency plugin-id="com.gridnine.jasmine.server.standard"/>
+        <plugin-dependency plugin-id="com.gridnine.jasmine.server.db.h2"/>
+        <plugin-dependency plugin-id="com.gridnine.jasmine.server.demo"/>
+        <plugin-dependency plugin-id="com.gridnine.jasmine.server.spf"/>
+    </dependencies>
+</plugin>

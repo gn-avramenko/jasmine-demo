@@ -13,3 +13,7 @@ build
 /plugins/com.gridnine.jasmine.server.demo/source-gen/
 /submodules/jasmine/plugins/com.gridnine.jasmine.web.easyui/resources/jasmine-easyui/com.gridnine.jasmine.web.easyui/com/gridnine/jasmine/web/easyui/
 /submodules/jasmine/plugins/com.gridnine.jasmine.web.easyui/resources/jasmine-easyui/
+/node_modules/
+/lib/externals-test.txt
+/plugins/com.gridnine.jasmine.server.demo.test/classes/
+/package-lock.json
