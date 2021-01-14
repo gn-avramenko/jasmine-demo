@@ -22,6 +22,7 @@ jasmine {
         plugin("com.gridnine.jasmine.server.db.postgres")
         plugin("com.gridnine.jasmine.server.standard")
         plugin("com.gridnine.jasmine.web.core")
+        plugin("com.gridnine.jasmine.web.core.test")
         plugin("com.gridnine.jasmine.web.easyui")
 
     }

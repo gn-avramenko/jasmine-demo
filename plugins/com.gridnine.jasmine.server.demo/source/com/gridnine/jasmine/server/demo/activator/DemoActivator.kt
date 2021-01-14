@@ -28,6 +28,7 @@ import com.gridnine.jasmine.server.demo.web.DemoAuthFilter
 import com.gridnine.jasmine.server.standard.model.domain.*
 import com.gridnine.jasmine.server.standard.rest.ObjectEditorsRegistry
 import com.gridnine.jasmine.server.standard.rest.WorkspaceProvider
+import org.slf4j.LoggerFactory
 import java.io.File
 import java.time.LocalDate
 import java.time.LocalDateTime
@@ -35,7 +36,9 @@ import java.util.*
 import kotlin.math.roundToInt
 
 class DemoActivator : IPluginActivator {
+    private val log = LoggerFactory.getLogger(javaClass)
     override fun configure(config: Properties) {
+        log.info("configuring from demo activator")
         StorageRegistry.get().register(DemoComplexDocumentIndexHandler())
         StorageRegistry.get().register(DemoComplexDocumentVariantIndexHandler())
         StorageRegistry.get().register(DemoUserAccountIndexHandler())
@@ -93,6 +96,7 @@ class DemoActivator : IPluginActivator {
     }
 
     override fun activate() {
+        log.info("activating from demo activator")
         AuthUtils.setCurrentUser("system")
         val size = Storage.get().searchDocuments(DemoUserAccountIndex::class, SearchQuery()).size
         if (size == 0) {

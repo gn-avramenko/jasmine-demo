@@ -54,7 +54,7 @@ class DemoWebTest : SpfApplication {
         Environment.publish(IApplicationMetadataProvider::class, SpfApplicationMetadataProvider(registry))
 
 
-        val activators = IApplicationMetadataProvider.get().getExtensions("activator").filter { it.plugin.pluginId != "com.gridnine.jasmine.server.sandbox" }.map { ep -> ep.plugin.classLoader.loadClass(ep.getParameters("class").first()).constructors.first().newInstance() as IPluginActivator }.toList()
+        val activators = IApplicationMetadataProvider.get().getExtensions("activator").map { ep -> ep.plugin.classLoader.loadClass(ep.getParameters("class").first()).constructors.first().newInstance() as IPluginActivator }.toList()
         activators.forEach { a -> a.configure(config) }
         Environment.publish(DataSource::class, H2DataSource.createDataSource("jdbc:h2:mem:jasmine"))
         Environment.publish(JdbcDialect::class, H2dbDialect())
