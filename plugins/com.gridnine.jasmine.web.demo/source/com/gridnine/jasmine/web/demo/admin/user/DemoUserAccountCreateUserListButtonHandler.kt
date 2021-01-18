@@ -9,15 +9,14 @@ import com.gridnine.jasmine.server.core.model.domain.ObjectReferenceJS
 import com.gridnine.jasmine.server.demo.model.domain.DemoUserAccountIndexJS
 import com.gridnine.jasmine.server.demo.rest.DemoCreateUserRequestJS
 import com.gridnine.jasmine.web.core.mainframe.MainFrame
-import com.gridnine.jasmine.web.core.ui.ListButtonHandler
-import com.gridnine.jasmine.web.core.ui.ObjectsList
-import com.gridnine.jasmine.web.core.ui.UiLibraryAdapter
+import com.gridnine.jasmine.web.core.ui.*
 import com.gridnine.jasmine.web.core.utils.MiscUtilsJS
 import com.gridnine.jasmine.web.demo.DemoRestClient
 import com.gridnine.jasmine.web.demo.DemoUserNewAccountEditor
 import com.gridnine.jasmine.web.demo.DemoWebMessagesJS
+import kotlin.js.Promise
 
-class DemoUserAccountCreateUserListButtonHandler :ListButtonHandler<DemoUserAccountIndexJS>{
+class DemoUserAccountCreateUserListButtonHandler :TestableListButtonHandler<DemoUserAccountIndexJS, WebDialog<DemoUserNewAccountEditor>>(){
     private val indexId = MiscUtilsJS.toServerClassName(DemoUserAccountIndexJS.indexId)
     override fun getId(): String {
         return "DemoUserAccountCreateUserListButton"
@@ -35,27 +34,34 @@ class DemoUserAccountCreateUserListButtonHandler :ListButtonHandler<DemoUserAcco
         return true
     }
 
-    override fun onClick(value: ObjectsList<DemoUserAccountIndexJS>) {
-        UiLibraryAdapter.get().showDialog<DemoUserNewAccountEditor>(value.getDataGrid()){
+    override fun onTestClick(value: ObjectsList<DemoUserAccountIndexJS>): Promise<WebDialog<DemoUserNewAccountEditor>> {
+        val dialog = UiLibraryAdapter.get().showDialog<DemoUserNewAccountEditor>(value.getDataGrid()){
             title = DemoWebMessagesJS.CreateUser
             editor = DemoUserNewAccountEditor(null)
             button {
                 displayName = DemoWebMessagesJS.Create
-                handler = {wd ->
-                    val request = DemoCreateUserRequestJS()
-                    request.vm = wd.getContent().getData()
-                    DemoRestClient.demo_demo_createUser(request).then {
-                        if(it.objectUid != null){
-                            wd.close()
-                            MainFrame.get().openTab(ObjectReferenceJS(DemoUserAccountIndexJS.objectId, it.objectUid!!, null), true)
-                            return@then
+                testableHandler = {wd ->
+                    Promise {resolve, reject ->
+                        val request = DemoCreateUserRequestJS()
+                        request.vm = wd.getContent().getData()
+                        DemoRestClient.demo_demo_createUser(request).then {
+                            if (it.objectUid != null) {
+                                wd.close()
+                                val res = MainFrame.get().openTab(ObjectReferenceJS(DemoUserAccountIndexJS.objectId, it.objectUid!!, null), true)
+                                res.then {
+                                    resolve(it!!)
+                                }
+                                return@then
+                            }
+                            wd.getContent().showValidation(it.vv!!)
+                            resolve(it.vv!!)
                         }
-                        wd.getContent().showValidation(it.vv!!)
                     }
                 }
             }
             cancelButton()
         }
+        return Promise.resolve(dialog)
     }
 
     override fun getIcon(): String? {

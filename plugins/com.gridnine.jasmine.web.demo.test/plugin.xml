@@ -6,6 +6,7 @@
     <parameter id="individual-test-launcher" value="com.gridnine.jasmine.web.demo.test-individual-launcher.js"/>
     <dependencies>
         <plugin-dependency plugin-id="com.gridnine.jasmine.web.core"/>
+        <plugin-dependency plugin-id="com.gridnine.jasmine.web.easyui"/>
         <plugin-dependency plugin-id="com.gridnine.jasmine.web.demo"/>
         <plugin-dependency plugin-id="com.gridnine.jasmine.web.core.test"/>
     </dependencies>
