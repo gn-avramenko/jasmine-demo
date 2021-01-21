@@ -5,6 +5,7 @@
         <plugin-dependency plugin-id="com.gridnine.jasmine.server.core"/>
         <plugin-dependency plugin-id="com.gridnine.jasmine.server.standard"/>
         <plugin-dependency plugin-id="com.gridnine.jasmine.server.db.h2"/>
+        <plugin-dependency plugin-id="com.gridnine.jasmine.server.db.postgres"/>
     </dependencies>
     <extension point-id="domain-metadata">
         <parameter id="relative-path" value="source/com/gridnine/jasmine/server/demo/model/demo-model-domain.xml"/>
