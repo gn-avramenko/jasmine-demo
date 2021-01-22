@@ -1,4 +1,5 @@
 import com.gridnine.jasmine.gradle.plugin.*
+import com.gridnine.jasmine.gradle.plugin.tasks.*
 
 buildscript {
     dependencies{
@@ -40,6 +41,14 @@ repositories{
     mavenCentral()
     jcenter()
 }
+
+task("deploy-locally", DeployApplicationTask::class){
+    group = "jenkins"
+    shouldRunAfter("jenkins-dist")
+    host = "localhost"
+    port = 21567
+}
+//tasks.create("deploy-test", Deplo)
 
 //project.configurations.create("compile")
 //
