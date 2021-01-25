@@ -18,3 +18,5 @@ build
 /plugins/com.gridnine.jasmine.server.demo.test/classes/
 /package-lock.json
 /plugins/com.gridnine.jasmine.web.demo.test/resources/webapp-demo-test/
+js-build.gradle.kts
+js-build-copy.gradle.kts
