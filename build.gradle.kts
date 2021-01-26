@@ -12,6 +12,8 @@ plugins {
 }
 apply<com.gridnine.jasmine.gradle.plugin.JasmineConfigPlugin>()
 
+
+
 jasmine {
     kotlinVersion = "1.4.10"
     libRelativePath = "submodules/jasmine/lib"
@@ -36,12 +38,13 @@ jasmine {
     }
 }
 
-apply<com.gridnine.jasmine.gradle.plugin.JasminePlugin>()
-
 repositories{
     mavenCentral()
     jcenter()
 }
+
+apply<com.gridnine.jasmine.gradle.plugin.JasminePlugin>()
+
 
 task("deploy-locally", DeployApplicationTask::class){
     group = "jenkins"

@@ -43,49 +43,15 @@ class DemoActivator : IPluginActivator {
         StorageRegistry.get().register(DemoComplexDocumentVariantIndexHandler())
         StorageRegistry.get().register(DemoUserAccountIndexHandler())
 
-        val jasmineCoreWebapp = WebApplication("/jasmine-core", javaClass.classLoader.getResource("jasmine-core")
-                ?:  File("lib/jasmine-core.war").toURI().toURL(),
-                javaClass.classLoader)
-        WebServerConfig.get().addApplication(jasmineCoreWebapp)
-        val demoApp = WebApplication("", javaClass.classLoader.getResource("jasmine-demo-index")
-                ?: File("lib/jasmine-demo-index.war").toURI().toURL(),
-                javaClass.classLoader)
-        WebServerConfig.get().addApplication(demoApp)
-
-        val easyuiLibWebapp = WebApplication("/easyui-lib", javaClass.classLoader.getResource("easyui-lib")
-                ?:  File("lib/easyui-lib.war").toURI().toURL(),
-                javaClass.classLoader)
-        WebServerConfig.get().addApplication(easyuiLibWebapp)
-
-        val selectLibWebapp = WebApplication("/select2-lib", javaClass.classLoader.getResource("select2-lib")
-                ?:  File("lib/select2-lib.war").toURI().toURL(),
-                javaClass.classLoader)
-        WebServerConfig.get().addApplication(selectLibWebapp)
-
-        val easyuiLoaderWebapp = WebApplication("/easyui-loader", javaClass.classLoader.getResource("easyui-loader")
-                ?:  File("lib/easyui-loader.war").toURI().toURL(),
-                javaClass.classLoader)
-        WebServerConfig.get().addApplication(easyuiLoaderWebapp)
-
-        val easyuiAdapterWebapp = WebApplication("/easyui-adapter", javaClass.classLoader.getResource("easyui-adapter")
-                ?:  File("lib/easyui-adapter.war").toURI().toURL(),
-                javaClass.classLoader)
-        WebServerConfig.get().addApplication(easyuiAdapterWebapp)
-
-        val jqueryLibWebapp = WebApplication("/jquery-lib", javaClass.classLoader.getResource("jquery-lib")
-                ?:  File("lib/jquery-lib.war").toURI().toURL(),
-                javaClass.classLoader)
-        WebServerConfig.get().addApplication(jqueryLibWebapp)
-
-        val easyUiWebapp = WebApplication("/jasmine-easyui", javaClass.classLoader.getResource("jasmine-easyui")
-                ?:  File("lib/jasmine-easyui.war").toURI().toURL(),
-                javaClass.classLoader)
-        WebServerConfig.get().addApplication(easyUiWebapp)
-
-        val jasmineDemoAdminWebapp = WebApplication("/jasmine-demo", javaClass.classLoader.getResource("jasmine-demo")
-                ?:  File("lib/jasmine-demo.war").toURI().toURL(),
-                javaClass.classLoader)
-        WebServerConfig.get().addApplication(jasmineDemoAdminWebapp)
+        addApp("/jasmine-core","jasmine-core","lib/jasmine-core.war")
+        addApp("","jasmine-demo-index","lib/jasmine-demo-index.war")
+        addApp("/easyui-lib","easyui-lib","lib/easyui-lib.war")
+        addApp("/select2-lib","select2-lib","lib/select2-lib.war")
+        addApp("/easyui-loader","easyui-loader","lib/easyui-loader.war")
+        addApp("/easyui-adapter","easyui-adapter","lib/easyui-adapter.war")
+        addApp("/jquery-lib","jquery-lib","lib/jquery-lib.war")
+        addApp("/jasmine-easyui","jasmine-easyui","lib/jasmine-easyui.war")
+        addApp("/jasmine-demo","jasmine-demo","lib/jasmine-demo.war")
 
         WebServerConfig.get().globalFilters.add(WebAppFilter("nocache", NoCacheFilter::class))
         WebServerConfig.get().globalFilters.add(WebAppFilter("dev-kt-files", KotlinFileDevFilter::class))
@@ -93,6 +59,18 @@ class DemoActivator : IPluginActivator {
         Environment.publish(WorkspaceProvider::class, DemoWorkspaceProvider())
         ObjectEditorsRegistry.get().register(DemoUserAccountEditorHandler())
         ObjectEditorsRegistry.get().register(DemoComplexDocumentEditorHandler())
+    }
+
+    private fun addApp(context: String, resource: String, file: String) {
+        val resource = javaClass.classLoader.getResource(resource)
+        if(resource != null){
+            WebServerConfig.get().addApplication(WebApplication(context, resource, javaClass.classLoader))
+            return
+        }
+        val resourceFile = File(file)
+        if(resourceFile.exists()){
+            WebServerConfig.get().addApplication(WebApplication(context, resourceFile.toURI().toURL(), javaClass.classLoader))
+        }
     }
 
     override fun activate() {
