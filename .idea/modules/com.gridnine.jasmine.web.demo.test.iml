@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module version="4">
-   <component name="NewModuleRootManager">
-      <output url="file://$MODULE_DIR$/../../plugins/com.gridnine.jasmine.web.demo.test/resources/webapp-demo-test"/>
-      <output-test url="file://$MODULE_DIR$/../../plugins/com.gridnine.jasmine.web.demo.test/resources/webapp-demo-test"/>
-      <content url="file://$MODULE_DIR$/../../plugins/com.gridnine.jasmine.web.demo.test">
-         <sourceFolder url="file://$MODULE_DIR$/../../plugins/com.gridnine.jasmine.web.demo.test/source" isTestSource="false" type="kotlin-source"/>
-         <excludeFolder url="file://$MODULE_DIR$/../../plugins/com.gridnine.jasmine.web.demo.test/resources/webapp-demo-test"/>
-      </content>
-      <orderEntry type="sourceFolder" forTests="true"/>
-      <orderEntry type="library" name="web_js" level="project"/>
-      <orderEntry type="module" module-name="com.gridnine.jasmine.web.core"/>
-      <orderEntry type="module" module-name="com.gridnine.jasmine.web.easyui"/>
-      <orderEntry type="module" module-name="com.gridnine.jasmine.web.demo"/>
-      <orderEntry type="module" module-name="com.gridnine.jasmine.web.core.test"/>
-   </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../plugins/com.gridnine.jasmine.web.demo.test/resources/webapp-demo-test" />
+    <output-test url="file://$MODULE_DIR$/../../plugins/com.gridnine.jasmine.web.demo.test/resources/webapp-demo-test" />
+    <content url="file://$MODULE_DIR$/../../plugins/com.gridnine.jasmine.web.demo.test">
+      <sourceFolder url="file://$MODULE_DIR$/../../plugins/com.gridnine.jasmine.web.demo.test/source" type="kotlin-source" />
+      <excludeFolder url="file://$MODULE_DIR$/../../plugins/com.gridnine.jasmine.web.demo.test/resources/webapp-demo-test" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="web_js" level="project" />
+    <orderEntry type="module" module-name="com.gridnine.jasmine.web.core" />
+    <orderEntry type="module" module-name="com.gridnine.jasmine.web.easyui" />
+    <orderEntry type="module" module-name="com.gridnine.jasmine.web.demo" />
+    <orderEntry type="module" module-name="com.gridnine.jasmine.web.core.test" />
+  </component>
 </module>
