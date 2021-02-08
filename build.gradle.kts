@@ -28,7 +28,8 @@ jasmine {
         plugin("com.gridnine.jasmine.web.core")
         plugin("com.gridnine.jasmine.web.core.test")
         plugin("com.gridnine.jasmine.web.easyui")
-
+        plugin("com.gridnine.jasmine.web.server")
+        plugin("com.gridnine.jasmine.web.server.zk")
     }
     plugins("plugins"){
         plugin("com.gridnine.jasmine.server.demo")

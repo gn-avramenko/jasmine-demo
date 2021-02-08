@@ -14,5 +14,7 @@
       <orderEntry type="module" module-name="com.gridnine.jasmine.server.core"/>
       <orderEntry type="module" module-name="com.gridnine.jasmine.server.standard"/>
       <orderEntry type="module" module-name="com.gridnine.jasmine.server.db.h2"/>
+      <orderEntry type="module" module-name="com.gridnine.jasmine.server.db.postgres"/>
+      <orderEntry type="module" module-name="com.gridnine.jasmine.web.server.zk"/>
    </component>
 </module>
