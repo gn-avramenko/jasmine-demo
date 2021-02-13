@@ -1,5 +1,0 @@
-<language-addon>
-    <addon-name>jquery</addon-name><!-- any name you like -->
-    <language-name>xul/html</language-name>
-    <javascript src="../jquery-lib/jquery-3.4.1.js"/> <!-- assume you package it as /myjs/foo.js -->
-</language-addon>

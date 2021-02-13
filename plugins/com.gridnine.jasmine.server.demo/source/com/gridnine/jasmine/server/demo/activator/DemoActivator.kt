@@ -53,6 +53,7 @@ class DemoActivator : IPluginActivator {
         addApp("/jasmine-easyui","jasmine-easyui","lib/jasmine-easyui.war")
         addApp("/jasmine-demo","jasmine-demo","lib/jasmine-demo.war")
         addApp("/zk","jasmine-demo-zk-index","lib/jasmine-demo-zk-index.war")
+        addApp("/zk-adapter","zk-adapter","lib/zk-adapter.war")
 
         WebServerConfig.get().globalFilters.add(WebAppFilter("nocache", NoCacheFilter::class))
         WebServerConfig.get().globalFilters.add(WebAppFilter("dev-kt-files", KotlinFileDevFilter::class))
