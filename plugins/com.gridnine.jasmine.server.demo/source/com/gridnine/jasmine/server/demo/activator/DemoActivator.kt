@@ -28,6 +28,7 @@ import com.gridnine.jasmine.server.demo.web.DemoAuthFilter
 import com.gridnine.jasmine.server.standard.model.domain.*
 import com.gridnine.jasmine.server.standard.rest.ObjectEditorsRegistry
 import com.gridnine.jasmine.server.standard.rest.WorkspaceProvider
+import com.gridnine.jasmine.web.server.widgets.restAutocompleteUrl
 import org.slf4j.LoggerFactory
 import java.io.File
 import java.time.LocalDate
@@ -54,7 +55,7 @@ class DemoActivator : IPluginActivator {
         addApp("/jasmine-demo","jasmine-demo","lib/jasmine-demo.war")
         addApp("/zk","jasmine-demo-zk-index","lib/jasmine-demo-zk-index.war")
         addApp("/zk-adapter","zk-adapter","lib/zk-adapter.war")
-
+        restAutocompleteUrl = "/ui-rest/standard_standard_autocompleteSelect2"
         WebServerConfig.get().globalFilters.add(WebAppFilter("nocache", NoCacheFilter::class))
         WebServerConfig.get().globalFilters.add(WebAppFilter("dev-kt-files", KotlinFileDevFilter::class))
         WebServerConfig.get().globalFilters.add(WebAppFilter("demo-auth-filter", DemoAuthFilter::class))
