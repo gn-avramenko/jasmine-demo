@@ -24,10 +24,12 @@ import com.gridnine.jasmine.server.demo.storage.DemoComplexDocumentIndexHandler
 import com.gridnine.jasmine.server.demo.storage.DemoComplexDocumentVariantIndexHandler
 import com.gridnine.jasmine.server.demo.storage.DemoUserAccountIndexHandler
 import com.gridnine.jasmine.server.demo.storage.DemoWorkspaceProvider
+import com.gridnine.jasmine.server.demo.ui.DemoUserAccountServerUiHandler
 import com.gridnine.jasmine.server.demo.web.DemoAuthFilter
 import com.gridnine.jasmine.server.standard.model.domain.*
 import com.gridnine.jasmine.server.standard.rest.ObjectEditorsRegistry
 import com.gridnine.jasmine.server.standard.rest.WorkspaceProvider
+import com.gridnine.jasmine.web.server.registry.ServerUiClientRegistry
 import com.gridnine.jasmine.web.server.widgets.restAutocompleteUrl
 import org.slf4j.LoggerFactory
 import java.io.File
@@ -62,6 +64,7 @@ class DemoActivator : IPluginActivator {
         Environment.publish(WorkspaceProvider::class, DemoWorkspaceProvider())
         ObjectEditorsRegistry.get().register(DemoUserAccountEditorHandler())
         ObjectEditorsRegistry.get().register(DemoComplexDocumentEditorHandler())
+        ServerUiClientRegistry.get().register(DemoUserAccountServerUiHandler())
     }
 
     private fun addApp(context: String, resource: String, file: String) {
