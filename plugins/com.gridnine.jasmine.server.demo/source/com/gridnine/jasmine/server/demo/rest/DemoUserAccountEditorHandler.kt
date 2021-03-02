@@ -9,7 +9,7 @@ import com.gridnine.jasmine.server.core.model.ui.TextBoxConfiguration
 import com.gridnine.jasmine.server.core.utils.TextUtils
 import com.gridnine.jasmine.server.demo.model.domain.DemoUserAccount
 import com.gridnine.jasmine.server.standard.StandardServerMessagesFactory
-import com.gridnine.jasmine.server.standard.rest.ObjectEditorHandler
+import com.gridnine.jasmine.server.standard.helpers.ObjectEditorHandler
 import com.gridnine.jasmine.web.demo.DemoUserAccountEditorVM
 import com.gridnine.jasmine.web.demo.DemoUserAccountEditorVS
 import com.gridnine.jasmine.web.demo.DemoUserAccountEditorVV

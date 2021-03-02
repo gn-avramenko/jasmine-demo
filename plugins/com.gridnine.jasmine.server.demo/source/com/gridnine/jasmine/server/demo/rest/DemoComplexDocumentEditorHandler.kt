@@ -11,7 +11,7 @@ import com.gridnine.jasmine.server.demo.model.domain.DemoNavigatorVariant1
 import com.gridnine.jasmine.server.demo.model.domain.DemoNavigatorVariant2
 import com.gridnine.jasmine.server.demo.model.domain.DemoNestedDocument
 import com.gridnine.jasmine.server.standard.StandardServerMessagesFactory
-import com.gridnine.jasmine.server.standard.rest.ObjectEditorHandler
+import com.gridnine.jasmine.server.standard.helpers.ObjectEditorHandler
 import com.gridnine.jasmine.web.demo.*
 import kotlin.reflect.KClass
 

@@ -26,10 +26,9 @@ import com.gridnine.jasmine.server.demo.storage.DemoUserAccountIndexHandler
 import com.gridnine.jasmine.server.demo.storage.DemoWorkspaceProvider
 import com.gridnine.jasmine.server.demo.ui.DemoUserAccountServerUiHandler
 import com.gridnine.jasmine.server.demo.web.DemoAuthFilter
-import com.gridnine.jasmine.server.standard.model.domain.*
-import com.gridnine.jasmine.server.standard.rest.ObjectEditorsRegistry
+import com.gridnine.jasmine.server.standard.helpers.ObjectEditorsRegistry
 import com.gridnine.jasmine.server.standard.rest.WorkspaceProvider
-import com.gridnine.jasmine.web.server.registry.ServerUiClientRegistry
+import com.gridnine.jasmine.web.server.common.ServerUiClientRegistry
 import com.gridnine.jasmine.web.server.widgets.restAutocompleteUrl
 import org.slf4j.LoggerFactory
 import java.io.File
