@@ -24,6 +24,7 @@ import com.gridnine.jasmine.server.demo.storage.DemoComplexDocumentIndexHandler
 import com.gridnine.jasmine.server.demo.storage.DemoComplexDocumentVariantIndexHandler
 import com.gridnine.jasmine.server.demo.storage.DemoUserAccountIndexHandler
 import com.gridnine.jasmine.server.demo.storage.DemoWorkspaceProvider
+import com.gridnine.jasmine.server.demo.ui.DemoComplexDocumentServerUiHandler
 import com.gridnine.jasmine.server.demo.ui.DemoUserAccountServerUiHandler
 import com.gridnine.jasmine.server.demo.web.DemoAuthFilter
 import com.gridnine.jasmine.server.standard.helpers.ObjectEditorsRegistry
@@ -64,6 +65,7 @@ class DemoActivator : IPluginActivator {
         ObjectEditorsRegistry.get().register(DemoUserAccountEditorHandler())
         ObjectEditorsRegistry.get().register(DemoComplexDocumentEditorHandler())
         ServerUiRegistry.get().register(DemoUserAccountServerUiHandler())
+        ServerUiRegistry.get().register(DemoComplexDocumentServerUiHandler())
     }
 
     private fun addApp(context: String, resource: String, file: String) {

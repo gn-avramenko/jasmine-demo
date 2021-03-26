@@ -61,8 +61,8 @@ class DemoUserAccountServerUiEditor:ServerUiViewEditor<DemoUserAccountEditorVM, 
         nameWidget.setReadonly(value)
     }
 
-    override fun navigate(key: String) {
-        //noops
+    override fun navigate(key: String) :Boolean{
+        return false
     }
 
 }
