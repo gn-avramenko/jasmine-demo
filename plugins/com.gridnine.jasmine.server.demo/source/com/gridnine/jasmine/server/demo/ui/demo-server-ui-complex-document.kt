@@ -5,6 +5,7 @@
 
 package com.gridnine.jasmine.server.demo.ui
 
+import com.gridnine.jasmine.server.core.model.ui.*
 import com.gridnine.jasmine.server.demo.model.domain.DemoComplexDocument
 import com.gridnine.jasmine.server.demo.model.domain.DemoEnum
 import com.gridnine.jasmine.server.demo.model.domain.DemoUserAccount
@@ -17,6 +18,8 @@ class DemoComplexDocumentServerUiEditor : ServerUiViewEditor<DemoComplexDocument
 
     val overviewEditor: DemoComplexDocumentOverviewServerUiEditor
     val simpleFieldsEditor: DemoComplexDocumentSimpleFieldsServerUiEditor
+    val tableEditor: DemoComplexDocumentTableEditor
+    lateinit var nestedDocument:DemoComplexDocumentNestedDocumentsEditorVM
     init {
         val config = ServerUiTileSpaceWidgetConfiguration<DemoComplexDocumentTileSpaceVM> {
             width = "100%"
@@ -25,15 +28,19 @@ class DemoComplexDocumentServerUiEditor : ServerUiViewEditor<DemoComplexDocument
         }
         overviewEditor = config.overview("Обзор", DemoComplexDocumentOverviewServerUiEditor())
         simpleFieldsEditor = config.tile("simpleFields", "Простые поля", DemoComplexDocumentSimpleFieldsServerUiEditor())
+        tableEditor = config.tile("table", "Таблица", DemoComplexDocumentTableEditor())
         _node = ServerUiTileSpaceWidget(config)
     }
 
     override fun setData(data: DemoComplexDocumentTileSpaceVM, settings: DemoComplexDocumentTileSpaceVS?) {
         _node.setData(data, settings)
+        nestedDocument = data.nestedDocuments
     }
 
     override fun getData(): DemoComplexDocumentTileSpaceVM {
-        return _node.getData()
+        val result = _node.getData()
+        result.nestedDocuments = nestedDocument
+        return result
     }
 
     override fun showValidation(validation: DemoComplexDocumentTileSpaceVV?) {
@@ -218,6 +225,54 @@ class DemoComplexDocumentSimpleFieldsServerUiEditor : ServerUiViewEditor<DemoCom
     }
 }
 
+class DemoComplexDocumentTableEditor:ServerUiViewEditor<DemoComplexDocumentTableEditorVM,DemoComplexDocumentTableEditorVS,DemoComplexDocumentTableEditorVV>,BaseServerUiNodeWrapper<ServerUiGridLayoutContainer>(){
+
+
+    val tableWidget: ServerUiTableWidget<DemoComplexDocumentTableVM,DemoComplexDocumentTableVS,DemoComplexDocumentTableVV>
+
+    init{
+        _node = ServerUiLibraryAdapter.get().createGridLayoutContainer(ServerUiGridLayoutContainerConfiguration {
+            width = "100%"
+        })
+        _node.addRow()
+        tableWidget = ServerUiTableWidget(ServerUiTableWidgetConfiguration{
+            width = "100%"
+            showToolsColumn = true
+            vmFactory = {DemoComplexDocumentTableVM()}
+            column("enumColumn", EnumSelectBoxWidgetDescription(false, DemoEnum::class.qualifiedName!!), "Перечисление", 100)
+            column("entityRefColumn", EntitySelectBoxWidgetDescription(false, DemoUserAccount::class.qualifiedName!!), "Ссылка", 200)
+            column("integerColumn", IntegerNumberBoxWidgetDescription(false,false), "Целое число", 50)
+            column("floatColumn", FloatNumberBoxWidgetDescription(false), "Дробное число", 100)
+            column("textColumn", TextBoxWidgetDescription(false), "Строка", 100)
+        }
+        )
+        tableWidget.vsFactory = {null}
+        _node.addCell(ServerUiGridLayoutCell(tableWidget,1))
+    }
+
+    override fun setData(vm: DemoComplexDocumentTableEditorVM, vs: DemoComplexDocumentTableEditorVS?){
+        tableWidget.setData(vm.table, vs?.table)
+    }
+
+    override fun setReadonly(value: Boolean){
+        tableWidget.setReadonly(value)
+    }
+
+    override fun getData(): DemoComplexDocumentTableEditorVM{
+        val result = DemoComplexDocumentTableEditorVM()
+        result.table.addAll(tableWidget.getData())
+        return result
+    }
+
+    override fun showValidation(validation: DemoComplexDocumentTableEditorVV?) {
+        validation?.table?.let{tableWidget.showValidation(it)}
+    }
+
+    override fun navigate(key: String): Boolean {
+        return false
+    }
+
+}
 
 class DemoComplexDocumentServerUiHandler : BaseServerUiObjectHandler(DemoComplexDocument::class) {
     override fun createEditor(): ServerUiViewEditor<*, *, *> {
