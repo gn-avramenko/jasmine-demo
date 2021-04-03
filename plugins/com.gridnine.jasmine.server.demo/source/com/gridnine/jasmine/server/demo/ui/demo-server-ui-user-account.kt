@@ -26,14 +26,14 @@ class DemoUserAccountServerUiEditor:ServerUiViewEditor<DemoUserAccountEditorVM, 
             columns.add(ServerUiGridLayoutColumnConfiguration("300px"))
         })
         _node.addRow()
-        loginWidget= ServerUiTextBoxWidget(ServerUiTextBoxWidgetConfiguration{
+        loginWidget= ServerUiTextBoxWidget{
             width = "100%"
-        })
+        }
         _node.addCell(ServerUiGridLayoutCell(ServerUiGridCellWidget("Логин:", loginWidget)))
         _node.addRow()
-        nameWidget= ServerUiTextBoxWidget(ServerUiTextBoxWidgetConfiguration{
+        nameWidget= ServerUiTextBoxWidget{
             width = "100%"
-        })
+        }
         _node.addCell(ServerUiGridLayoutCell(ServerUiGridCellWidget("Имя:", nameWidget)))
     }
 
