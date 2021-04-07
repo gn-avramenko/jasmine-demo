@@ -15,7 +15,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.web.demo.iml" filepath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.web.demo.iml" group="jasmine-demo" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.web.demo.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.web.demo.test.iml" group="jasmine-demo" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.web.easyui.iml" filepath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.web.easyui.iml" group="jasmine-demo" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.web.server.iml" filepath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.web.server.iml" group="jasmine-demo" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.web.server.zk.iml" filepath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.web.server.zk.iml" group="jasmine-demo" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jasmine-demo.iml" filepath="$PROJECT_DIR$/.idea/modules/jasmine-demo.iml" group="jasmine-demo" />
     </modules>

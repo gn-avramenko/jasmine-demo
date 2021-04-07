@@ -16,6 +16,5 @@
       <orderEntry type="module" module-name="com.gridnine.jasmine.server.db.h2"/>
       <orderEntry type="module" module-name="com.gridnine.jasmine.server.db.postgres"/>
       <orderEntry type="module" module-name="com.gridnine.jasmine.web.server.zk"/>
-      <orderEntry type="module" module-name="com.gridnine.jasmine.web.server"/>
    </component>
 </module>

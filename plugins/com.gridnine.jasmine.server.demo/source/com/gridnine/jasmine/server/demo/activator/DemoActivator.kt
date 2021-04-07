@@ -24,12 +24,13 @@ import com.gridnine.jasmine.server.demo.storage.DemoComplexDocumentIndexHandler
 import com.gridnine.jasmine.server.demo.storage.DemoComplexDocumentVariantIndexHandler
 import com.gridnine.jasmine.server.demo.storage.DemoUserAccountIndexHandler
 import com.gridnine.jasmine.server.demo.storage.DemoWorkspaceProvider
+import com.gridnine.jasmine.server.demo.ui.DemoComplexDocumentNestedDocumentTileSpaceEditorInterceptor
 import com.gridnine.jasmine.server.demo.ui.DemoComplexDocumentServerUiHandler
 import com.gridnine.jasmine.server.demo.ui.DemoUserAccountServerUiHandler
 import com.gridnine.jasmine.server.demo.web.DemoAuthFilter
 import com.gridnine.jasmine.server.standard.helpers.ObjectEditorsRegistry
 import com.gridnine.jasmine.server.standard.rest.WorkspaceProvider
-import com.gridnine.jasmine.web.server.common.ServerUiRegistry
+import com.gridnine.jasmine.web.server.components.ServerUiEditorInterceptorsRegistry
 import com.gridnine.jasmine.web.server.widgets.restAutocompleteUrl
 import org.slf4j.LoggerFactory
 import java.io.File
@@ -64,8 +65,9 @@ class DemoActivator : IPluginActivator {
         Environment.publish(WorkspaceProvider::class, DemoWorkspaceProvider())
         ObjectEditorsRegistry.get().register(DemoUserAccountEditorHandler())
         ObjectEditorsRegistry.get().register(DemoComplexDocumentEditorHandler())
-        ServerUiRegistry.get().register(DemoUserAccountServerUiHandler())
-        ServerUiRegistry.get().register(DemoComplexDocumentServerUiHandler())
+        com.gridnine.jasmine.web.server.common.ServerUiRegistry.get().register(DemoUserAccountServerUiHandler())
+        com.gridnine.jasmine.web.server.common.ServerUiRegistry.get().register(DemoComplexDocumentServerUiHandler())
+        ServerUiEditorInterceptorsRegistry.get().register(DemoComplexDocumentNestedDocumentTileSpaceEditorInterceptor())
     }
 
     private fun addApp(context: String, resource: String, file: String) {

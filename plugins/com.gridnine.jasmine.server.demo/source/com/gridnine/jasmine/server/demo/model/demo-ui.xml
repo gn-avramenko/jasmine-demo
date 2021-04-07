@@ -130,6 +130,9 @@
         <tile id="table" caption="complexDocument.collection">
             <full-view>
                 <grid-container id="com.gridnine.jasmine.web.demo.DemoComplexDocumentTableEditor">
+                    <columns>
+                        <column width="REMAINING"/>
+                    </columns>
                     <row>
                         <cell id="table">
                             <table-box id="com.gridnine.jasmine.web.demo.DemoComplexDocumentTable">
