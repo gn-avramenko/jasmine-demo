@@ -1,0 +1,12 @@
+[submodule "submodules/jasmine"]
+	path = submodules/jasmine
+	url = https://github.com/gn-avramenko/jasmine.git
+	branch = master
+[submodule "submodules/spf"]
+	path = submodules/spf
+	url = https://github.com/gn-avramenko/spf.git
+	branch = master
+[submodule "submodules/spf-updater"]
+	path = submodules/spf-updater
+	url = https://github.com/gn-avramenko/spf-updater.git
+	branch = master
