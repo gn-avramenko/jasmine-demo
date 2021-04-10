@@ -12,6 +12,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/submodules" />
+            <option value="$PROJECT_DIR$/submodules/jasmine" />
+            <option value="$PROJECT_DIR$/submodules/jasmine/build-scripts" />
             <option value="$PROJECT_DIR$/submodules/spf" />
             <option value="$PROJECT_DIR$/submodules/spf-updater" />
           </set>

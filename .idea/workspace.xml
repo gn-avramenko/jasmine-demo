@@ -22,7 +22,88 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52ba39f3-a969-4fe3-b47d-c98f6c513343" name="Default Changelist" comment="final version initialization" />
+    <list default="true" id="52ba39f3-a969-4fe3-b47d-c98f6c513343" name="Default Changelist" comment="final version initialization">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_node_gradle_gradle_node_plugin_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/jasmine-demo-final.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/submodules/jasmine-demo-final.submodules.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/submodules/jasmine/build-scripts/jasmine-demo-final.submodules.jasmine.build-scripts.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/submodules/jasmine/build-scripts/jasmine-demo-final.submodules.jasmine.build-scripts.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/submodules/jasmine/build-scripts/jasmine-demo-final.submodules.jasmine.build-scripts.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/submodules/jasmine/jasmine-demo-final.submodules.jasmine.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/submodules/spf-updater/jasmine-demo-final.submodules.spf-updater.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/submodules/spf-updater/jasmine-demo-final.submodules.spf-updater.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/submodules/spf-updater/jasmine-demo-final.submodules.spf-updater.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/submodules/spf/jasmine-demo-final.submodules.spf.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/submodules/spf/jasmine-demo-final.submodules.spf.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/submodules/spf/jasmine-demo-final.submodules.spf.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/jasmine-gradle-plugin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/JasminePlugin.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/config-plugin.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/BaseStartServerTask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/CleanupTask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/CodeGenPluginTask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/CompileKotlinJSPluginTask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/CompileKotlinJVMPluginTask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/CompileProjectTask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/CopyJvmResourcesTask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/CreateArtifactsTask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/CreateJarForJvmPluginTask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/CreateModulesTask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/CreateWarForJsPluginTask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/DeployApplicationTask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/KotlinUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/MakeDistTask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/MakeProjectTask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/NodeJsCopyJsFilesInBuildTask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/NodeJsCopyJsFilesTask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/NodeJsInstalReporterTask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/NodeJsInstallMochaTask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/NodeJsInstallXmlHttpRequestTask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/NodeJsStartTestInBuildTask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/NodeJsStartTestInIDETask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/SetupNodeTask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/StartIndividualJSTestInIDETask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/StartSuiteJsTestInBuildTask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/StartTestServerInBuildTask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/StartTestServerInIDETask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/StopTestServerInBuildTask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/StopTestServerInIDETask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/TestJsPluginTask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/TestJvmPluginTask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/TestProjectTask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/XmlBuilder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/create-libraries.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/create-war-files.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/lib/js/kotlin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/lib/js/kotlin.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/lib/js/kotlin.meta.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/lib/spf-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/lib/src/spf-1.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,13 +114,98 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/submodules/spf">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/submodules/spf-updater">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/submodules">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/submodules/jasmine">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/submodules/jasmine/build-scripts">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jasmine-demo-final" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jasmine-demo-final" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jasmine-demo-final" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="idea" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jasmine-demo-final" type="f1a62948:ProjectNode" />
+                <item name="submodules" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jasmine-demo-final" type="f1a62948:ProjectNode" />
+                <item name="submodules" type="2d1252cf:ModuleNode" />
+                <item name="jasmine" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jasmine-demo-final" type="f1a62948:ProjectNode" />
+                <item name="submodules" type="2d1252cf:ModuleNode" />
+                <item name="jasmine" type="2d1252cf:ModuleNode" />
+                <item name="build-scripts" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jasmine-demo-final" type="f1a62948:ProjectNode" />
+                <item name="submodules" type="2d1252cf:ModuleNode" />
+                <item name="jasmine" type="2d1252cf:ModuleNode" />
+                <item name="build-scripts" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jasmine-demo-final" type="f1a62948:ProjectNode" />
+                <item name="submodules" type="2d1252cf:ModuleNode" />
+                <item name="jasmine" type="2d1252cf:ModuleNode" />
+                <item name="build-scripts" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="Git.Pull.Settings">
     <option name="BRANCH" value="master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="b198737a-32e8-4799-bcc0-d568b3eae3e8" />
+  </component>
   <component name="ProjectId" id="1qyxbOnDmr9wdqAaBKUuKgka9QT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -48,6 +214,109 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gradle" />
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.jasmine-demo-final [makeProject]">
+    <configuration name="jasmine-demo-final [makeProject]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="makeProject" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="jasmine-demo-final-make-project" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--stacktrace" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="make-project" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="jasmine-demo-final:submodules:jasmine [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/submodules/jasmine" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="jasmine-demo-final:submodules:jasmine:build-scripts [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/submodules/jasmine/build-scripts" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.jasmine-demo-final:submodules:jasmine [build]" />
+      <item itemvalue="Gradle.jasmine-demo-final-make-project" />
+      <item itemvalue="Gradle.jasmine-demo-final:submodules:jasmine:build-scripts [jar]" />
+      <item itemvalue="Gradle.jasmine-demo-final [makeProject]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.jasmine-demo-final [makeProject]" />
+        <item itemvalue="Gradle.jasmine-demo-final:submodules:jasmine:build-scripts [jar]" />
+        <item itemvalue="Gradle.jasmine-demo-final-make-project" />
+        <item itemvalue="Gradle.jasmine-demo-final:submodules:jasmine [build]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -65,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618065760433</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="final version initialization">
+      <created>1618066914144</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1618066914144</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -78,19 +354,44 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="final version initialization" />
     <option name="LAST_COMMIT_MESSAGE" value="final version initialization" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="809" y="430" key="Github.Dialog.Accounts.Choose" timestamp="1618065775014">
+    <state x="417" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618069998948">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="809" y="430" key="Github.Dialog.Accounts.Choose/0.0.1920.1044@0.0.1920.1044" timestamp="1618065775014" />
-    <state x="554" y="251" key="Vcs.Push.Dialog.v2" timestamp="1618065771477">
+    <state x="417" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1618069998948" />
+    <state x="809" y="430" key="Github.Dialog.Accounts.Choose" timestamp="1618066923476">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="554" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1618065771477" />
+    <state x="809" y="430" key="Github.Dialog.Accounts.Choose/0.0.1920.1044@0.0.1920.1044" timestamp="1618066923476" />
+    <state width="1874" height="264" key="GridCell.Tab.0.bottom" timestamp="1618071204393">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1618071204393" />
+    <state width="1874" height="264" key="GridCell.Tab.0.center" timestamp="1618071204392">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="264" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1618071204392" />
+    <state width="1874" height="264" key="GridCell.Tab.0.left" timestamp="1618071204392">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="264" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1618071204392" />
+    <state width="1874" height="264" key="GridCell.Tab.0.right" timestamp="1618071204393">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="264" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1618071204393" />
+    <state x="442" y="93" key="SettingsEditor" timestamp="1618067102887">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="442" y="93" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1618067102887" />
+    <state x="554" y="251" key="Vcs.Push.Dialog.v2" timestamp="1618066920095">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="554" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1618066920095" />
   </component>
 </project>
