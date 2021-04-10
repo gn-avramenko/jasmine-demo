@@ -1,6 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="jasmine-demo">
-    <output-path>$PROJECT_DIR$/build/libs</output-path>
-    <root id="archive" name="jasmine-demo.jar" />
-  </artifact>
-</component>
