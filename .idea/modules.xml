@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.core.iml" filepath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.core.iml" group="jasmine-demo-final" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.core.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.core.test.iml" group="jasmine-demo-final" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.db.h2.iml" filepath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.db.h2.iml" group="jasmine-demo-final" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.db.postgres.iml" filepath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.db.postgres.iml" group="jasmine-demo-final" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jasmine-demo-final.iml" filepath="$PROJECT_DIR$/.idea/modules/jasmine-demo-final.iml" group="jasmine-demo-final" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/submodules/jasmine-demo-final.submodules.iml" filepath="$PROJECT_DIR$/.idea/modules/submodules/jasmine-demo-final.submodules.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/submodules/jasmine/jasmine-demo-final.submodules.jasmine.iml" filepath="$PROJECT_DIR$/.idea/modules/submodules/jasmine/jasmine-demo-final.submodules.jasmine.iml" />

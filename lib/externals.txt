@@ -6,6 +6,8 @@
 /home/avramenko/IdeaProjects/jasmine-demo-final/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/classes/
 /home/avramenko/IdeaProjects/jasmine-demo-final/submodules/jasmine/plugins/com.gridnine.jasmine.server.db.h2/
 /home/avramenko/IdeaProjects/jasmine-demo-final/submodules/jasmine/plugins/com.gridnine.jasmine.server.db.h2/classes/
+/home/avramenko/IdeaProjects/jasmine-demo-final/submodules/jasmine/plugins/com.gridnine.jasmine.server.db.postgres/
+/home/avramenko/IdeaProjects/jasmine-demo-final/submodules/jasmine/plugins/com.gridnine.jasmine.server.db.postgres/classes/
 /home/avramenko/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/7c4f3c474fb2c041d8028740440937705ebb473a/logback-classic-1.2.3.jar
 /home/avramenko/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.4.10/998caa30623f73223194a8b657abd2baec4880ea/kotlin-stdlib-jdk8-1.4.10.jar
 /home/avramenko/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.4.10/e2b3c6695eee6085e606d96d685396dce23a3a06/kotlin-reflect-1.4.10.jar
@@ -16,6 +18,7 @@
 /home/avramenko/.gradle/caches/modules-2/files-2.1/com.nothome/javaxdelta/2.0.1/d4f5d077f1b15c6f67595015d69572303ad3f66d/javaxdelta-2.0.1.jar
 /home/avramenko/.gradle/caches/modules-2/files-2.1/org.ehcache/ehcache/3.8.1/ae19c7f2f63f5e88f00ccd189b22c535ab75b01a/ehcache-3.8.1.jar
 /home/avramenko/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.200/f7533fe7cb8e99c87a43d325a77b4b678ad9031a/h2-1.4.200.jar
+/home/avramenko/.gradle/caches/modules-2/files-2.1/org.postgresql/postgresql/42.2.18/a0a9c1d43c7727eeaf1b729477891185d3c71751/postgresql-42.2.18.jar
 /home/avramenko/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.3/864344400c3d4d92dfeb0a305dc87d953677c03c/logback-core-1.2.3.jar
 /home/avramenko/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar
 /home/avramenko/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.4.10/30e46450b0bb3dbf43898d2f461be4a942784780/kotlin-stdlib-jdk7-1.4.10.jar
@@ -26,6 +29,7 @@
 /home/avramenko/.gradle/caches/modules-2/files-2.1/org.eclipse.jdt/ecj/3.18.0/4d5d0911b30db24c8eb844702c8adf8e434314ff/ecj-3.18.0.jar
 /home/avramenko/.gradle/caches/modules-2/files-2.1/trove/trove/1.0.2/112b40581ab9a4d3de4636d49985a7f686d181c8/trove-1.0.2.jar
 /home/avramenko/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-runtime/2.3.1/dd6dda9da676a54c5b36ca2806ff95ee017d8738/jaxb-runtime-2.3.1.jar
+/home/avramenko/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.5.0/2f50520c8abea66fbd8d26e481d3aef5c673b510/checker-qual-3.5.0.jar
 /home/avramenko/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.4.10/6229be3465805c99db1142ad75e6c6ddeac0b04c/kotlin-stdlib-common-1.4.10.jar
 /home/avramenko/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar
 /home/avramenko/.gradle/caches/modules-2/files-2.1/javax.xml.bind/jaxb-api/2.3.1/8531ad5ac454cc2deb9d4d32c40c4d7451939b5d/jaxb-api-2.3.1.jar
