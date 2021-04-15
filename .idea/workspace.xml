@@ -23,14 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52ba39f3-a969-4fe3-b47d-c98f6c513343" name="Default Changelist" comment="code cleanup">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/server.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/externals-test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/externals-test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/externals.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/externals.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.zk/source/com/gridnine/jasmine/server/zk/ui/components/zk-ui-components-common.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.zk/source/com/gridnine/jasmine/server/zk/ui/components/zk-ui-components-common.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/plugin.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,12 +67,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="jasmine-demo-final" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="jasmine-demo-final" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="idea" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -134,7 +121,7 @@
     <option name="BRANCH" value="master" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/submodules/jasmine" />
   </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="b198737a-32e8-4799-bcc0-d568b3eae3e8" />
@@ -150,7 +137,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.zk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15000002" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -335,7 +322,21 @@
       <option name="project" value="LOCAL" />
       <updated>1618420804356</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="cleaup code">
+      <created>1618494444129</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1618494444129</updated>
+    </task>
+    <task id="LOCAL-00009" summary="code cleanup">
+      <created>1618494455488</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1618494455488</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -352,6 +353,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="final version initialization" />
+    <MESSAGE value="cleaup code" />
     <MESSAGE value="code cleanup" />
     <option name="LAST_COMMIT_MESSAGE" value="code cleanup" />
   </component>
@@ -420,6 +422,10 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state width="1874" height="326" key="GridCell.Tab.1.right/0.0.1920.1044@0.0.1920.1044" timestamp="1618247619788" />
+    <state x="481" y="199" key="RollbackChangesDialog" timestamp="1618494823923">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="481" y="199" key="RollbackChangesDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1618494823923" />
     <state x="442" y="93" key="SettingsEditor" timestamp="1618218213309">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -428,10 +434,10 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="689" y="252" width="564" height="524" key="StructurePopup/0.0.1920.1044@0.0.1920.1044" timestamp="1618487699054" />
-    <state x="554" y="251" key="Vcs.Push.Dialog.v2" timestamp="1618420819207">
+    <state x="554" y="251" key="Vcs.Push.Dialog.v2" timestamp="1618494465350">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="554" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1618420819207" />
+    <state x="554" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1618494465350" />
     <state x="756" y="295" key="chooseDestDirectoryDialog" timestamp="1618483638919">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
