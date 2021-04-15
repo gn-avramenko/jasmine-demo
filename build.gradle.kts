@@ -21,6 +21,8 @@ jasmine {
         plugin("com.gridnine.jasmine.server.db.postgres")
         plugin("com.gridnine.jasmine.server.core.test")
         plugin("com.gridnine.jasmine.server.zk")
+        plugin("com.gridnine.jasmine.common.standard")
+        plugin("com.gridnine.jasmine.server.standard")
     }
 }
 

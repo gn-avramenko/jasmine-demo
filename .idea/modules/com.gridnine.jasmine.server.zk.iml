@@ -5,6 +5,7 @@
       <output-test url="file://$MODULE_DIR$/../../submodules/jasmine/plugins/com.gridnine.jasmine.server.zk/classes"/>
       <content url="file://$MODULE_DIR$/../../submodules/jasmine/plugins/com.gridnine.jasmine.server.zk">
          <sourceFolder url="file://$MODULE_DIR$/../../submodules/jasmine/plugins/com.gridnine.jasmine.server.zk/source" isTestSource="false"/>
+         <excludeFolder url="file://$MODULE_DIR$/../../submodules/jasmine/plugins/com.gridnine.jasmine.server.zk/classes"/>
       </content>
       <orderEntry type="sourceFolder" forTests="false"/>
       <orderEntry type="inheritedJdk"/>
