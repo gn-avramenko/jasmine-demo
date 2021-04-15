@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component name="ProjectModuleManager">
-   <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jasmine-demo-final.iml" filepath="$PROJECT_DIR$/.idea/modules/jasmine-demo-final.iml" group="jasmine-demo-final"/>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.common.core.iml" filepath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.common.core.iml" group="jasmine-demo-final"/>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.common.spf.iml" filepath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.common.spf.iml" group="jasmine-demo-final"/>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.common.core.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.common.core.test.iml" group="jasmine-demo-final"/>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.core.iml" filepath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.core.iml" group="jasmine-demo-final"/>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.db.h2.iml" filepath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.db.h2.iml" group="jasmine-demo-final"/>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.db.postgres.iml" filepath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.db.postgres.iml" group="jasmine-demo-final"/>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.core.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.core.test.iml" group="jasmine-demo-final"/>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.zk.iml" filepath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.zk.iml" group="jasmine-demo-final"/>
-   </modules>
-</component>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/IdeaProjects.jasmine-demo-final.iml" filepath="$PROJECT_DIR$/.idea/modules/IdeaProjects.jasmine-demo-final.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.common.core.iml" filepath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.common.core.iml" group="jasmine-demo-final" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.common.core.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.common.core.test.iml" group="jasmine-demo-final" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.common.spf.iml" filepath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.common.spf.iml" group="jasmine-demo-final" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.core.iml" filepath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.core.iml" group="jasmine-demo-final" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.core.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.core.test.iml" group="jasmine-demo-final" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.db.h2.iml" filepath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.db.h2.iml" group="jasmine-demo-final" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.db.postgres.iml" filepath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.db.postgres.iml" group="jasmine-demo-final" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.zk.iml" filepath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.zk.iml" group="jasmine-demo-final" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jasmine-demo-final.iml" filepath="$PROJECT_DIR$/.idea/modules/jasmine-demo-final.iml" group="jasmine-demo-final" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/submodules/jasmine-demo-final.submodules.iml" filepath="$PROJECT_DIR$/.idea/modules/submodules/jasmine-demo-final.submodules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/submodules/jasmine/jasmine-demo-final.submodules.jasmine.iml" filepath="$PROJECT_DIR$/.idea/modules/submodules/jasmine/jasmine-demo-final.submodules.jasmine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/submodules/jasmine/build-scripts/jasmine-demo-final.submodules.jasmine.build-scripts.iml" filepath="$PROJECT_DIR$/.idea/modules/submodules/jasmine/build-scripts/jasmine-demo-final.submodules.jasmine.build-scripts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/submodules/jasmine/build-scripts/jasmine-demo-final.submodules.jasmine.build-scripts.main.iml" filepath="$PROJECT_DIR$/.idea/modules/submodules/jasmine/build-scripts/jasmine-demo-final.submodules.jasmine.build-scripts.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/submodules/jasmine/build-scripts/jasmine-demo-final.submodules.jasmine.build-scripts.test.iml" filepath="$PROJECT_DIR$/.idea/modules/submodules/jasmine/build-scripts/jasmine-demo-final.submodules.jasmine.build-scripts.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/submodules/spf/jasmine-demo-final.submodules.spf.iml" filepath="$PROJECT_DIR$/.idea/modules/submodules/spf/jasmine-demo-final.submodules.spf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/submodules/spf-updater/jasmine-demo-final.submodules.spf-updater.iml" filepath="$PROJECT_DIR$/.idea/modules/submodules/spf-updater/jasmine-demo-final.submodules.spf-updater.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/submodules/spf-updater/jasmine-demo-final.submodules.spf-updater.main.iml" filepath="$PROJECT_DIR$/.idea/modules/submodules/spf-updater/jasmine-demo-final.submodules.spf-updater.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/submodules/spf-updater/jasmine-demo-final.submodules.spf-updater.test.iml" filepath="$PROJECT_DIR$/.idea/modules/submodules/spf-updater/jasmine-demo-final.submodules.spf-updater.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/submodules/spf/jasmine-demo-final.submodules.spf.main.iml" filepath="$PROJECT_DIR$/.idea/modules/submodules/spf/jasmine-demo-final.submodules.spf.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/submodules/spf/jasmine-demo-final.submodules.spf.test.iml" filepath="$PROJECT_DIR$/.idea/modules/submodules/spf/jasmine-demo-final.submodules.spf.test.iml" />
+    </modules>
+  </component>
+</project>
