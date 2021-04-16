@@ -15,6 +15,12 @@
 /home/avramenko/IdeaProjects/jasmine-demo-final/submodules/jasmine/plugins/com.gridnine.jasmine.common.standard/
 /home/avramenko/IdeaProjects/jasmine-demo-final/submodules/jasmine/plugins/com.gridnine.jasmine.common.standard/classes/
 /home/avramenko/IdeaProjects/jasmine-demo-final/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/
+/home/avramenko/IdeaProjects/jasmine-demo-final/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/classes/
+/home/avramenko/IdeaProjects/jasmine-demo-final/plugins/com.gridnine.jasmine.common.demo/
+/home/avramenko/IdeaProjects/jasmine-demo-final/plugins/com.gridnine.jasmine.common.demo/classes/
+/home/avramenko/IdeaProjects/jasmine-demo-final/plugins/com.gridnine.jasmine.server.demo/
+/home/avramenko/IdeaProjects/jasmine-demo-final/plugins/com.gridnine.jasmine.server.demo/classes/
+/home/avramenko/IdeaProjects/jasmine-demo-final/plugins/com.gridnine.jasmine.server.demo/resources/
 /home/avramenko/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/7c4f3c474fb2c041d8028740440937705ebb473a/logback-classic-1.2.3.jar
 /home/avramenko/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.4.10/998caa30623f73223194a8b657abd2baec4880ea/kotlin-stdlib-jdk8-1.4.10.jar
 /home/avramenko/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.4.10/e2b3c6695eee6085e606d96d685396dce23a3a06/kotlin-reflect-1.4.10.jar
@@ -24,6 +30,7 @@
 /home/avramenko/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.30/ad32909314fe2ba02cec036434c0addd19bcc580/tomcat-embed-core-9.0.30.jar
 /home/avramenko/.gradle/caches/modules-2/files-2.1/com.nothome/javaxdelta/2.0.1/d4f5d077f1b15c6f67595015d69572303ad3f66d/javaxdelta-2.0.1.jar
 /home/avramenko/.gradle/caches/modules-2/files-2.1/org.ehcache/ehcache/3.8.1/ae19c7f2f63f5e88f00ccd189b22c535ab75b01a/ehcache-3.8.1.jar
+/home/avramenko/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.30/d58bebff8cbf70ff52b59208586095f467656c30/jul-to-slf4j-1.7.30.jar
 /home/avramenko/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.200/f7533fe7cb8e99c87a43d325a77b4b678ad9031a/h2-1.4.200.jar
 /home/avramenko/.gradle/caches/modules-2/files-2.1/org.postgresql/postgresql/42.2.18/a0a9c1d43c7727eeaf1b729477891185d3c71751/postgresql-42.2.18.jar
 /home/avramenko/.gradle/caches/modules-2/files-2.1/org.zkoss.zk/zul/9.5.0.2/128b044292bed852e0a3d88b97b25213492ca9de/zul-9.5.0.2.jar

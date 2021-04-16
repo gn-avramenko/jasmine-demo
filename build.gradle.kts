@@ -24,6 +24,10 @@ jasmine {
         plugin("com.gridnine.jasmine.common.standard")
         plugin("com.gridnine.jasmine.server.standard")
     }
+    plugins("plugins"){
+        plugin("com.gridnine.jasmine.common.demo")
+        plugin("com.gridnine.jasmine.server.demo")
+    }
 }
 
 repositories{
