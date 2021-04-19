@@ -3,6 +3,8 @@
  * Project: Jasmine
  *****************************************************************/
 
+@file:Suppress("unused")
+
 package com.gridnine.jasmine.server.demo.activator
 
 import com.gridnine.jasmine.common.core.app.Environment
@@ -64,7 +66,7 @@ class DemoActivator : IPluginActivator {
         }
     }
 
-    override fun activate() {
+    override fun activate(config: Properties) {
         log.info("activating from demo activator")
         AuthUtils.setCurrentUser("system")
         val size = Storage.get().searchDocuments(DemoUserAccountIndex::class, SearchQuery()).size

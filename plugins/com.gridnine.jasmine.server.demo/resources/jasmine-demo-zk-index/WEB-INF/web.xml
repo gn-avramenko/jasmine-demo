@@ -35,5 +35,12 @@
         <servlet-name>zkLoader</servlet-name>
         <url-pattern>/*</url-pattern>
     </servlet-mapping>
-
+    <servlet>
+        <servlet-name>ui-rest-servlet</servlet-name>
+        <servlet-class>com.gridnine.jasmine.server.core.rest.RestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ui-rest-servlet</servlet-name>
+        <url-pattern>/ui-rest/*</url-pattern>
+    </servlet-mapping>
 </web-app>
