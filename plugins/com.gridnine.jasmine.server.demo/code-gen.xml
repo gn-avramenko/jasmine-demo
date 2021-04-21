@@ -1,3 +1,5 @@
 <code-gen xmlns="http://gridnine.com/jasmine/codegen">
     <generate source="demo-ui" targetPlugin="com.gridnine.jasmine.server.demo" generator="server-ui"/>
+    <source id="demo-server-misc" location="source/com/gridnine/jasmine/server/demo/model/demo-server-model-misc.xml"/>
+    <generate source="demo-server-misc" targetPlugin="com.gridnine.jasmine.server.demo" generator="common-misc"/>
 </code-gen>

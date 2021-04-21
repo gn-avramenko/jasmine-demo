@@ -7,6 +7,8 @@
         <plugin-dependency plugin-id="com.gridnine.jasmine.server.core"/>
         <plugin-dependency plugin-id="com.gridnine.jasmine.server.standard"/>
         <plugin-dependency plugin-id="com.gridnine.jasmine.server.zk"/>
+        <plugin-dependency plugin-id="com.gridnine.jasmine.common.reports"/>
+        <plugin-dependency plugin-id="com.gridnine.jasmine.server.reports"/>
     </dependencies>
     <extension point-id="activator">
         <parameter id="class" value="com.gridnine.jasmine.server.demo.activator.DemoActivator"/>

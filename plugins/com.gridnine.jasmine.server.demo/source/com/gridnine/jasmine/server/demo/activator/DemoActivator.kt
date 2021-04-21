@@ -10,6 +10,8 @@ package com.gridnine.jasmine.server.demo.activator
 import com.gridnine.jasmine.common.core.app.Environment
 import com.gridnine.jasmine.common.core.app.IPluginActivator
 import com.gridnine.jasmine.common.core.app.Registry
+import com.gridnine.jasmine.common.core.meta.MiscMetaRegistry
+import com.gridnine.jasmine.common.core.parser.MiscMetadataParser
 import com.gridnine.jasmine.common.core.storage.SearchQuery
 import com.gridnine.jasmine.common.core.storage.Storage
 import com.gridnine.jasmine.common.core.utils.AuthUtils
@@ -21,6 +23,7 @@ import com.gridnine.jasmine.server.core.ui.widgets.restAutocompleteUrl
 import com.gridnine.jasmine.server.core.web.WebAppFilter
 import com.gridnine.jasmine.server.core.web.WebApplication
 import com.gridnine.jasmine.server.core.web.WebServerConfig
+import com.gridnine.jasmine.server.demo.reports.DemoReportServerHandler
 import com.gridnine.jasmine.server.demo.storage.DemoComplexDocumentIndexHandler
 import com.gridnine.jasmine.server.demo.storage.DemoComplexDocumentVariantIndexHandler
 import com.gridnine.jasmine.server.demo.storage.DemoUserAccountIndexHandler
@@ -39,6 +42,7 @@ class DemoActivator : IPluginActivator {
     private val log = LoggerFactory.getLogger(javaClass)
     override fun configure(config: Properties) {
         log.info("configuring from demo activator")
+        MiscMetadataParser.updateMiscMetaRegistry(MiscMetaRegistry.get(), "com/gridnine/jasmine/server/demo/model/demo-server-model-misc.xml", javaClass.classLoader)
         StorageRegistry.get().register(DemoComplexDocumentIndexHandler())
         StorageRegistry.get().register(DemoComplexDocumentVariantIndexHandler())
         StorageRegistry.get().register(DemoUserAccountIndexHandler())
@@ -52,6 +56,8 @@ class DemoActivator : IPluginActivator {
         Registry.get().register(DemoUserAccountUiHandler())
         Registry.get().register(DemoComplexDocumentUiHandler())
         ViewEditorInterceptorsRegistry.get().register(DemoComplexDocumentNestedDocumentTileSpaceEditorInterceptor())
+
+        Registry.get().register(DemoReportServerHandler())
     }
 
     private fun addApp(context: String, res: String, file: String) {

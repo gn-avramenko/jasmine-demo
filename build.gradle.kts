@@ -23,6 +23,8 @@ jasmine {
         plugin("com.gridnine.jasmine.server.zk")
         plugin("com.gridnine.jasmine.common.standard")
         plugin("com.gridnine.jasmine.server.standard")
+        plugin("com.gridnine.jasmine.common.reports")
+        plugin("com.gridnine.jasmine.server.reports")
     }
     plugins("plugins"){
         plugin("com.gridnine.jasmine.common.demo")

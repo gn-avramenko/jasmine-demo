@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<misc-objects xmlns="http://gridnine.com/jasmine/misc">
+    <enum id="com.gridnine.jasmine.server.demo.model.reports.DemoReportType">
+        <enum-item id="DEMO_REPORT"/>
+    </enum>
+    <enum id="com.gridnine.jasmine.server.demo.model.reports.DemoReportParametersIds">
+        <enum-item id="USER"/>
+    </enum>
+</misc-objects>

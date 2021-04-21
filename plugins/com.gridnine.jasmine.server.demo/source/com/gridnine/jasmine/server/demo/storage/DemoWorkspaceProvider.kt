@@ -12,6 +12,7 @@ import com.gridnine.jasmine.common.core.utils.AuthUtils
 import com.gridnine.jasmine.common.demo.model.domain.DemoComplexDocumentIndex
 import com.gridnine.jasmine.common.demo.model.domain.DemoComplexDocumentVariantIndex
 import com.gridnine.jasmine.common.demo.model.domain.DemoUserAccountIndex
+import com.gridnine.jasmine.common.reports.model.domain.ReportDescriptionIndex
 import com.gridnine.jasmine.common.standard.model.domain.*
 import com.gridnine.jasmine.server.standard.model.WorkspaceProvider
 
@@ -69,6 +70,13 @@ class DemoWorkspaceProvider : WorkspaceProvider {
                 item.columns.add(DemoComplexDocumentVariantIndex.titleProperty.name)
                 item.listId = DemoComplexDocumentVariantIndex::class.qualifiedName
                 item.displayName = "Вложенные объекты"
+                group.items.add(item)
+            }
+            run {
+                val item = ListWorkspaceItem()
+                item.columns.add(ReportDescriptionIndex.nameProperty.name)
+                item.listId = ReportDescriptionIndex::class.qualifiedName
+                item.displayName = "Отчеты"
                 group.items.add(item)
             }
             result.groups.add(group)
