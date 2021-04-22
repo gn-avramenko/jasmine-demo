@@ -20,6 +20,8 @@
 /home/avramenko/IdeaProjects/jasmine-demo-final/submodules/jasmine/plugins/com.gridnine.jasmine.common.reports/classes/
 /home/avramenko/IdeaProjects/jasmine-demo-final/submodules/jasmine/plugins/com.gridnine.jasmine.server.reports/
 /home/avramenko/IdeaProjects/jasmine-demo-final/submodules/jasmine/plugins/com.gridnine.jasmine.server.reports/classes/
+/home/avramenko/IdeaProjects/jasmine-demo-final/submodules/jasmine/plugins/com.gridnine.jasmine.server.reports.zk/
+/home/avramenko/IdeaProjects/jasmine-demo-final/submodules/jasmine/plugins/com.gridnine.jasmine.server.reports.zk/classes/
 /home/avramenko/IdeaProjects/jasmine-demo-final/plugins/com.gridnine.jasmine.common.demo/
 /home/avramenko/IdeaProjects/jasmine-demo-final/plugins/com.gridnine.jasmine.common.demo/classes/
 /home/avramenko/IdeaProjects/jasmine-demo-final/plugins/com.gridnine.jasmine.server.demo/
