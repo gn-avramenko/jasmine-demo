@@ -6,12 +6,19 @@ buildscript {
         "classpath"(files("gradle/jasmine-gradle-plugin.jar"))
     }
 }
+plugins {
+    id("com.github.node-gradle.node") version("2.2.3")
+}
+
+
 apply<com.gridnine.jasmine.gradle.plugin.JasmineConfigPlugin>()
 
 
 jasmine {
     kotlinVersion = "1.4.10"
+    kotlinCoroutinesJSVersion ="1.4.3"
     libRelativePath = "submodules/jasmine/lib"
+    enableWebTasks = true
     plugins("submodules/jasmine/plugins") {
         plugin("com.gridnine.jasmine.common.core")
         plugin("com.gridnine.jasmine.common.spf")
@@ -20,22 +27,23 @@ jasmine {
         plugin("com.gridnine.jasmine.server.db.h2")
         plugin("com.gridnine.jasmine.server.db.postgres")
         plugin("com.gridnine.jasmine.server.core.test")
-        plugin("com.gridnine.jasmine.server.zk")
         plugin("com.gridnine.jasmine.common.standard")
         plugin("com.gridnine.jasmine.server.standard")
         plugin("com.gridnine.jasmine.common.reports")
         plugin("com.gridnine.jasmine.server.reports")
-        plugin("com.gridnine.jasmine.server.reports.zk")
+        plugin("com.gridnine.jasmine.web.core")
+        plugin("com.gridnine.jasmine.web.core.test")
     }
     plugins("plugins"){
         plugin("com.gridnine.jasmine.common.demo")
         plugin("com.gridnine.jasmine.server.demo")
+        plugin("com.gridnine.jasmine.web.demo")
+        plugin("com.gridnine.jasmine.web.demo.test")
     }
 }
 
 repositories{
     mavenCentral()
-    jcenter()
 }
 
 apply<com.gridnine.jasmine.gradle.plugin.JasminePlugin>()

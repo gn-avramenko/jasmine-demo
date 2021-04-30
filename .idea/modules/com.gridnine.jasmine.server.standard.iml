@@ -5,7 +5,6 @@
       <output-test url="file://$MODULE_DIR$/../../submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/classes"/>
       <content url="file://$MODULE_DIR$/../../submodules/jasmine/plugins/com.gridnine.jasmine.server.standard">
          <sourceFolder url="file://$MODULE_DIR$/../../submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source" isTestSource="false"/>
-         <sourceFolder url="file://$MODULE_DIR$/../../submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source-gen" isTestSource="false" generated="true"/>
          <excludeFolder url="file://$MODULE_DIR$/../../submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/classes"/>
       </content>
       <orderEntry type="sourceFolder" forTests="false"/>

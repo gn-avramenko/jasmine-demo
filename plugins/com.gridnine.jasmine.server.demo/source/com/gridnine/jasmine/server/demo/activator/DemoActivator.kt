@@ -17,9 +17,6 @@ import com.gridnine.jasmine.common.core.storage.Storage
 import com.gridnine.jasmine.common.core.utils.AuthUtils
 import com.gridnine.jasmine.common.demo.model.domain.*
 import com.gridnine.jasmine.server.core.storage.StorageRegistry
-import com.gridnine.jasmine.server.core.ui.common.ObjectEditorsRegistry
-import com.gridnine.jasmine.server.core.ui.common.ViewEditorInterceptorsRegistry
-import com.gridnine.jasmine.server.core.ui.widgets.restAutocompleteUrl
 import com.gridnine.jasmine.server.core.web.WebAppFilter
 import com.gridnine.jasmine.server.core.web.WebApplication
 import com.gridnine.jasmine.server.core.web.WebServerConfig
@@ -28,7 +25,6 @@ import com.gridnine.jasmine.server.demo.storage.DemoComplexDocumentIndexHandler
 import com.gridnine.jasmine.server.demo.storage.DemoComplexDocumentVariantIndexHandler
 import com.gridnine.jasmine.server.demo.storage.DemoUserAccountIndexHandler
 import com.gridnine.jasmine.server.demo.storage.DemoWorkspaceProvider
-import com.gridnine.jasmine.server.demo.ui.*
 import com.gridnine.jasmine.server.demo.web.DemoAuthFilter
 import com.gridnine.jasmine.server.standard.model.WorkspaceProvider
 import org.slf4j.LoggerFactory
@@ -46,16 +42,13 @@ class DemoActivator : IPluginActivator {
         StorageRegistry.get().register(DemoComplexDocumentIndexHandler())
         StorageRegistry.get().register(DemoComplexDocumentVariantIndexHandler())
         StorageRegistry.get().register(DemoUserAccountIndexHandler())
-        addApp("","jasmine-demo-zk-index","lib/jasmine-demo-zk-index.war")
-        addApp("/zk-adapter","zk-adapter","lib/zk-adapter.war")
-        restAutocompleteUrl = "/ui-rest/standard_standard_autocompleteSelect2"
+        addApp("","jasmine-demo-index","lib/jasmine-demo-index.war")
+        addApp("/jasmine-core","jasmine-core","lib/jasmine-core.war")
+        addApp("/webapp-demo","webapp-demo","lib/webapp-demo.war")
+//        addApp("/zk-adapter","zk-adapter","lib/zk-adapter.war")
+//        restAutocompleteUrl = "/ui-rest/standard_standard_autocompleteSelect2"
         WebServerConfig.get().globalFilters.add(WebAppFilter("demo-auth-filter", DemoAuthFilter::class))
         Environment.publish(WorkspaceProvider::class, DemoWorkspaceProvider())
-        ObjectEditorsRegistry.get().register(DemoUserAccountEditorHandler())
-        ObjectEditorsRegistry.get().register(DemoComplexDocumentEditorHandler())
-        Registry.get().register(DemoUserAccountUiHandler())
-        Registry.get().register(DemoComplexDocumentUiHandler())
-        ViewEditorInterceptorsRegistry.get().register(DemoComplexDocumentNestedDocumentTileSpaceEditorInterceptor())
 
         Registry.get().register(DemoReportServerHandler())
     }

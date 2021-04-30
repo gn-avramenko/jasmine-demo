@@ -1,0 +1,7 @@
+<plugin xmlns="http://xtrip.gridnine.com/spf" id="com.gridnine.jasmine.web.demo">
+    <parameter id="type" value="WEB"/>
+    <parameter id="kotlin-output-dir" value="resources/webapp-demo"/>
+    <dependencies>
+        <plugin-dependency plugin-id="com.gridnine.jasmine.web.core"/>
+    </dependencies>
+</plugin>

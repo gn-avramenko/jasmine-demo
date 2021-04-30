@@ -1,6 +1,0 @@
-<language-addon>
-    <addon-name>zk-adapter</addon-name><!-- any name you like -->
-    <language-name>xul/html</language-name>
-    <javascript src="../zk-adapter/js/zk-adapter.js"/> <!-- assume you package it as /myjs/foo.js -->
-    <stylesheet href="../zk-adapter/css/zk-adapter.css" type="text/css"/>
-</language-addon>

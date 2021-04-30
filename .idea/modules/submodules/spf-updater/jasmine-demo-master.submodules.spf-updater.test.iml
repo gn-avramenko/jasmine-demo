@@ -6,11 +6,9 @@
     <content url="file://$MODULE_DIR$/../../../../submodules/spf-updater/src/test" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="jasmine-demo-final.submodules.spf-updater.main" />
-    <orderEntry type="library" name="Gradle: javax.xml.bind:jaxb-api:2.3.1" level="project" />
-    <orderEntry type="library" name="Gradle: junit:junit:4.12" level="project" />
-    <orderEntry type="library" name="Gradle: javax.activation:javax.activation-api:1.2.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="module" module-name="jasmine-demo-master.submodules.spf-updater.main" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: junit:junit:4.12" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
   </component>
-  <component name="TestModuleProperties" production-module="jasmine-demo-final.submodules.spf-updater.main" />
+  <component name="TestModuleProperties" production-module="jasmine-demo-master.submodules.spf-updater.main" />
 </module>

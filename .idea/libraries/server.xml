@@ -15,12 +15,10 @@
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/com.sun.xml.fastinfoset/FastInfoset/1.2.15/bb7b7ec0379982b97c62cd17465cb6d9155f68e8/FastInfoset-1.2.15.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/com.zaxxer/SparseBitSet/1.2/8467c813d442837fcaeddbc42cf5c5359fab4933/SparseBitSet-1.2.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.15/49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d/commons-codec-1.15.jar!/"/>
-         <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/commons-fileupload/commons-fileupload/1.4/f95188e3d372e20e7328706c37ef366e5d7859b0/commons-fileupload-1.4.jar!/"/>
-         <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.6/815893df5f31da2ece4040fe0a12fd44b577afaf/commons-io-2.6.jar!/"/>
+         <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/1.3.1/b90b6ac57cf27a2858eaa490d02ba7945d18ca7b/commons-io-1.3.1.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/de.rototor.pdfbox/graphics2d/0.30/e34a2638d08357e206a9df58fdc90d7c8eec4600/graphics2d-0.30.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/javax.activation/javax.activation-api/1.2.0/85262acf3ca9816f9537ca47d5adeabaead7cb16/javax.activation-api-1.2.0.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/javax.xml.bind/jaxb-api/2.3.1/8531ad5ac454cc2deb9d4d32c40c4d7451939b5d/jaxb-api-2.3.1.jar!/"/>
-         <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.apache-extras.beanshell/bsh/2.0b6/fb418f9b33a0b951e9a2978b4b6ee93b2707e72f/bsh-2.0b6.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-collections4/4.4/62ebe7544cb7164d87e0637a2a6a2bdc981395e8/commons-collections4-4.4.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.20/b8df472b31e1f17c232d2ad78ceb1c84e00c641b/commons-compress-1.20.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-math3/3.6.1/e4ba98f1d4b3c80ec46392f25e094a6a2e58fcbf/commons-math3-3.6.1.jar!/"/>
@@ -75,7 +73,6 @@
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.ehcache/ehcache/3.8.1/ae19c7f2f63f5e88f00ccd189b22c535ab75b01a/ehcache-3.8.1.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-runtime/2.3.1/dd6dda9da676a54c5b36ca2806ff95ee017d8738/jaxb-runtime-2.3.1.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/txw2/2.3.1/a09d2c48d3285f206fafbffe0e50619284e92126/txw2-2.3.1.jar!/"/>
-         <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.18.2-GA/1180a90fbad732b60fb728a6bbe8fcb3151423d7/javassist-3.18.2-GA.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.4.10/e2b3c6695eee6085e606d96d685396dce23a3a06/kotlin-reflect-1.4.10.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.4.10/6229be3465805c99db1142ad75e6c6ddeac0b04c/kotlin-stdlib-common-1.4.10.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.4.10/30e46450b0bb3dbf43898d2f461be4a942784780/kotlin-stdlib-jdk7-1.4.10.jar!/"/>
@@ -87,21 +84,11 @@
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.30/cd92524ea19d27e5b94ecd251e1af729cffdfe15/jcl-over-slf4j-1.7.30.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.30/d58bebff8cbf70ff52b59208586095f467656c30/jul-to-slf4j-1.7.30.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.30/b5a4b6d16ab13e34a88fae84c35cd5d68cac922c/slf4j-api-1.7.30.jar!/"/>
-         <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.zkoss.common/zcommon/9.5.0.2/d15a546d76802ad2fdc994d0b1f4138e74aa1bcf/zcommon-9.5.0.2.jar!/"/>
-         <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.zkoss.common/zel/9.5.0.2/1251b5f25286404eb052dd928e34968c010d5e92/zel-9.5.0.2.jar!/"/>
-         <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.zkoss.common/zweb/9.5.0.2/84ac64d6e80cdf23df26c704a751130450cbc679/zweb-9.5.0.2.jar!/"/>
-         <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.zkoss.theme/silvertail/9.5.0.2/9f497365a8cd18f25fa01a29ab9f32c2dba6458a/silvertail-9.5.0.2.jar!/"/>
-         <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.zkoss.zk/zhtml/9.5.0.2/1601560f24c1885cb2dcbd51aca8e8e0467d98c9/zhtml-9.5.0.2.jar!/"/>
-         <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.zkoss.zk/zk/9.5.0.2/751eba11eda9e0f894bd96f050ac76452b3115c8/zk-9.5.0.2.jar!/"/>
-         <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.zkoss.zk/zkwebfragment/9.5.0.2/13c5349e316e0a2dfebcf330f81a4ea361bdd1ef/zkwebfragment-9.5.0.2.jar!/"/>
-         <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.zkoss.zk/zul/9.5.0.2/128b044292bed852e0a3d88b97b25213492ca9de/zul-9.5.0.2.jar!/"/>
-         <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.zkoss/zsoup/1.8.2.5/7e0a355052c9403ef51d91d315aeaca76967afcf/zsoup-1.8.2.5.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/trove/trove/1.0.2/112b40581ab9a4d3de4636d49985a7f686d181c8/trove-1.0.2.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/xalan/serializer/2.7.2/24247f3bb052ee068971393bdb83e04512bb1c3c/serializer-2.7.2.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.2/d55d3f02a56ec4c25695fe67e1334ff8c2ecea23/xalan-2.7.2.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis-ext/1.3.04/41a8b86b358e87f3f13cf46069721719105aff66/xml-apis-ext-1.3.04.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.4.01/3789d9fada2d3d458c4ba2de349d48780f381ee3/xml-apis-1.4.01.jar!/"/>
-         <root url="jar:///home/avramenko/IdeaProjects/jasmine-demo-final/submodules/jasmine/plugins/com.gridnine.jasmine.server.zk/resources/zk-select2.jar!/"/>
       </CLASSES>
       <JAVADOC/>
       <SOURCES>
@@ -118,12 +105,10 @@
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/com.sun.xml.fastinfoset/FastInfoset/1.2.15/2679fa1855aebe1a48e4ec6928eafe7d261bf228/FastInfoset-1.2.15-sources.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/com.zaxxer/SparseBitSet/1.2/ee5e8ac60eb99a373a4d3e0a35d1feccfabddc33/SparseBitSet-1.2-sources.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.15/843bc57fd042051e994846da8167bb7ca677a6d/commons-codec-1.15-sources.jar!/"/>
-         <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/commons-fileupload/commons-fileupload/1.4/d50ee98902746c6a351662fa8b728189d1a30e90/commons-fileupload-1.4-sources.jar!/"/>
-         <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.6/2566800dc841d9d2c5a0d34d807e45d4107dbbdf/commons-io-2.6-sources.jar!/"/>
+         <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/1.3.1/10e13eb33d8c2c55a2517ca47d109626520e4e59/commons-io-1.3.1-sources.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/de.rototor.pdfbox/graphics2d/0.30/ed4fb7dc638741f6ac969ac2775f4576905d8e9c/graphics2d-0.30-sources.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/javax.activation/javax.activation-api/1.2.0/1b4c6e77d35adab19794746d8ea753df30d77dca/javax.activation-api-1.2.0-sources.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/javax.xml.bind/jaxb-api/2.3.1/e47264d065cecbc572ba99856fcc7da19a470ae3/jaxb-api-2.3.1-sources.jar!/"/>
-         <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.apache-extras.beanshell/bsh/2.0b6/76a65f674e8f2df409934824c49ca338987c63ae/bsh-2.0b6-sources.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-collections4/4.4/6260e416ff273ee938b31b0a8e512a367b1ee500/commons-collections4-4.4-sources.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.20/8388cb084d8934ee9a66a2f613f0ee5a98abfad7/commons-compress-1.20-sources.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-math3/3.6.1/8fab23986ea8886af34818daf32a718e81dc98ba/commons-math3-3.6.1-sources.jar!/"/>
@@ -173,7 +158,6 @@
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.ehcache/ehcache/3.8.1/33eff8be889857b5ba53f1e3ec93fdd72594f97d/ehcache-3.8.1-sources.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-runtime/2.3.1/a6eab08c0837ac6ff0b1c1ad47d7945b1385fbda/jaxb-runtime-2.3.1-sources.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/txw2/2.3.1/b83e3d8869ba034c44b8b0b233bc050b0c051700/txw2-2.3.1-sources.jar!/"/>
-         <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.18.2-GA/7163084913aa7399e4ce2cbc3ee5c00ac2b1f35f/javassist-3.18.2-GA-sources.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.4.10/d0b96b542fcc85544df2b7ac2f0fbceaded2d90a/kotlin-reflect-1.4.10-sources.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.4.10/d971e5bb07a7f610eda65e5efc8decbd0548a270/kotlin-stdlib-common-1.4.10-sources.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.4.10/710a0b1d4fa5e809dd4005eff7e334ee38f33ae8/kotlin-stdlib-jdk7-1.4.10-sources.jar!/"/>
@@ -185,15 +169,6 @@
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.30/f2442e369a190089a2774920b5e73a4d4c1ef793/jcl-over-slf4j-1.7.30-sources.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.30/f9e7f2ae73c3ef9c375a325cea1ef1dcc2613579/jul-to-slf4j-1.7.30-sources.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.30/71a1fdefa224da50f1db6306ce609981e20186c9/slf4j-api-1.7.30-sources.jar!/"/>
-         <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.zkoss.common/zcommon/9.5.0.2/4348957ddc1d167fd62d3ce6f44b103e550d3812/zcommon-9.5.0.2-sources.jar!/"/>
-         <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.zkoss.common/zel/9.5.0.2/510c0ca4940a3f663d2a932c879f28a504d272d6/zel-9.5.0.2-sources.jar!/"/>
-         <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.zkoss.common/zweb/9.5.0.2/729c40222b4ebf3be09c2b2ab052bdd01b0e0704/zweb-9.5.0.2-sources.jar!/"/>
-         <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.zkoss.theme/silvertail/9.5.0.2/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/silvertail-9.5.0.2-sources.jar!/"/>
-         <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.zkoss.zk/zhtml/9.5.0.2/83e27d809f8caa38cdd7d6de44c197b9c7a138a8/zhtml-9.5.0.2-sources.jar!/"/>
-         <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.zkoss.zk/zk/9.5.0.2/1fe93e2dd606fc8fe985663d6a8f1ef7414c344/zk-9.5.0.2-sources.jar!/"/>
-         <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.zkoss.zk/zkwebfragment/9.5.0.2/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/zkwebfragment-9.5.0.2-sources.jar!/"/>
-         <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.zkoss.zk/zul/9.5.0.2/25bfd2d52ea054c102fba2b1d930bf6465d895f/zul-9.5.0.2-sources.jar!/"/>
-         <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/org.zkoss/zsoup/1.8.2.5/19ced2b928f26eb45a02cc426bc60e420feba694/zsoup-1.8.2.5-sources.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/xalan/serializer/2.7.2/fe9c3d37a49238fac9d4d6c4f5bbd8c334da787a/serializer-2.7.2-sources.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.2/fe9c3d37a49238fac9d4d6c4f5bbd8c334da787a/xalan-2.7.2-sources.jar!/"/>
          <root url="jar:///home/avramenko/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.4.01/5502da0c4c0a7916a604356ef19394ccfa30cd4b/xml-apis-1.4.01-sources.jar!/"/>
