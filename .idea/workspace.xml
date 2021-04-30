@@ -23,236 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52ba39f3-a969-4fe3-b47d-c98f6c513343" name="Default Changelist" comment="report module">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/IdeaProjects.jasmine-demo-master.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.web.core.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/jasmine-demo-master.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/submodules/jasmine-demo-master.submodules.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/submodules/jasmine/build-scripts/jasmine-demo-master.submodules.jasmine.build-scripts.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/submodules/jasmine/build-scripts/jasmine-demo-master.submodules.jasmine.build-scripts.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/submodules/jasmine/build-scripts/jasmine-demo-master.submodules.jasmine.build-scripts.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/submodules/jasmine/jasmine-demo-master.submodules.jasmine.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/submodules/spf-updater/jasmine-demo-master.submodules.spf-updater.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/submodules/spf-updater/jasmine-demo-master.submodules.spf-updater.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/submodules/spf-updater/jasmine-demo-master.submodules.spf-updater.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/submodules/spf/jasmine-demo-master.submodules.spf.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/submodules/spf/jasmine-demo-master.submodules.spf.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/submodules/spf/jasmine-demo-master.submodules.spf.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.server.demo/resources/jasmine-demo-index/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.server.demo/resources/jasmine-demo-index/index-prod.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.server.demo/resources/jasmine-demo-index/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.web.demo.test/plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.web.demo.test/resources/js/com.gridnine.jasmine.web.demo.test-individual-launcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.web.demo.test/resources/js/com.gridnine.jasmine.web.demo.test-suite-launcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.web.demo.test/source/com/gridnine/jasmine/web/demo/test/suite/DemoIndividualTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.web.demo/plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.web.demo/source/com/gridnine/jasmine/web/demo/activator/web-demo-activator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/NodeJsInstallUglifyTask.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/NodeJsInstallWebpackCliTask.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/NodeJsInstallWebpackTask.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/NodeJsRunUglifyTask.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/NodeJsRunWebpackTask.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/source/com/gridnine/jasmine/common/core/meta/core-meta-web-messages.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/source/com/gridnine/jasmine/common/core/meta/core-web-messages.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/source/com/gridnine/jasmine/common/core/meta/l10n/core-web-messages_ru.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/source/com/gridnine/jasmine/common/core/meta/web-messages.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/source/com/gridnine/jasmine/common/core/parser/core-meta-parser-web-messages.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source/com/gridnine/jasmine/server/standard/rest/server-standard-rest-meta.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core.test/plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core.test/resources/js/core-test-initializer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core.test/source/com/gridnine/jasmine/web/core/test/ext/external-libs-test.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/common/core/meta/core-meta-common-js.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/common/core/meta/core-meta-custom-js.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/common/core/meta/core-meta-domain-js.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/common/core/meta/core-meta-l10n-js.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/common/core/meta/core-meta-misc-js.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/common/core/meta/core-meta-rest-js.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/common/core/meta/core-meta-ui-js.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/web/core/activator/web-core-activator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/web/core/common/ActivatorJS.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/web/core/common/EnvironmentJS.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/web/core/common/web-core-errors.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/web/core/common/web-core-registry.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/web/core/l10n/WebCoreL10nMessages.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/web/core/l10n/WebCoreL10nMessagesInitializer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/web/core/remote/WebCoreMetaRegistriesUpdater.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/web/core/remote/web-core-coroutines.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/web/core/remote/web-core-rest-js.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/web/core/ui/WebUiLibraryAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/web/core/utils/MiscUtilsJS.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core.test/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/server.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/web_js.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/web_js.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/IdeaProjects.jasmine-demo-final.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.common.core.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.common.core.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.core.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.core.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.standard.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.standard.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/submodules/jasmine-demo-final.submodules.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/submodules/jasmine/build-scripts/jasmine-demo-final.submodules.jasmine.build-scripts.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/submodules/jasmine/build-scripts/jasmine-demo-final.submodules.jasmine.build-scripts.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/submodules/jasmine/build-scripts/jasmine-demo-final.submodules.jasmine.build-scripts.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/submodules/jasmine/jasmine-demo-final.submodules.jasmine.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/submodules/spf-updater/jasmine-demo-final.submodules.spf-updater.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/submodules/spf-updater/jasmine-demo-final.submodules.spf-updater.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/submodules/spf-updater/jasmine-demo-final.submodules.spf-updater.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/submodules/spf/jasmine-demo-final.submodules.spf.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/submodules/spf/jasmine-demo-final.submodules.spf.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/submodules/spf/jasmine-demo-final.submodules.spf.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/jasmine-gradle-plugin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/jasmine-gradle-plugin.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/externals-test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/externals-test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/externals.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/externals.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.server.demo/code-gen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.server.demo/code-gen.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.server.demo/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.server.demo/plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.server.demo/resources/jasmine-demo-zk-index/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.server.demo/resources/jasmine-demo-zk-index/WEB-INF/zk-adapter-addon.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.server.demo/resources/jasmine-demo-zk-index/WEB-INF/zk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.server.demo/source/com/gridnine/jasmine/server/demo/activator/DemoActivator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.server.demo/source/com/gridnine/jasmine/server/demo/activator/DemoActivator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.server.demo/source/com/gridnine/jasmine/server/demo/ui/DemoComplexDocumentEditorHandler.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.server.demo/source/com/gridnine/jasmine/server/demo/ui/DemoUserAccountEditorHandler.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.server.demo/source/com/gridnine/jasmine/server/demo/ui/DemoUserAccountUiHandler.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.server.demo/source/com/gridnine/jasmine/server/demo/ui/demo-ui-complex-document.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.server.demo/source/com/gridnine/jasmine/server/demo/web/JasmineRichlet.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/build-scripts/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/JasminePlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/JasminePlugin.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/config-plugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/config-plugin.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/CodeGenPluginTask.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/CodeGenPluginTask.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/CompileKotlinJSPluginTask.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/CompileKotlinJSPluginTask.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/NodeJsStartTestInIDETask.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/NodeJsStartTestInIDETask.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/StartIndividualJSTestInIDETask.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/StartIndividualJSTestInIDETask.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/StopTestServerInIDETask.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/StopTestServerInIDETask.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/create-libraries.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/create-libraries.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/source/com/gridnine/jasmine/common/core/activator/CoreActivator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/source/com/gridnine/jasmine/common/core/activator/CoreActivator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/source/com/gridnine/jasmine/common/core/app/core-registry.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/source/com/gridnine/jasmine/common/core/app/core-registry.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/source/com/gridnine/jasmine/common/core/meta/core-meta-misc.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/source/com/gridnine/jasmine/common/core/meta/core-meta-misc.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.standard/code-gen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.standard/code-gen.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.standard/source/com/gridnine/jasmine/common/standard/activator/StandardCommonActivator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.standard/source/com/gridnine/jasmine/common/standard/activator/StandardCommonActivator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.standard/source/com/gridnine/jasmine/common/standard/model/standard-rest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.standard/source/com/gridnine/jasmine/common/standard/model/core-rest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/code-gen.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/build/GridContainerGenerator.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/build/NavigatorEditorGenerator.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/build/TileSpaceWidgetGenerator.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/build/UiServerGenerator.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/common/ui-common.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/common/ui-editor.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/common/ui-versions-helper.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/components/ui-component-accordion.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/components/ui-component-boolean-box.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/components/ui-component-border-container.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/components/ui-component-context-menu.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/components/ui-component-data-grid.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/components/ui-component-date-box.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/components/ui-component-date-time-box.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/components/ui-component-dialog.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/components/ui-component-divs-container.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/components/ui-component-grid-layout.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/components/ui-component-label.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/components/ui-component-link-button.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/components/ui-component-menu-button.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/components/ui-component-number-box.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/components/ui-component-panel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/components/ui-component-password-box.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/components/ui-component-select.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/components/ui-component-tabbox.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/components/ui-component-table.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/components/ui-component-text-box.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/components/ui-component-tiles-container.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/components/ui-component-tree.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/components/ui-library-adapter.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/utils/UiUtils.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/widgets/ui-widget-big-decimal.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/widgets/ui-widget-boolean-box.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/widgets/ui-widget-date-box.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/widgets/ui-widget-date-time-box.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/widgets/ui-widget-entity-autocomplete-common.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/widgets/ui-widget-entity-box-multivalues.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/widgets/ui-widget-entity-box-value.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/widgets/ui-widget-enum-box-multi-values.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/widgets/ui-widget-enum-box-value.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/widgets/ui-widget-general-select-value.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/widgets/ui-widget-grid-cell.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/widgets/ui-widget-int-box.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/widgets/ui-widget-navigator.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/widgets/ui-widget-password-box.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/widgets/ui-widget-search-box.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/widgets/ui-widget-table.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/widgets/ui-widget-text-box.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/ui/widgets/ui-widget-tile-space.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.reports.zk/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.reports.zk/plugin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.reports.zk/source/com/gridnine/jasmine/reports/zk/activator/ZkReportsActivator.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.reports.zk/source/com/gridnine/jasmine/reports/zk/components/ZkReportResultPanel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.reports.zk/source/com/gridnine/jasmine/reports/zk/components/ZkReportsUiComponentsFactory.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.reports/source-gen/com/gridnine/jasmine/server/reports/model/StandardReportRequestedParameterId.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.reports/source-gen/com/gridnine/jasmine/server/reports/model/StandardReportRequestedParameterId.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.reports/source/com/gridnine/jasmine/server/reports/activator/ServerReportsActivator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.reports/source/com/gridnine/jasmine/server/reports/activator/ServerReportsActivator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.reports/source/com/gridnine/jasmine/server/reports/ui/ui-reports-main-frame-handlers.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.reports/source/com/gridnine/jasmine/server/reports/ui/ui-reports-parameters-handlers.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.reports/source/com/gridnine/jasmine/server/reports/ui/ui-reports-result-panel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/code-gen.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source/com/gridnine/jasmine/server/standard/activator/StandardServerActivator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source/com/gridnine/jasmine/server/standard/activator/StandardServerActivator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source/com/gridnine/jasmine/server/standard/rest/Select2AutocompleteRestHandler.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source/com/gridnine/jasmine/server/standard/ui/mainframe/tools/AdditionalMenuButton.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source/com/gridnine/jasmine/server/standard/ui/mainframe/tools/DeleteListToolButton.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source/com/gridnine/jasmine/server/standard/ui/mainframe/tools/SaveObjectEditorButton.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source/com/gridnine/jasmine/server/standard/ui/mainframe/tools/ui-show-versions-tool.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source/com/gridnine/jasmine/server/standard/ui/mainframe/ui-list-filters.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source/com/gridnine/jasmine/server/standard/ui/mainframe/ui-list-handler.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source/com/gridnine/jasmine/server/standard/ui/mainframe/ui-mainframe-common.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source/com/gridnine/jasmine/server/standard/ui/mainframe/ui-mainframe.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source/com/gridnine/jasmine/server/standard/ui/mainframe/ui-object-editor-handler.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source/com/gridnine/jasmine/server/standard/ui/mainframe/workspace/WorkspaceGroupEditorHandler.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source/com/gridnine/jasmine/server/standard/ui/mainframe/workspace/ui-compaund-criterions-handler.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source/com/gridnine/jasmine/server/standard/ui/mainframe/workspace/ui-criterions-list-editor.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source/com/gridnine/jasmine/server/standard/ui/mainframe/workspace/ui-dynamic-criterion-handler.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source/com/gridnine/jasmine/server/standard/ui/mainframe/workspace/ui-dynamic-criterion-value-renderers.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source/com/gridnine/jasmine/server/standard/ui/mainframe/workspace/ui-list-workspace-editor.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source/com/gridnine/jasmine/server/standard/ui/mainframe/workspace/ui-simple-criterion-handler.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source/com/gridnine/jasmine/server/standard/ui/mainframe/workspace/ui-simple-criterion-values-editors.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source/com/gridnine/jasmine/server/standard/ui/mainframe/workspace/ui-workspace-common.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source/com/gridnine/jasmine/server/standard/ui/mainframe/workspace/ui-workspace-editor.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.zk/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.zk/plugin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.zk/resources/zk-adapter/css/zk-adapter.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.zk/resources/zk-adapter/js/zk-adapter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.zk/resources/zk-select2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.zk/source/com/gridnine/jasmine/server/zk/activator/ZkActivator.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.zk/source/com/gridnine/jasmine/server/zk/ui/components/ZkAccordionContainer.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.zk/source/com/gridnine/jasmine/server/zk/ui/components/ZkBooleanBox.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.zk/source/com/gridnine/jasmine/server/zk/ui/components/ZkBorderContainer.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.zk/source/com/gridnine/jasmine/server/zk/ui/components/ZkDataGrid.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.zk/source/com/gridnine/jasmine/server/zk/ui/components/ZkDateBox.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.zk/source/com/gridnine/jasmine/server/zk/ui/components/ZkDateTimeBox.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.zk/source/com/gridnine/jasmine/server/zk/ui/components/ZkDivsContainer.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.zk/source/com/gridnine/jasmine/server/zk/ui/components/ZkGridLayoutContainer.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.zk/source/com/gridnine/jasmine/server/zk/ui/components/ZkLabel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.zk/source/com/gridnine/jasmine/server/zk/ui/components/ZkLinkButton.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.zk/source/com/gridnine/jasmine/server/zk/ui/components/ZkMenuButton.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.zk/source/com/gridnine/jasmine/server/zk/ui/components/ZkNumberBox.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.zk/source/com/gridnine/jasmine/server/zk/ui/components/ZkPanel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.zk/source/com/gridnine/jasmine/server/zk/ui/components/ZkPasswordBox.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.zk/source/com/gridnine/jasmine/server/zk/ui/components/ZkSelect.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.zk/source/com/gridnine/jasmine/server/zk/ui/components/ZkTabbox.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.zk/source/com/gridnine/jasmine/server/zk/ui/components/ZkTable.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.zk/source/com/gridnine/jasmine/server/zk/ui/components/ZkTextBox.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.zk/source/com/gridnine/jasmine/server/zk/ui/components/ZkTilesContainer.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.zk/source/com/gridnine/jasmine/server/zk/ui/components/ZkTree.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.zk/source/com/gridnine/jasmine/server/zk/ui/components/zk-server-ui-dialog.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.zk/source/com/gridnine/jasmine/server/zk/ui/components/zk-ui-component-context-menu.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.zk/source/com/gridnine/jasmine/server/zk/ui/components/zk-ui-component-notifications.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.zk/source/com/gridnine/jasmine/server/zk/ui/components/zk-ui-components-common.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/spf" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/spf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/spf-updater" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/spf-updater" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/spf-updater/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/spf-updater/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/spf/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/spf/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/spf/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/spf/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -396,7 +168,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/source/com/gridnine/jasmine/common/core/parser" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core.test" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15000002" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -404,11 +176,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core.test" />
       <recent name="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/source/com/gridnine/jasmine/common/core/parser" />
       <recent name="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/source/com/gridnine/jasmine/common/core/meta/l10n" />
       <recent name="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/source/com/gridnine/jasmine/common/core/meta" />
       <recent name="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/web/core/remote" />
-      <recent name="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/common/core/meta" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="com.gridnine.jasmine.web.core.utils" />
@@ -776,7 +548,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619286229182</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="web core">
+      <created>1619804010465</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1619804010465</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -798,7 +577,8 @@
     <MESSAGE value="code cleanup" />
     <MESSAGE value="dynamic criterions" />
     <MESSAGE value="report module" />
-    <option name="LAST_COMMIT_MESSAGE" value="report module" />
+    <MESSAGE value="web core" />
+    <option name="LAST_COMMIT_MESSAGE" value="web core" />
   </component>
   <component name="WindowStateProjectService">
     <state x="713" y="186" key="#Auto_Import" timestamp="1618412352476">
@@ -849,38 +629,38 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="809" y="430" key="Github.Dialog.Accounts.Choose/0.0.1920.1044@0.0.1920.1044" timestamp="1618066923476" />
-    <state width="1874" height="326" key="GridCell.Tab.0.bottom" timestamp="1619801573420">
+    <state width="1874" height="326" key="GridCell.Tab.0.bottom" timestamp="1619803982854">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="326" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1619801573420" />
-    <state width="1874" height="326" key="GridCell.Tab.0.center" timestamp="1619801573418">
+    <state width="1874" height="326" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1619803982854" />
+    <state width="1874" height="326" key="GridCell.Tab.0.center" timestamp="1619803982852">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="326" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1619801573418" />
-    <state width="1874" height="326" key="GridCell.Tab.0.left" timestamp="1619801573417">
+    <state width="1874" height="326" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1619803982852" />
+    <state width="1874" height="326" key="GridCell.Tab.0.left" timestamp="1619803982851">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="326" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1619801573417" />
-    <state width="1874" height="326" key="GridCell.Tab.0.right" timestamp="1619801573419">
+    <state width="1874" height="326" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1619803982851" />
+    <state width="1874" height="326" key="GridCell.Tab.0.right" timestamp="1619803982853">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="326" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1619801573419" />
-    <state width="1874" height="326" key="GridCell.Tab.1.bottom" timestamp="1619801572028">
+    <state width="1874" height="326" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1619803982853" />
+    <state width="1874" height="326" key="GridCell.Tab.1.bottom" timestamp="1619803982856">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="326" key="GridCell.Tab.1.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1619801572028" />
-    <state width="1874" height="326" key="GridCell.Tab.1.center" timestamp="1619801572028">
+    <state width="1874" height="326" key="GridCell.Tab.1.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1619803982856" />
+    <state width="1874" height="326" key="GridCell.Tab.1.center" timestamp="1619803982855">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="326" key="GridCell.Tab.1.center/0.0.1920.1044@0.0.1920.1044" timestamp="1619801572027" />
-    <state width="1874" height="326" key="GridCell.Tab.1.left" timestamp="1619801572027">
+    <state width="1874" height="326" key="GridCell.Tab.1.center/0.0.1920.1044@0.0.1920.1044" timestamp="1619803982855" />
+    <state width="1874" height="326" key="GridCell.Tab.1.left" timestamp="1619803982854">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="326" key="GridCell.Tab.1.left/0.0.1920.1044@0.0.1920.1044" timestamp="1619801572027" />
-    <state width="1874" height="326" key="GridCell.Tab.1.right" timestamp="1619801572028">
+    <state width="1874" height="326" key="GridCell.Tab.1.left/0.0.1920.1044@0.0.1920.1044" timestamp="1619803982854" />
+    <state width="1874" height="326" key="GridCell.Tab.1.right" timestamp="1619803982855">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="326" key="GridCell.Tab.1.right/0.0.1920.1044@0.0.1920.1044" timestamp="1619801572028" />
+    <state width="1874" height="326" key="GridCell.Tab.1.right/0.0.1920.1044@0.0.1920.1044" timestamp="1619803982855" />
     <state x="481" y="199" key="RollbackChangesDialog" timestamp="1618494823923">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
