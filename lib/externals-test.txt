@@ -17,6 +17,8 @@
 /home/avramenko/IdeaProjects/jasmine-demo-master/submodules/jasmine/plugins/com.gridnine.jasmine.server.reports/
 /home/avramenko/IdeaProjects/jasmine-demo-master/submodules/jasmine/plugins/com.gridnine.jasmine.server.reports/classes/
 /home/avramenko/IdeaProjects/jasmine-demo-master/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/resources/
+/home/avramenko/IdeaProjects/jasmine-demo-master/submodules/jasmine/plugins/com.gridnine.jasmine.web.standard/resources/
+/home/avramenko/IdeaProjects/jasmine-demo-master/submodules/jasmine/plugins/com.gridnine.jasmine.web.reports/resources/
 /home/avramenko/IdeaProjects/jasmine-demo-master/plugins/com.gridnine.jasmine.common.demo/
 /home/avramenko/IdeaProjects/jasmine-demo-master/plugins/com.gridnine.jasmine.common.demo/classes/
 /home/avramenko/IdeaProjects/jasmine-demo-master/plugins/com.gridnine.jasmine.server.demo/

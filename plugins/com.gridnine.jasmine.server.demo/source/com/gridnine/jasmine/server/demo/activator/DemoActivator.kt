@@ -11,6 +11,7 @@ import com.gridnine.jasmine.common.core.app.Environment
 import com.gridnine.jasmine.common.core.app.IPluginActivator
 import com.gridnine.jasmine.common.core.app.Registry
 import com.gridnine.jasmine.common.core.meta.MiscMetaRegistry
+import com.gridnine.jasmine.common.core.meta.WebPluginsAssociationsRegistry
 import com.gridnine.jasmine.common.core.parser.MiscMetadataParser
 import com.gridnine.jasmine.common.core.storage.SearchQuery
 import com.gridnine.jasmine.common.core.storage.Storage
@@ -27,6 +28,8 @@ import com.gridnine.jasmine.server.demo.storage.DemoUserAccountIndexHandler
 import com.gridnine.jasmine.server.demo.storage.DemoWorkspaceProvider
 import com.gridnine.jasmine.server.demo.web.DemoAuthFilter
 import com.gridnine.jasmine.server.standard.model.WorkspaceProvider
+import com.gridnine.jasmine.server.standard.rest.ExceptionFilter
+import com.gridnine.jasmine.server.standard.rest.KotlinFileDevFilter
 import org.slf4j.LoggerFactory
 import java.io.File
 import java.time.LocalDate
@@ -43,11 +46,19 @@ class DemoActivator : IPluginActivator {
         StorageRegistry.get().register(DemoComplexDocumentVariantIndexHandler())
         StorageRegistry.get().register(DemoUserAccountIndexHandler())
         addApp("","jasmine-demo-index","lib/jasmine-demo-index.war")
+        WebPluginsAssociationsRegistry.get().links["com.gridnine.jasmine.web.core"] = "/jasmine-core/com.gridnine.jasmine.web.core.js"
+        WebPluginsAssociationsRegistry.get().links["com.gridnine.jasmine.web.standard"] = "/jasmine-standard/com.gridnine.jasmine.web.standard.js"
+        WebPluginsAssociationsRegistry.get().links["com.gridnine.jasmine.web.reports"] = "/jasmine-reports/com.gridnine.jasmine.web.reports.js"
+        WebPluginsAssociationsRegistry.get().links["com.gridnine.jasmine.web.demo"] = "/webapp-demo/com.gridnine.jasmine.web.demo.js"
         addApp("/jasmine-core","jasmine-core","lib/jasmine-core.war")
+        addApp("/jasmine-standard","jasmine-standard","lib/jasmine-standard.war")
+        addApp("/jasmine-reports","jasmine-reports","lib/jasmine-reports.war")
         addApp("/webapp-demo","webapp-demo","lib/webapp-demo.war")
 //        addApp("/zk-adapter","zk-adapter","lib/zk-adapter.war")
 //        restAutocompleteUrl = "/ui-rest/standard_standard_autocompleteSelect2"
         WebServerConfig.get().globalFilters.add(WebAppFilter("demo-auth-filter", DemoAuthFilter::class))
+        WebServerConfig.get().globalFilters.add(WebAppFilter("kotlin-dev-filter", KotlinFileDevFilter::class))
+        WebServerConfig.get().globalFilters.add(WebAppFilter("exception-filter", ExceptionFilter::class))
         Environment.publish(WorkspaceProvider::class, DemoWorkspaceProvider())
 
         Registry.get().register(DemoReportServerHandler())

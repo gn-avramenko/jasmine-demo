@@ -22,9 +22,82 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52ba39f3-a969-4fe3-b47d-c98f6c513343" name="Default Changelist" comment="report module">
-      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core.test/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="52ba39f3-a969-4fe3-b47d-c98f6c513343" name="Default Changelist" comment="plugins dynamic loader">
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/source/com/gridnine/jasmine/common/core/build/PluginAssociationsGenerator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/source/com/gridnine/jasmine/common/core/build/core-codegen-domain-web.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/source/com/gridnine/jasmine/common/core/build/core-codegen-rest-web.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/source/com/gridnine/jasmine/common/core/meta/WebPluginsAssociationsRegistry.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.reports/source/com/gridnine/jasmine/common/reports/model/reports-rest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.standard/source/com/gridnine/jasmine/common/standard/model/standard-rest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.reports/source/com/gridnine/jasmine/server/reports/rest/workspace-reports-to-dt-converters.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source/com/gridnine/jasmine/server/standard/rest/StandardGetPluginUrlHandler.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source/com/gridnine/jasmine/server/standard/rest/server-standard-rest-workspace.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source/com/gridnine/jasmine/server/standard/rest/standard-rest-filters.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source/com/gridnine/jasmine/server/standard/rest/workspace-dynamic-value-to-dt-converter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source/com/gridnine/jasmine/server/standard/rest/workspace-list-to-dt-converters.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/common/core/model/core-model-common-js.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/common/core/model/core-model-domain-js.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/common/core/model/core-model-rest-js.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/common/core/model/core-model-ui-js.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/web/core/reflection/ReflectionFactoryJS.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/web/core/remote/web-core-plugins.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/web/core/serialization/CloneHelperJS.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/web/core/serialization/JsonSerializerJS.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/web/core/serialization/core-serialization-common-js.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/web/core/serialization/core-serialization-custom-js.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/web/core/serialization/core-serialization-domain-js.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/web/core/serialization/core-serialization-rest-js.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/web/core/serialization/core-serialization-ui-js.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.reports/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.reports/code-gen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.reports/plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.reports/source/com/gridnine/jasmine/web/reports/activator/web-reports-activator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.standard/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.standard/code-gen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.standard/plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.standard/source/com/gridnine/jasmine/web/standard/activator/web-standard-activator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.common.reports.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.common.reports.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.standard.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.standard.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.web.core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.web.core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.web.core.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.web.core.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.web.demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.web.demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.web.demo.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.web.demo.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/jasmine-gradle-plugin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/jasmine-gradle-plugin.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/externals-test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/externals-test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/externals.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/externals.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.server.demo/resources/jasmine-demo-index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.server.demo/resources/jasmine-demo-index/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.server.demo/source/com/gridnine/jasmine/server/demo/activator/DemoActivator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.server.demo/source/com/gridnine/jasmine/server/demo/activator/DemoActivator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.server.demo/source/com/gridnine/jasmine/server/demo/storage/DemoWorkspaceProvider.kt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.server.demo/source/com/gridnine/jasmine/server/demo/storage/DemoWorkspaceProvider.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.web.demo/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.web.demo/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.web.demo/source/com/gridnine/jasmine/web/demo/activator/web-demo-activator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.web.demo/source/com/gridnine/jasmine/web/demo/activator/web-demo-activator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/CreateModulesTask.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/CreateModulesTask.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/code-gen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/code-gen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/source/com/gridnine/jasmine/common/core/activator/CoreActivator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/source/com/gridnine/jasmine/common/core/activator/CoreActivator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/source/com/gridnine/jasmine/common/core/build/build-code-gen-task.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/source/com/gridnine/jasmine/common/core/build/build-code-gen-task.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/source/com/gridnine/jasmine/common/core/build/core-codegen-domain-common.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/source/com/gridnine/jasmine/common/core/build/core-codegen-domain-common.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/source/com/gridnine/jasmine/common/core/build/core-codegen-rest-common.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/source/com/gridnine/jasmine/common/core/build/core-codegen-rest-common.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/source/com/gridnine/jasmine/common/core/serialization/SerializationProvider.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/source/com/gridnine/jasmine/common/core/serialization/SerializationProvider.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.reports/code-gen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.reports/code-gen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.reports/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.reports/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.reports/source/com/gridnine/jasmine/common/reports/activator/CommonReportsActivator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.reports/source/com/gridnine/jasmine/common/reports/activator/CommonReportsActivator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.reports/source/com/gridnine/jasmine/common/reports/model/reports-domain.xml" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.reports/source/com/gridnine/jasmine/common/reports/model/reports-domain.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.standard/code-gen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.standard/code-gen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.standard/source/com/gridnine/jasmine/common/standard/activator/StandardCommonActivator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.standard/source/com/gridnine/jasmine/common/standard/activator/StandardCommonActivator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.standard/source/com/gridnine/jasmine/common/standard/model/core-rest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.standard/source/com/gridnine/jasmine/common/standard/model/core-rest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.standard/source/com/gridnine/jasmine/common/standard/model/standard-model-domain.xml" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.standard/source/com/gridnine/jasmine/common/standard/model/standard-model-domain.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.reports/source/com/gridnine/jasmine/server/reports/activator/ServerReportsActivator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.reports/source/com/gridnine/jasmine/server/reports/activator/ServerReportsActivator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source/com/gridnine/jasmine/server/standard/activator/StandardServerActivator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source/com/gridnine/jasmine/server/standard/activator/StandardServerActivator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source/com/gridnine/jasmine/server/standard/rest/server-standard-rest-meta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source/com/gridnine/jasmine/server/standard/rest/server-standard-rest-meta.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/common/core/meta/core-meta-domain-js.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/common/core/meta/core-meta-domain-js.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/common/core/meta/core-meta-misc-js.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/web/core/activator/web-core-activator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/web/core/activator/web-core-activator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/web/core/remote/WebCoreMetaRegistriesUpdater.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/web/core/remote/WebCoreMetaRegistriesUpdater.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/web/core/remote/web-core-rest-js.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/web/core/remote/web-core-rest-js.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,18 +163,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="jasmine-demo-master" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="uglify" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="jasmine-demo-master" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="webpack" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="jasmine-demo-master" type="f1a62948:ProjectNode" />
                 <item name="submodules" type="2d1252cf:ModuleNode" />
               </path>
               <path>
@@ -144,6 +205,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -168,7 +230,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core.test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source/com/gridnine/jasmine/server/standard/rest" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15000002" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -176,18 +238,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core.test" />
-      <recent name="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/source/com/gridnine/jasmine/common/core/parser" />
-      <recent name="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/source/com/gridnine/jasmine/common/core/meta/l10n" />
-      <recent name="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/source/com/gridnine/jasmine/common/core/meta" />
-      <recent name="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/web/core/remote" />
+      <recent name="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source/com/gridnine/jasmine/server/standard/rest" />
+      <recent name="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.reports/source/com/gridnine/jasmine/web/reports/activator" />
+      <recent name="$PROJECT_DIR$/submodules/jasmine/plugins" />
+      <recent name="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.reports/source/com/gridnine/jasmine/server/reports/rest" />
+      <recent name="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.reports/source/com/gridnine/jasmine/common/reports/model" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.gridnine.jasmine.web.core.serialization" />
+      <recent name="com.gridnine.jasmine.web.core.reflection" />
       <recent name="com.gridnine.jasmine.web.core.utils" />
       <recent name="com.gridnine.jasmine.gradle.plugin.tasks" />
       <recent name="com.gridnine.jasmine.server.reports.model" />
-      <recent name="com.gridnine.jasmine.server.standard.rest" />
-      <recent name="com.gridnine.jasmine.server.zk.activator" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="com.gridnine.jasmine.common.demo.activator" />
@@ -247,25 +309,6 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="jasmine-demo-master [_NodeJsRunUglifyTask]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="_NodeJsRunUglifyTask" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="jasmine-demo-master [_NodeJsRunWebpackTask]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -290,7 +333,7 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="--stacktrace" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -304,21 +347,40 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="jasmine-demo-master:submodules:jasmine:build-scripts [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/submodules/jasmine/build-scripts" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.jasmine" />
       <item itemvalue="Gradle.jasmine-demo-final [makeProject]" />
       <item itemvalue="Gradle.jasmine-demo-master [_NodeJsRunWebpackTask]" />
-      <item itemvalue="Gradle.jasmine-demo-master [_NodeJsRunUglifyTask]" />
       <item itemvalue="Gradle.jasmine-demo-master [_NodeJsCopyJsFilesTask]" />
       <item itemvalue="Gradle.jasmine-demo-master [codeGen]" />
+      <item itemvalue="Gradle.jasmine-demo-master:submodules:jasmine:build-scripts [jar]" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.jasmine-demo-master [codeGen]" />
         <item itemvalue="Gradle.jasmine-demo-final [makeProject]" />
+        <item itemvalue="Gradle.jasmine-demo-master:submodules:jasmine:build-scripts [jar]" />
         <item itemvalue="Gradle.jasmine-demo-master [_NodeJsRunWebpackTask]" />
         <item itemvalue="Gradle.jasmine-demo-master [_NodeJsCopyJsFilesTask]" />
-        <item itemvalue="Gradle.jasmine-demo-master [_NodeJsRunUglifyTask]" />
       </list>
     </recent_temporary>
   </component>
@@ -555,7 +617,21 @@
       <option name="project" value="LOCAL" />
       <updated>1619804010465</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="web core">
+      <created>1619804366937</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1619804366937</updated>
+    </task>
+    <task id="LOCAL-00034" summary="web core">
+      <created>1619804373768</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1619804373768</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -578,25 +654,30 @@
     <MESSAGE value="dynamic criterions" />
     <MESSAGE value="report module" />
     <MESSAGE value="web core" />
-    <option name="LAST_COMMIT_MESSAGE" value="web core" />
+    <MESSAGE value="plugins dynamic loader" />
+    <option name="LAST_COMMIT_MESSAGE" value="plugins dynamic loader" />
   </component>
   <component name="WindowStateProjectService">
     <state x="713" y="186" key="#Auto_Import" timestamp="1618412352476">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="713" y="186" key="#Auto_Import/0.0.1920.1044@0.0.1920.1044" timestamp="1618412352476" />
-    <state x="442" y="93" width="1373" height="858" key="#Project_Structure" timestamp="1619794440299">
+    <state x="588" y="197" key="#Inspections" timestamp="1619967416246">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="442" y="93" width="1373" height="858" key="#Project_Structure/0.0.1920.1044@0.0.1920.1044" timestamp="1619794440299" />
+    <state x="588" y="197" key="#Inspections/0.0.1920.1044@0.0.1920.1044" timestamp="1619967416246" />
+    <state x="442" y="93" width="1373" height="858" key="#Project_Structure" timestamp="1619966219545">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="442" y="93" width="1373" height="858" key="#Project_Structure/0.0.1920.1044@0.0.1920.1044" timestamp="1619966219545" />
     <state x="417" y="173" width="1086" height="749" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619609243257">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="417" y="173" width="1086" height="749" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1619609243257" />
-    <state x="745" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1619796820130">
+    <state x="745" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1620143535281">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="745" y="234" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1619796820130" />
+    <state x="745" y="234" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1620143535281" />
     <state x="691" y="293" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1618824584278">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -609,58 +690,66 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="692" y="264" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1619522602386" />
+    <state x="860" y="273" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1619966072519">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="860" y="273" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1619966072519" />
     <state x="499" y="302" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1618824630707">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="499" y="302" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1618824630707" />
-    <state x="717" y="260" key="#xdebugger.evaluate" timestamp="1619798618545">
+    <state x="253" y="222" key="#xdebugger.evaluate" timestamp="1620146995531">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="717" y="260" key="#xdebugger.evaluate/0.0.1920.1044@0.0.1920.1044" timestamp="1619798618545" />
-    <state width="606" height="506" key="DebuggerActiveHint" timestamp="1619112304579">
+    <state x="253" y="222" key="#xdebugger.evaluate/0.0.1920.1044@0.0.1920.1044" timestamp="1620146995531" />
+    <state width="606" height="506" key="DebuggerActiveHint" timestamp="1619890981729">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="606" height="506" key="DebuggerActiveHint/0.0.1920.1044@0.0.1920.1044" timestamp="1619112304579" />
-    <state x="742" y="273" key="FileChooserDialogImpl" timestamp="1619522906881">
+    <state width="606" height="506" key="DebuggerActiveHint/0.0.1920.1044@0.0.1920.1044" timestamp="1619890981729" />
+    <state x="100" y="100" width="1720" height="844" key="DiffContextDialog" timestamp="1619966199507">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="742" y="273" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1619522906881" />
+    <state x="100" y="100" width="1720" height="844" key="DiffContextDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1619966199507" />
+    <state x="742" y="273" key="FileChooserDialogImpl" timestamp="1619886012068">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="742" y="273" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1619886012068" />
     <state x="809" y="430" key="Github.Dialog.Accounts.Choose" timestamp="1618066923476">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="809" y="430" key="Github.Dialog.Accounts.Choose/0.0.1920.1044@0.0.1920.1044" timestamp="1618066923476" />
-    <state width="1874" height="326" key="GridCell.Tab.0.bottom" timestamp="1619803982854">
+    <state width="1874" height="343" key="GridCell.Tab.0.bottom" timestamp="1620149136383">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="326" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1619803982854" />
-    <state width="1874" height="326" key="GridCell.Tab.0.center" timestamp="1619803982852">
+    <state width="1874" height="343" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1620149136383" />
+    <state width="1874" height="343" key="GridCell.Tab.0.center" timestamp="1620149136383">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="326" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1619803982852" />
-    <state width="1874" height="326" key="GridCell.Tab.0.left" timestamp="1619803982851">
+    <state width="1874" height="343" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1620149136383" />
+    <state width="1874" height="343" key="GridCell.Tab.0.left" timestamp="1620149136382">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="326" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1619803982851" />
-    <state width="1874" height="326" key="GridCell.Tab.0.right" timestamp="1619803982853">
+    <state width="1874" height="343" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1620149136382" />
+    <state width="1874" height="343" key="GridCell.Tab.0.right" timestamp="1620149136383">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="326" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1619803982853" />
-    <state width="1874" height="326" key="GridCell.Tab.1.bottom" timestamp="1619803982856">
+    <state width="1874" height="343" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1620149136383" />
+    <state width="1874" height="343" key="GridCell.Tab.1.bottom" timestamp="1620149136384">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="326" key="GridCell.Tab.1.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1619803982856" />
-    <state width="1874" height="326" key="GridCell.Tab.1.center" timestamp="1619803982855">
+    <state width="1874" height="343" key="GridCell.Tab.1.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1620149136384" />
+    <state width="1874" height="343" key="GridCell.Tab.1.center" timestamp="1620149136383">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="326" key="GridCell.Tab.1.center/0.0.1920.1044@0.0.1920.1044" timestamp="1619803982855" />
-    <state width="1874" height="326" key="GridCell.Tab.1.left" timestamp="1619803982854">
+    <state width="1874" height="343" key="GridCell.Tab.1.center/0.0.1920.1044@0.0.1920.1044" timestamp="1620149136383" />
+    <state width="1874" height="343" key="GridCell.Tab.1.left" timestamp="1620149136383">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="326" key="GridCell.Tab.1.left/0.0.1920.1044@0.0.1920.1044" timestamp="1619803982854" />
-    <state width="1874" height="326" key="GridCell.Tab.1.right" timestamp="1619803982855">
+    <state width="1874" height="343" key="GridCell.Tab.1.left/0.0.1920.1044@0.0.1920.1044" timestamp="1620149136383" />
+    <state width="1874" height="343" key="GridCell.Tab.1.right" timestamp="1620149136384">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="326" key="GridCell.Tab.1.right/0.0.1920.1044@0.0.1920.1044" timestamp="1619803982855" />
+    <state width="1874" height="343" key="GridCell.Tab.1.right/0.0.1920.1044@0.0.1920.1044" timestamp="1620149136384" />
     <state x="481" y="199" key="RollbackChangesDialog" timestamp="1618494823923">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -669,14 +758,14 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="442" y="93" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1619609590387" />
-    <state x="689" y="252" width="564" height="524" key="StructurePopup" timestamp="1619458660616">
+    <state x="689" y="252" width="564" height="524" key="StructurePopup" timestamp="1620147776729">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="689" y="252" width="564" height="524" key="StructurePopup/0.0.1920.1044@0.0.1920.1044" timestamp="1619458660616" />
-    <state x="554" y="251" key="Vcs.Push.Dialog.v2" timestamp="1619520466966">
+    <state x="689" y="252" width="564" height="524" key="StructurePopup/0.0.1920.1044@0.0.1920.1044" timestamp="1620147776729" />
+    <state x="554" y="251" key="Vcs.Push.Dialog.v2" timestamp="1619804384508">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="554" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1619520466966" />
+    <state x="554" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1619804384508" />
     <state x="756" y="295" key="chooseDestDirectoryDialog" timestamp="1618483638919">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -697,17 +786,17 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="624" y="236" key="run.anything.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1619190985291" />
-    <state x="623" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1619803674299">
+    <state x="623" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1620149000113">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="623" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1619803674299" />
+    <state x="623" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1620149000113" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/source/com/gridnine/jasmine/common/core/serialization/SerializationProvider.kt</url>
-          <line>388</line>
+          <line>394</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>

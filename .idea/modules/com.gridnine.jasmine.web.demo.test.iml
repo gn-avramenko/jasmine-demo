@@ -4,10 +4,11 @@
       <output url="file://$MODULE_DIR$/../../plugins/com.gridnine.jasmine.web.demo.test/resources/webapp-demo-test"/>
       <output-test url="file://$MODULE_DIR$/../../plugins/com.gridnine.jasmine.web.demo.test/resources/webapp-demo-test"/>
       <content url="file://$MODULE_DIR$/../../plugins/com.gridnine.jasmine.web.demo.test">
-         <sourceFolder url="file://$MODULE_DIR$/../../plugins/com.gridnine.jasmine.web.demo.test/source" isTestSource="false" type="kotlin-source"/>
+         <sourceFolder url="file://$MODULE_DIR$/../../plugins/com.gridnine.jasmine.web.demo.test/source" isTestSource="false"/>
          <excludeFolder url="file://$MODULE_DIR$/../../plugins/com.gridnine.jasmine.web.demo.test/resources/webapp-demo-test"/>
       </content>
       <orderEntry type="sourceFolder" forTests="true"/>
+      <orderEntry type="inheritedJdk"/>
       <orderEntry type="library" name="web_js" level="project"/>
       <orderEntry type="module" module-name="com.gridnine.jasmine.web.core"/>
       <orderEntry type="module" module-name="com.gridnine.jasmine.web.core.test"/>
