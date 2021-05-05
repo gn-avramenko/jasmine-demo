@@ -47,12 +47,18 @@ class DemoActivator : IPluginActivator {
         StorageRegistry.get().register(DemoUserAccountIndexHandler())
         addApp("","jasmine-demo-index","lib/jasmine-demo-index.war")
         WebPluginsAssociationsRegistry.get().links["com.gridnine.jasmine.web.core"] = "/jasmine-core/com.gridnine.jasmine.web.core.js"
+        WebPluginsAssociationsRegistry.get().links["com.gridnine.jasmine.web.easyui"] = "/jasmine-easyui/com.gridnine.jasmine.web.easyui.js"
         WebPluginsAssociationsRegistry.get().links["com.gridnine.jasmine.web.standard"] = "/jasmine-standard/com.gridnine.jasmine.web.standard.js"
         WebPluginsAssociationsRegistry.get().links["com.gridnine.jasmine.web.reports"] = "/jasmine-reports/com.gridnine.jasmine.web.reports.js"
         WebPluginsAssociationsRegistry.get().links["com.gridnine.jasmine.web.demo"] = "/webapp-demo/com.gridnine.jasmine.web.demo.js"
         addApp("/jasmine-core","jasmine-core","lib/jasmine-core.war")
+        addApp("/jasmine-easyui","jasmine-easyui","lib/jasmine-easyui.war")
         addApp("/jasmine-standard","jasmine-standard","lib/jasmine-standard.war")
         addApp("/jasmine-reports","jasmine-reports","lib/jasmine-reports.war")
+        addApp("/easyui-lib","easyui-lib","lib/easyui-lib.war")
+        addApp("/select2-lib","select2-lib","lib/select2-lib.war")
+        addApp("/easyui-adapter","easyui-adapter","lib/easyui-adapter.war")
+        addApp("/jquery-lib","jquery-lib","lib/jquery-lib.war")
         addApp("/webapp-demo","webapp-demo","lib/webapp-demo.war")
 //        addApp("/zk-adapter","zk-adapter","lib/zk-adapter.war")
 //        restAutocompleteUrl = "/ui-rest/standard_standard_autocompleteSelect2"

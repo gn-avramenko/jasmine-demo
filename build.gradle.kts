@@ -35,6 +35,7 @@ jasmine {
         plugin("com.gridnine.jasmine.web.core.test")
         plugin("com.gridnine.jasmine.web.standard")
         plugin("com.gridnine.jasmine.web.reports")
+        plugin("com.gridnine.jasmine.web.easyui")
     }
     plugins("plugins"){
         plugin("com.gridnine.jasmine.common.demo")
