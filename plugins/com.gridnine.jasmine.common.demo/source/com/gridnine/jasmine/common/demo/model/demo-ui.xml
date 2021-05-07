@@ -128,4 +128,8 @@
             </full-view>
         </tile>
     </tile-space>
+    <actions-group id="standard.workspace-tools">
+        <action id="demo.workspace-tools.start-stress-test" actionHandler="com.gridnine.jasmine.web.demo.stressTest.DemoStartStressTestActionHandler"/>
+        <action id="demo.workspace-tools.finish-stress-test" actionHandler="com.gridnine.jasmine.web.demo.stressTest.DemoFinishStressTestActionHandler"/>
+    </actions-group>
 </ui>
