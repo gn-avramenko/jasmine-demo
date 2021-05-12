@@ -13,16 +13,16 @@ import kotlinx.coroutines.delay
 class DemoStartStressTestActionHandler:SimpleActionHandler{
     override suspend fun invoke() {
         console.log("test started")
-        val item = window.asDynamic().reportsItem
+        val item = window.asDynamic().testItem
         console.log(item)
         val mainFrame = MainFrame.get()
         window.asDynamic().stopStressTest = false
         while (window.asDynamic().stopStressTest != true){
             mainFrame.openTab(item)
-            delay(1000)
+            delay(1500)
             val lastTab = mainFrame.tabs.getTabs().last()
             mainFrame.tabs.removeTab(lastTab.id)
-            delay(1000)
+            delay(1500)
         }
         console.log("test finished")
     }

@@ -132,4 +132,7 @@
         <action id="demo.workspace-tools.start-stress-test" actionHandler="com.gridnine.jasmine.web.demo.stressTest.DemoStartStressTestActionHandler"/>
         <action id="demo.workspace-tools.finish-stress-test" actionHandler="com.gridnine.jasmine.web.demo.stressTest.DemoFinishStressTestActionHandler"/>
     </actions-group>
+    <actions-group id="com.gridnine.jasmine.common.demo.model.domain.DemoUserAccountIndex">
+        <action-ref id="deleteSelectedListItems"/>
+    </actions-group>
 </ui>

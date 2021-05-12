@@ -5,17 +5,17 @@
 
 package com.gridnine.jasmine.web.demo.activator
 
-import com.gridnine.jasmine.common.standard.model.rest.ActionDescriptionDTJS
-import com.gridnine.jasmine.common.standard.model.rest.GetActionsRequestJS
 import com.gridnine.jasmine.common.standard.model.rest.GetWorkspaceItemRequestJS
 import com.gridnine.jasmine.common.standard.model.rest.GetWorkspaceRequestJS
 import com.gridnine.jasmine.web.core.common.ActivatorJS
 import com.gridnine.jasmine.web.core.common.EnvironmentJS
 import com.gridnine.jasmine.web.core.common.RegistryJS
+import com.gridnine.jasmine.web.core.remote.WebCoreMetaRegistriesUpdater
 import com.gridnine.jasmine.web.core.remote.launch
 import com.gridnine.jasmine.web.core.ui.WebUiLibraryAdapter
 import com.gridnine.jasmine.web.core.ui.components.SimpleActionHandler
 import com.gridnine.jasmine.web.core.ui.components.WebTabsContainerTool
+import com.gridnine.jasmine.web.demo.DomainReflectionUtilsJS
 import com.gridnine.jasmine.web.demo.UiReflectionUtilsJS
 import com.gridnine.jasmine.web.standard.ActionsIds
 import com.gridnine.jasmine.web.standard.StandardRestClient
@@ -50,10 +50,10 @@ fun main() {
         }
         val workspace = StandardRestClient.standard_standard_getWorkspace(GetWorkspaceRequestJS())
         mainFrame.setWorkspace(workspace.workspace)
-        val reportsItem = StandardRestClient.standard_standard_getWorkspaceItem(GetWorkspaceItemRequestJS().apply {
-            uid = workspace.workspace.groups.flatMap { it.items }.last().id
+        val testItem = StandardRestClient.standard_standard_getWorkspaceItem(GetWorkspaceItemRequestJS().apply {
+            uid = workspace.workspace.groups.flatMap { it.items }[1].id
         })
-        window.asDynamic().reportsItem = reportsItem.workspaceItem
+        window.asDynamic().testItem = testItem.workspaceItem
         EnvironmentJS.publish(mainFrame)
         WebUiLibraryAdapter.get().showWindow(mainFrame)
     }
@@ -61,6 +61,8 @@ fun main() {
 
 class WebDemoActivator : ActivatorJS{
     override suspend fun activate() {
+        WebCoreMetaRegistriesUpdater.updateMetaRegistries(pluginId)
+        DomainReflectionUtilsJS.registerWebDomainClasses()
         UiReflectionUtilsJS.registerWebUiClasses()
         console.log("demo module activated")
     }
