@@ -22,11 +22,13 @@ import com.gridnine.jasmine.server.core.web.WebAppFilter
 import com.gridnine.jasmine.server.core.web.WebApplication
 import com.gridnine.jasmine.server.core.web.WebServerConfig
 import com.gridnine.jasmine.server.demo.reports.DemoReportServerHandler
+import com.gridnine.jasmine.server.demo.rest.DemoUserAccountEditorHandler
 import com.gridnine.jasmine.server.demo.storage.DemoComplexDocumentIndexHandler
 import com.gridnine.jasmine.server.demo.storage.DemoComplexDocumentVariantIndexHandler
 import com.gridnine.jasmine.server.demo.storage.DemoUserAccountIndexHandler
 import com.gridnine.jasmine.server.demo.storage.DemoWorkspaceProvider
 import com.gridnine.jasmine.server.demo.web.DemoAuthFilter
+import com.gridnine.jasmine.server.standard.helpers.ObjectEditorsRegistry
 import com.gridnine.jasmine.server.standard.model.WorkspaceProvider
 import com.gridnine.jasmine.server.standard.rest.ExceptionFilter
 import com.gridnine.jasmine.server.standard.rest.KotlinFileDevFilter
@@ -68,6 +70,7 @@ class DemoActivator : IPluginActivator {
         Environment.publish(WorkspaceProvider::class, DemoWorkspaceProvider())
 
         Registry.get().register(DemoReportServerHandler())
+        ObjectEditorsRegistry.get().register(DemoUserAccountEditorHandler())
     }
 
     private fun addApp(context: String, res: String, file: String) {

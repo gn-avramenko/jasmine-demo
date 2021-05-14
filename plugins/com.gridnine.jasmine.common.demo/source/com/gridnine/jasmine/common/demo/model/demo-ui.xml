@@ -129,10 +129,16 @@
         </tile>
     </tile-space>
     <actions-group id="standard.workspace-tools">
-        <action id="demo.workspace-tools.start-stress-test" actionHandler="com.gridnine.jasmine.web.demo.stressTest.DemoStartStressTestActionHandler"/>
-        <action id="demo.workspace-tools.finish-stress-test" actionHandler="com.gridnine.jasmine.web.demo.stressTest.DemoFinishStressTestActionHandler"/>
+        <action id="demo.workspace-tools.start-stress-test" action-handler="com.gridnine.jasmine.web.demo.stressTest.DemoStartStressTestActionHandler"/>
+        <action id="demo.workspace-tools.finish-stress-test" action-handler="com.gridnine.jasmine.web.demo.stressTest.DemoFinishStressTestActionHandler"/>
     </actions-group>
     <actions-group id="com.gridnine.jasmine.common.demo.model.domain.DemoUserAccountIndex">
         <action-ref id="deleteSelectedListItems"/>
+    </actions-group>
+    <actions-group id="com.gridnine.jasmine.common.demo.model.domain.DemoUserAccount">
+        <action-ref id="standard.saveObject"/>
+        <group id="demo.user.account.additional">
+            <action-ref id="standard.showVersions"/>
+        </group>
     </actions-group>
 </ui>

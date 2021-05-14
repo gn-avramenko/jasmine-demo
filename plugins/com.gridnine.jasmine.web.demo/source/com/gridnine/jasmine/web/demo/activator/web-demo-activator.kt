@@ -5,6 +5,9 @@
 
 package com.gridnine.jasmine.web.demo.activator
 
+import com.gridnine.jasmine.common.core.model.BaseIndexJS
+import com.gridnine.jasmine.common.demo.model.domain.DemoUserAccountIndexJS
+import com.gridnine.jasmine.common.standard.model.rest.GetListRequestJS
 import com.gridnine.jasmine.common.standard.model.rest.GetWorkspaceItemRequestJS
 import com.gridnine.jasmine.common.standard.model.rest.GetWorkspaceRequestJS
 import com.gridnine.jasmine.web.core.common.ActivatorJS
@@ -17,8 +20,10 @@ import com.gridnine.jasmine.web.core.ui.components.SimpleActionHandler
 import com.gridnine.jasmine.web.core.ui.components.WebTabsContainerTool
 import com.gridnine.jasmine.web.demo.DomainReflectionUtilsJS
 import com.gridnine.jasmine.web.demo.UiReflectionUtilsJS
+import com.gridnine.jasmine.web.demo.ui.WebDemoUserAccountEditorHandler
 import com.gridnine.jasmine.web.standard.ActionsIds
 import com.gridnine.jasmine.web.standard.StandardRestClient
+import com.gridnine.jasmine.web.standard.editor.OpenObjectData
 import com.gridnine.jasmine.web.standard.mainframe.ActionWrapper
 import com.gridnine.jasmine.web.standard.mainframe.MainFrame
 import com.gridnine.jasmine.web.standard.mainframe.WebActionsHandler
@@ -50,10 +55,19 @@ fun main() {
         }
         val workspace = StandardRestClient.standard_standard_getWorkspace(GetWorkspaceRequestJS())
         mainFrame.setWorkspace(workspace.workspace)
-        val testItem = StandardRestClient.standard_standard_getWorkspaceItem(GetWorkspaceItemRequestJS().apply {
-            uid = workspace.workspace.groups.flatMap { it.items }[1].id
-        })
-        window.asDynamic().testItem = testItem.workspaceItem
+
+        val idx = StandardRestClient.standard_standard_getList(GetListRequestJS().apply {
+            listId = DemoUserAccountIndexJS.indexId.substringBeforeLast("JS")
+            rows = 10
+            page = 0
+            columns.add("name")
+        }).items[0] as BaseIndexJS
+        val testItem = OpenObjectData(idx.document!!.type, idx.document!!.uid, idx.uid)
+//        val testItem = StandardRestClient.standard_standard_getWorkspaceItem(GetWorkspaceItemRequestJS().apply {
+//            uid = workspace.workspace.groups.flatMap { it.items }[1].id
+//        })
+
+        window.asDynamic().testItem = testItem
         EnvironmentJS.publish(mainFrame)
         WebUiLibraryAdapter.get().showWindow(mainFrame)
     }
@@ -64,6 +78,7 @@ class WebDemoActivator : ActivatorJS{
         WebCoreMetaRegistriesUpdater.updateMetaRegistries(pluginId)
         DomainReflectionUtilsJS.registerWebDomainClasses()
         UiReflectionUtilsJS.registerWebUiClasses()
+        RegistryJS.get().register(WebDemoUserAccountEditorHandler())
         console.log("demo module activated")
     }
 
