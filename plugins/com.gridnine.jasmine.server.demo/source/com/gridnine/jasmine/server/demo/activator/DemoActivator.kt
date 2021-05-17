@@ -22,6 +22,7 @@ import com.gridnine.jasmine.server.core.web.WebAppFilter
 import com.gridnine.jasmine.server.core.web.WebApplication
 import com.gridnine.jasmine.server.core.web.WebServerConfig
 import com.gridnine.jasmine.server.demo.reports.DemoReportServerHandler
+import com.gridnine.jasmine.server.demo.rest.DemoComplexDocumentEditorHandler
 import com.gridnine.jasmine.server.demo.rest.DemoUserAccountEditorHandler
 import com.gridnine.jasmine.server.demo.storage.DemoComplexDocumentIndexHandler
 import com.gridnine.jasmine.server.demo.storage.DemoComplexDocumentVariantIndexHandler
@@ -71,6 +72,7 @@ class DemoActivator : IPluginActivator {
 
         Registry.get().register(DemoReportServerHandler())
         ObjectEditorsRegistry.get().register(DemoUserAccountEditorHandler())
+        ObjectEditorsRegistry.get().register(DemoComplexDocumentEditorHandler())
     }
 
     private fun addApp(context: String, res: String, file: String) {
