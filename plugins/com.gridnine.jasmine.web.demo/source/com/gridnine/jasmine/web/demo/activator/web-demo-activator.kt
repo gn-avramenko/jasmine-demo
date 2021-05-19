@@ -7,7 +7,6 @@ package com.gridnine.jasmine.web.demo.activator
 
 import com.gridnine.jasmine.common.core.model.BaseIndexJS
 import com.gridnine.jasmine.common.demo.model.domain.DemoComplexDocumentIndexJS
-import com.gridnine.jasmine.common.demo.model.domain.DemoUserAccountIndexJS
 import com.gridnine.jasmine.common.standard.model.rest.GetListRequestJS
 import com.gridnine.jasmine.common.standard.model.rest.GetWorkspaceRequestJS
 import com.gridnine.jasmine.web.core.common.ActivatorJS
