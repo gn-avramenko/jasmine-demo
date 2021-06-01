@@ -7,6 +7,7 @@
 
 package com.gridnine.jasmine.server.demo.storage
 
+import com.gridnine.jasmine.common.core.model.BaseAsset
 import com.gridnine.jasmine.common.core.storage.Storage
 import com.gridnine.jasmine.common.core.utils.AuthUtils
 import com.gridnine.jasmine.common.demo.model.domain.DemoComplexDocumentIndex
@@ -27,6 +28,7 @@ class DemoWorkspaceProvider : WorkspaceProvider {
     override fun saveWorkspace(workspace: Workspace):Workspace {
         val loginName = AuthUtils.getCurrentUser()
         workspace.uid = "${loginName}_workspace"
+        workspace.setValue(BaseAsset.revision, -1)
         Storage.get().saveDocument(workspace)
         return workspace
     }
