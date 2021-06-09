@@ -9,6 +9,7 @@ import com.gridnine.jasmine.common.core.model.ObjectReference
 import com.gridnine.jasmine.common.core.storage.*
 import com.gridnine.jasmine.common.demo.model.domain.DemoComplexDocumentIndex
 import com.gridnine.jasmine.common.demo.model.domain.DemoUserAccount
+import com.gridnine.jasmine.common.reports.model.domain.*
 import com.gridnine.jasmine.common.reports.model.misc.*
 import com.gridnine.jasmine.common.standard.model.l10n.StandardL10nMessagesFactory
 import com.gridnine.jasmine.server.demo.model.reports.DemoReportParametersIds
