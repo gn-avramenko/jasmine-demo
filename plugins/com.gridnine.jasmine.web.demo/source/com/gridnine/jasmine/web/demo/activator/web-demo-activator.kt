@@ -18,6 +18,7 @@ import com.gridnine.jasmine.web.core.ui.WebUiLibraryAdapter
 import com.gridnine.jasmine.web.core.ui.components.SimpleActionHandler
 import com.gridnine.jasmine.web.core.ui.components.WebTabsContainerTool
 import com.gridnine.jasmine.web.demo.DomainReflectionUtilsJS
+import com.gridnine.jasmine.web.demo.RestReflectionUtilsJS
 import com.gridnine.jasmine.web.demo.UiReflectionUtilsJS
 import com.gridnine.jasmine.web.demo.ui.DemoComplexDocumentNestedDocumentTileSpaceEditorInterceptor
 import com.gridnine.jasmine.web.demo.ui.WebDemoComplexDocumentEditorHandler
@@ -80,6 +81,7 @@ class WebDemoActivator : ActivatorJS{
         WebCoreMetaRegistriesUpdater.updateMetaRegistries(pluginId)
         DomainReflectionUtilsJS.registerWebDomainClasses()
         UiReflectionUtilsJS.registerWebUiClasses()
+        RestReflectionUtilsJS.registerWebRestClasses()
         RegistryJS.get().register(WebDemoUserAccountEditorHandler())
         RegistryJS.get().register(WebDemoComplexDocumentEditorHandler())
         WebEditorInterceptorsRegistry.get().register(DemoComplexDocumentNestedDocumentTileSpaceEditorInterceptor())

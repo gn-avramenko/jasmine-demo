@@ -3,8 +3,12 @@
     <parameter id="kotlin-output-dir" value="resources/webapp-demo-test"/>
     <parameter id="test-suite-launcher" value="com.gridnine.jasmine.web.demo.test-suite-launcher.js"/>
     <parameter id="individual-test-launcher" value="com.gridnine.jasmine.web.demo.test-individual-launcher.js"/>
+    <parameter id="server-launcher-class" value="com.gridnine.jasmine.server.demo.test.web.DemoWebTest"/>
     <dependencies>
         <plugin-dependency plugin-id="com.gridnine.jasmine.web.core"/>
         <plugin-dependency plugin-id="com.gridnine.jasmine.web.core.test"/>
+        <plugin-dependency plugin-id="com.gridnine.jasmine.web.easyui"/>
+        <plugin-dependency plugin-id="com.gridnine.jasmine.web.demo"/>
+        <plugin-dependency plugin-id="com.gridnine.jasmine.web.standard"/>
     </dependencies>
 </plugin>

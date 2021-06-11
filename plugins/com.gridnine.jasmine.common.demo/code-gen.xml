@@ -1,6 +1,8 @@
 <code-gen xmlns="http://gridnine.com/jasmine/codegen">
     <source id="demo-domain" location="source/com/gridnine/jasmine/common/demo/model/demo-model-domain.xml"/>
     <source id="demo-ui" location="source/com/gridnine/jasmine/common/demo/model/demo-ui.xml"/>
+    <source id="demo-rest" location="source/com/gridnine/jasmine/common/demo/model/demo-rest.xml"/>
     <generate source="demo-domain" targetPlugin="com.gridnine.jasmine.common.demo" generator="common-domain"/>
     <generate source="demo-ui" targetPlugin="com.gridnine.jasmine.common.demo" generator="common-ui"/>
+    <generate source="demo-rest" targetPlugin="com.gridnine.jasmine.common.demo" generator="common-rest"/>
 </code-gen>

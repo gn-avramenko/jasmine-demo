@@ -1,15 +1,30 @@
-package com.gridnine.jasmine.web.demo.test.suite
+package com.gridnine.jasmine.web.demo.test
 
-//import com.gridnine.jasmine.web.core.activator.await
-//import com.gridnine.jasmine.web.core.activator.launch
-import com.gridnine.jasmine.web.core.test.ext.before
-import com.gridnine.jasmine.web.core.test.ext.describe
-import com.gridnine.jasmine.web.core.test.ext.it
+import com.gridnine.jasmine.web.core.common.ActivatorJS
+import com.gridnine.jasmine.web.core.remote.launch
+import com.gridnine.jasmine.web.core.test.WebCoreTestBase
+import com.gridnine.jasmine.web.core.test.before
+import com.gridnine.jasmine.web.core.test.describe
+import com.gridnine.jasmine.web.core.test.it
+import com.gridnine.jasmine.web.demo.activator.WebDemoActivator
+import com.gridnine.jasmine.web.easyui.activator.WebEasyUiActivator
+import com.gridnine.jasmine.web.standard.activator.WebStandardActivator
 import kotlinx.browser.window
+import kotlinx.coroutines.await
 import kotlin.js.Promise
 
-class DemoIndividualTest{
-//    fun describeSuite(){
+open class WebDemoTestBase:WebCoreTestBase(){
+
+    override fun getActivators(): MutableList<ActivatorJS> {
+        return super.getActivators().also {
+            it.add(WebStandardActivator())
+            it.add(WebEasyUiActivator())
+            it.add(WebDemoActivator())
+            it.add(WebDemoTestActivator())
+        }
+    }
+
+
 //        describe("demo-individual-test") {
 //            before {
 //                console.log("before test")
@@ -60,5 +75,4 @@ class DemoIndividualTest{
 //                }
 //            }
 //        }
-//    }
-}
+    }

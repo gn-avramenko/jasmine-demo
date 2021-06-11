@@ -11,8 +11,10 @@ import com.gridnine.jasmine.common.core.app.Environment
 import com.gridnine.jasmine.common.core.app.IPluginActivator
 import com.gridnine.jasmine.common.core.app.Registry
 import com.gridnine.jasmine.common.core.meta.MiscMetaRegistry
+import com.gridnine.jasmine.common.core.meta.RestMetaRegistry
 import com.gridnine.jasmine.common.core.meta.WebPluginsAssociationsRegistry
 import com.gridnine.jasmine.common.core.parser.MiscMetadataParser
+import com.gridnine.jasmine.common.core.parser.RestMetadataParser
 import com.gridnine.jasmine.common.core.storage.SearchQuery
 import com.gridnine.jasmine.common.core.storage.Storage
 import com.gridnine.jasmine.common.core.utils.AuthUtils

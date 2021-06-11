@@ -4,6 +4,23 @@
         <enum-item id="VARIANT1"/>
         <enum-item id="VARIANT2"/>
     </enum>
+    <grid-container id="com.gridnine.jasmine.common.demo.model.ui.DemoUserNewAccountEditor" columns-count="1">
+        <row>
+            <cell caption="login" id="login">
+                <text-box />
+            </cell>
+        </row>
+        <row>
+            <cell caption="password" id="password">
+                <password-box />
+            </cell>
+        </row>
+        <row>
+            <cell caption="retypePassword" id="retypePassword">
+                <password-box />
+            </cell>
+        </row>
+    </grid-container>
     <grid-container id="com.gridnine.jasmine.common.demo.model.ui.DemoUserAccountEditor" columns-count="1">
         <row>
             <cell caption="login" id="login">
@@ -134,6 +151,7 @@
     </actions-group>
     <actions-group id="com.gridnine.jasmine.common.demo.model.domain.DemoUserAccountIndex">
         <action-ref id="deleteSelectedListItems"/>
+        <action id="createNewUserAccount" action-handler="com.gridnine.jasmine.web.demo.ui.WebDemoCreateNewUserAccountListButtonHandler"/>
     </actions-group>
     <actions-group id="com.gridnine.jasmine.common.demo.model.domain.DemoUserAccount">
         <action-ref id="standard.saveObject"/>

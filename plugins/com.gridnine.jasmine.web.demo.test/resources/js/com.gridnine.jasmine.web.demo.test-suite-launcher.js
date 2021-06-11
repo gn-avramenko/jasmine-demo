@@ -1,4 +1,4 @@
 require("core-test-initializer")
 var testModule = require("com.gridnine.jasmine.web.demo.test")
 
-new testModule.com.gridnine.jasmine.web.demo.test.suite.DemoTestSuite().describeSuite()
+new testModule.com.gridnine.jasmine.web.demo.test.DemoTestSuite().describeSuite()

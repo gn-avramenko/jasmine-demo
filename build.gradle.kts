@@ -40,6 +40,7 @@ jasmine {
     plugins("plugins"){
         plugin("com.gridnine.jasmine.common.demo")
         plugin("com.gridnine.jasmine.server.demo")
+        plugin("com.gridnine.jasmine.server.demo.test")
         plugin("com.gridnine.jasmine.web.demo")
         plugin("com.gridnine.jasmine.web.demo.test")
     }
