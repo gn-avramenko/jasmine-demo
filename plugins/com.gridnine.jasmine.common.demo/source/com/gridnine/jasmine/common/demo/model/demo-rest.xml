@@ -10,6 +10,12 @@
                 <property id="objectUid" type="STRING"/>
             </response>
         </operation>
+        <operation id="throwException" handler="com.gridnine.jasmine.server.demo.rest.DemoThrowExceptionRestHandler">
+            <request id="com.gridnine.jasmine.common.demo.rest.DemoThrowExceptionRequest">
+            </request>
+            <response id="com.gridnine.jasmine.common.demo.rest.DemoThrowExceptionResponse">
+            </response>
+        </operation>
     </group>
 
 </rest>

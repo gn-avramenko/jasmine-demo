@@ -148,6 +148,8 @@
     <actions-group id="standard.workspace-tools">
         <action id="demo.workspace-tools.start-stress-test" action-handler="com.gridnine.jasmine.web.demo.stressTest.DemoStartStressTestActionHandler"/>
         <action id="demo.workspace-tools.finish-stress-test" action-handler="com.gridnine.jasmine.web.demo.stressTest.DemoFinishStressTestActionHandler"/>
+        <action id="demo.workspace-tools.throw-client-exception" action-handler="com.gridnine.jasmine.web.demo.exceptions.DemoThrowClientExceptionHandler"/>
+        <action id="demo.workspace-tools.throw-server-exception" action-handler="com.gridnine.jasmine.web.demo.exceptions.DemoThrowServerExceptionHandler"/>
     </actions-group>
     <actions-group id="com.gridnine.jasmine.common.demo.model.domain.DemoUserAccountIndex">
         <action-ref id="deleteSelectedListItems"/>
