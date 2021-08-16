@@ -65,6 +65,8 @@ class DemoActivator : IPluginActivator {
         addApp("/easyui-adapter","easyui-adapter","lib/easyui-adapter.war")
         addApp("/jquery-lib","jquery-lib","lib/jquery-lib.war")
         addApp("/webapp-demo","webapp-demo","lib/webapp-demo.war")
+        addApp("/antd-lib","antd-lib","lib/antd-lib.war")
+        addApp("/jasmine-antd","jasmine-antd","lib/jasmine-antd.war")
 //        addApp("/zk-adapter","zk-adapter","lib/zk-adapter.war")
 //        restAutocompleteUrl = "/ui-rest/standard_standard_autocompleteSelect2"
         WebServerConfig.get().globalFilters.add(WebAppFilter("demo-auth-filter", DemoAuthFilter::class))

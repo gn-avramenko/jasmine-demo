@@ -7,7 +7,7 @@ buildscript {
     }
 }
 plugins {
-    id("com.github.node-gradle.node") version("2.2.3")
+    id("com.github.node-gradle.node") version("3.1.0")
 }
 
 
@@ -35,6 +35,8 @@ jasmine {
         plugin("com.gridnine.jasmine.web.core.test")
         plugin("com.gridnine.jasmine.web.standard")
         plugin("com.gridnine.jasmine.web.reports")
+        plugin("com.gridnine.jasmine.web.antd")
+        plugin("com.gridnine.jasmine.server.standard.test")
         plugin("com.gridnine.jasmine.web.easyui")
     }
     plugins("plugins"){

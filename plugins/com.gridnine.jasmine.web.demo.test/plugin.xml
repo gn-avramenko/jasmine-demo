@@ -7,7 +7,7 @@
     <dependencies>
         <plugin-dependency plugin-id="com.gridnine.jasmine.web.core"/>
         <plugin-dependency plugin-id="com.gridnine.jasmine.web.core.test"/>
-        <plugin-dependency plugin-id="com.gridnine.jasmine.web.easyui"/>
+        <plugin-dependency plugin-id="com.gridnine.jasmine.web.antd"/>
         <plugin-dependency plugin-id="com.gridnine.jasmine.web.demo"/>
         <plugin-dependency plugin-id="com.gridnine.jasmine.web.standard"/>
     </dependencies>

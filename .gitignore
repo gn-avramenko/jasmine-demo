@@ -3,7 +3,6 @@ build
 data
 lib
 /temp/
-node_modules
 package-lock.json
 /webpack.config.js
-
+/node_modules/

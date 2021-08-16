@@ -23,23 +23,83 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52ba39f3-a969-4fe3-b47d-c98f6c513343" name="Default Changelist" comment="webtag refactoring">
-      <change afterPath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.server.demo/source/com/gridnine/jasmine/server/demo/rest/DemoThrowExceptionRestHandler.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.web.demo/source/com/gridnine/jasmine/web/demo/exceptions/DemoThrowClientExceptionHandler.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.web.demo/source/com/gridnine/jasmine/web/demo/exceptions/DemoThrowServerExceptionHandler.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.standard/source/com/gridnine/jasmine/web/standard/activator/web-standard-exception-handler.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.server.standard.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.web.antd.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/jasmine-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/own.jasmine-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/submodules/jasmine-demo.submodules.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/submodules/jasmine/build-scripts/jasmine-demo.submodules.jasmine.build-scripts.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/submodules/jasmine/build-scripts/jasmine-demo.submodules.jasmine.build-scripts.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/submodules/jasmine/build-scripts/jasmine-demo.submodules.jasmine.build-scripts.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/submodules/jasmine/jasmine-demo.submodules.jasmine.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/submodules/spf-updater/jasmine-demo.submodules.spf-updater.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/submodules/spf-updater/jasmine-demo.submodules.spf-updater.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/submodules/spf-updater/jasmine-demo.submodules.spf-updater.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/submodules/spf/jasmine-demo.submodules.spf.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/submodules/spf/jasmine-demo.submodules.spf.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/submodules/spf/jasmine-demo.submodules.spf.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.server.demo/resources/jasmine-demo-index/css/demo-antd-grey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.server.demo/resources/jasmine-demo-index/css/t-venzel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.server.demo/resources/jasmine-demo-index/index-easyui.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submodules/jasmine/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_node_gradle_gradle_node_plugin_2_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_node_gradle_gradle_node_plugin_3_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/server.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/web_js.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/web_js.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/IdeaProjects.jasmine-demo-master.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.web.core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.web.core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.web.core.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.web.core.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.web.demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.web.demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.web.demo.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.web.demo.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.web.easyui.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.web.easyui.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.web.reports.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.web.reports.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.web.standard.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.gridnine.jasmine.web.standard.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/submodules/jasmine-demo-master.submodules.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/submodules/jasmine/build-scripts/jasmine-demo-master.submodules.jasmine.build-scripts.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/submodules/jasmine/build-scripts/jasmine-demo-master.submodules.jasmine.build-scripts.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/submodules/jasmine/build-scripts/jasmine-demo-master.submodules.jasmine.build-scripts.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/submodules/jasmine/jasmine-demo-master.submodules.jasmine.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/submodules/spf-updater/jasmine-demo-master.submodules.spf-updater.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/submodules/spf-updater/jasmine-demo-master.submodules.spf-updater.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/submodules/spf-updater/jasmine-demo-master.submodules.spf-updater.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/submodules/spf/jasmine-demo-master.submodules.spf.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/submodules/spf/jasmine-demo-master.submodules.spf.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/submodules/spf/jasmine-demo-master.submodules.spf.test.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.common.demo/source/com/gridnine/jasmine/common/demo/model/demo-rest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.common.demo/source/com/gridnine/jasmine/common/demo/model/demo-rest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/jasmine-gradle-plugin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/jasmine-gradle-plugin.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/externals-test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/externals-test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/externals.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/externals.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.common.demo/source/com/gridnine/jasmine/common/demo/model/demo-ui.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.common.demo/source/com/gridnine/jasmine/common/demo/model/demo-ui.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.common.demo/source/com/gridnine/jasmine/common/demo/model/l10n/demo-ui_ru.properties" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.common.demo/source/com/gridnine/jasmine/common/demo/model/l10n/demo-ui_ru.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source/com/gridnine/jasmine/server/standard/rest/standard-rest-filters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.standard/source/com/gridnine/jasmine/server/standard/rest/standard-rest-filters.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/web/core/remote/web-core-rest-js.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/web/core/remote/web-core-rest-js.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/web/core/ui/components/core-web-text-box.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/web/core/ui/components/core-web-text-box.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.easyui/source/com/gridnine/jasmine/web/easyui/components/EasyUiWebLibraryAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.easyui/source/com/gridnine/jasmine/web/easyui/components/EasyUiWebLibraryAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.easyui/source/com/gridnine/jasmine/web/easyui/components/EasyUiWebTag.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.easyui/source/com/gridnine/jasmine/web/easyui/components/EasyUiWebTag.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.easyui/source/com/gridnine/jasmine/web/easyui/components/EasyUiWebTextBox.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.easyui/source/com/gridnine/jasmine/web/easyui/components/EasyUiWebTextBox.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.standard/source/com/gridnine/jasmine/web/standard/activator/web-standard-activator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.standard/source/com/gridnine/jasmine/web/standard/activator/web-standard-activator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.standard/source/com/gridnine/jasmine/web/standard/widgets/TextBoxWidget.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.standard/source/com/gridnine/jasmine/web/standard/widgets/TextBoxWidget.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.server.demo/resources/jasmine-demo-index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.server.demo/resources/jasmine-demo-index/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.server.demo/source/com/gridnine/jasmine/server/demo/activator/DemoActivator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.server.demo/source/com/gridnine/jasmine/server/demo/activator/DemoActivator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.web.demo.test/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.web.demo.test/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.web.demo.test/source/com/gridnine/jasmine/web/demo/test/WebDemoTestBase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.web.demo.test/source/com/gridnine/jasmine/web/demo/test/WebDemoTestBase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.web.demo/source/com/gridnine/jasmine/web/demo/activator/web-demo-activator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/com.gridnine.jasmine.web.demo/source/com/gridnine/jasmine/web/demo/activator/web-demo-activator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/build-scripts/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/JasminePlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/JasminePlugin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/NodeJsCopyJsFilesInBuildTask.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/NodeJsCopyJsFilesInBuildTask.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/NodeJsInstalReporterTask.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/NodeJsInstalReporterTask.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/NodeJsInstallMochaTask.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/NodeJsInstallMochaTask.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/NodeJsInstallUglifyTask.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/NodeJsInstallUglifyTask.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/NodeJsInstallWebpackCliTask.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/NodeJsInstallWebpackCliTask.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/NodeJsInstallWebpackTask.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/NodeJsInstallWebpackTask.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/NodeJsInstallXmlHttpRequestTask.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/NodeJsInstallXmlHttpRequestTask.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/NodeJsRunUglifyTask.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/NodeJsRunUglifyTask.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/NodeJsRunWebpackTask.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/NodeJsRunWebpackTask.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/NodeJsStartTestInBuildTask.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/NodeJsStartTestInBuildTask.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/NodeJsStartTestInIDETask.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/build-scripts/src/main/kotlin/com/gridnine/jasmine/gradle/plugin/tasks/NodeJsStartTestInIDETask.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/source/com/gridnine/jasmine/common/core/model/core-model-common.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.common.core/source/com/gridnine/jasmine/common/core/model/core-model-common.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/storage/jdbc/JdbcDatabase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/storage/jdbc/JdbcDatabase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/storage/jdbc/core-storage-jdbc-utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.core/source/com/gridnine/jasmine/server/core/storage/jdbc/core-storage-jdbc-utils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.reports/source-gen/com/gridnine/jasmine/server/reports/model/StandardReportRequestedParameterId.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.server.reports/source-gen/com/gridnine/jasmine/server/reports/model/StandardReportRequestedParameterId.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.antd/source/com/gridnine/jasmine/web/antd/components/AntdWebPanel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.antd/source/com/gridnine/jasmine/web/antd/components/AntdWebPanel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.antd/source/com/gridnine/jasmine/web/antd/components/AntdWebTabsContainer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.antd/source/com/gridnine/jasmine/web/antd/components/AntdWebTabsContainer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.antd/source/com/gridnine/jasmine/web/antd/components/AntdWebUiLibraryAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.antd/source/com/gridnine/jasmine/web/antd/components/AntdWebUiLibraryAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.standard/source/com/gridnine/jasmine/web/standard/widgets/BooleanBoxWidget.kt" beforeDir="false" afterPath="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.standard/source/com/gridnine/jasmine/web/standard/widgets/BooleanBoxWidget.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,66 +142,65 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="jasmine-demo-master" type="f1a62948:ProjectNode" />
+                <item name="jasmine-demo" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="jasmine-demo-master" type="f1a62948:ProjectNode" />
+                <item name="jasmine-demo" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="jasmine-demo-master" type="f1a62948:ProjectNode" />
+                <item name="jasmine-demo" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="idea" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="jasmine-demo-master" type="f1a62948:ProjectNode" />
+                <item name="jasmine-demo" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="individual-js-tests" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="jasmine-demo-master" type="f1a62948:ProjectNode" />
+                <item name="jasmine-demo" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="jenkins" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="jasmine-demo-master" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
+                <item name="jasmine-demo" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="jasmine-demo-master" type="f1a62948:ProjectNode" />
+                <item name="jasmine-demo" type="f1a62948:ProjectNode" />
                 <item name="submodules" type="2d1252cf:ModuleNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="jasmine-demo-master" type="f1a62948:ProjectNode" />
-                <item name="submodules" type="2d1252cf:ModuleNode" />
-                <item name="jasmine" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="jasmine-demo-master" type="f1a62948:ProjectNode" />
+                <item name="jasmine-demo" type="f1a62948:ProjectNode" />
                 <item name="submodules" type="2d1252cf:ModuleNode" />
                 <item name="jasmine" type="2d1252cf:ModuleNode" />
-                <item name="build-scripts" type="2d1252cf:ModuleNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="jasmine-demo-master" type="f1a62948:ProjectNode" />
+                <item name="jasmine-demo" type="f1a62948:ProjectNode" />
                 <item name="submodules" type="2d1252cf:ModuleNode" />
                 <item name="jasmine" type="2d1252cf:ModuleNode" />
                 <item name="build-scripts" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jasmine-demo" type="f1a62948:ProjectNode" />
+                <item name="submodules" type="2d1252cf:ModuleNode" />
+                <item name="jasmine" type="2d1252cf:ModuleNode" />
+                <item name="build-scripts" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="jasmine-demo-master" type="f1a62948:ProjectNode" />
+                <item name="jasmine-demo" type="f1a62948:ProjectNode" />
                 <item name="submodules" type="2d1252cf:ModuleNode" />
                 <item name="jasmine" type="2d1252cf:ModuleNode" />
                 <item name="build-scripts" type="2d1252cf:ModuleNode" />
@@ -162,9 +221,6 @@
         <option value="Kotlin Class" />
       </list>
     </option>
-  </component>
-  <component name="Git.Pull.Settings">
-    <option name="BRANCH" value="master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/submodules/jasmine" />
@@ -191,7 +247,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.standard/source/com/gridnine/jasmine/web/standard/widgets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gradle" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15000002" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -199,11 +255,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.standard/source/com/gridnine/jasmine/web/standard/widgets" />
       <recent name="$PROJECT_DIR$/gradle" />
-      <recent name="$PROJECT_DIR$/submodules/jasmine/lib/js" />
-      <recent name="$PROJECT_DIR$/plugins/com.gridnine.jasmine.common.demo/source/com/gridnine/jasmine/common/demo/model" />
-      <recent name="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core/source/com/gridnine/jasmine/web/core/ui/components" />
+      <recent name="$PROJECT_DIR$/node_modules" />
+      <recent name="$PROJECT_DIR$/lib/js" />
+      <recent name="$PROJECT_DIR$/plugins/com.gridnine.jasmine.server.demo/resources/jasmine-demo-index/css" />
+      <recent name="$PROJECT_DIR$/plugins/com.gridnine.jasmine.server.demo/resources/jasmine-demo-index" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/submodules/jasmine/plugins/com.gridnine.jasmine.web.core.test/source/com/gridnine/jasmine/web/core/test" />
@@ -240,13 +296,55 @@
     </configuration>
     <configuration name="jasmine" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.gridnine.spf.app.SpfBoot" />
-      <module name="jasmine-demo-master" />
+      <module name="jasmine-demo" />
       <option name="VM_PARAMETERS" value="-Dspf.mode=start -Dspf.applicationClass=com.gridnine.jasmine.common.spf.SpfApplicationImpl -Dlogback.configurationFile=config/logback.xml" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="jasmine-demo-final [makeProject]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="jasmine-demo [individual-js-test_com.gridnine.jasmine.web.demo.test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="individual-js-test_com.gridnine.jasmine.web.demo.test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="jasmine-demo [jenkins-test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--stacktrace" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jenkins-test" />
+          </list>
+        </option>
+        <option name="vmOptions" value="-Xmx4G -XX:MaxMetaspaceSize=2000m " />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="jasmine-demo [makeProject]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -267,7 +365,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="jasmine-demo-master [codeGen]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="jasmine-demo [setupNode]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -278,52 +376,10 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="codeGen" />
+            <option value="setupNode" />
           </list>
         </option>
         <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="jasmine-demo-master [individual-js-test_com.gridnine.jasmine.web.demo.test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="individual-js-test_com.gridnine.jasmine.web.demo.test" />
-          </list>
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="jasmine-demo-master [jenkins-test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--stacktrace" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="jenkins-test" />
-          </list>
-        </option>
-        <option name="vmOptions" value="-Xmx1024M -XX:MaxMetaspaceSize=1024m " />
       </ExternalSystemSettings>
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
@@ -389,19 +445,19 @@
       <item itemvalue="Application.jasmine" />
       <item itemvalue="Application.demo-web-test" />
       <item itemvalue="Gradle.jenkins-dist" />
-      <item itemvalue="Gradle.jasmine-demo-final [makeProject]" />
-      <item itemvalue="Gradle.jasmine-demo-master [codeGen]" />
-      <item itemvalue="Gradle.jasmine-demo-master [individual-js-test_com.gridnine.jasmine.web.demo.test]" />
       <item itemvalue="Gradle.jasmine-demo-master:submodules:jasmine:build-scripts [jar]" />
-      <item itemvalue="Gradle.jasmine-demo-master [jenkins-test]" />
+      <item itemvalue="Gradle.jasmine-demo [makeProject]" />
+      <item itemvalue="Gradle.jasmine-demo [individual-js-test_com.gridnine.jasmine.web.demo.test]" />
+      <item itemvalue="Gradle.jasmine-demo [setupNode]" />
+      <item itemvalue="Gradle.jasmine-demo [jenkins-test]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.jasmine-demo-master [codeGen]" />
+        <item itemvalue="Gradle.jasmine-demo [jenkins-test]" />
         <item itemvalue="Gradle.jasmine-demo-master:submodules:jasmine:build-scripts [jar]" />
-        <item itemvalue="Gradle.jasmine-demo-master [jenkins-test]" />
-        <item itemvalue="Gradle.jasmine-demo-master [individual-js-test_com.gridnine.jasmine.web.demo.test]" />
-        <item itemvalue="Gradle.jasmine-demo-final [makeProject]" />
+        <item itemvalue="Gradle.jasmine-demo [individual-js-test_com.gridnine.jasmine.web.demo.test]" />
+        <item itemvalue="Gradle.jasmine-demo [setupNode]" />
+        <item itemvalue="Gradle.jasmine-demo [makeProject]" />
       </list>
     </recent_temporary>
   </component>

@@ -1,19 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module version="4">
-   <component name="NewModuleRootManager">
-      <output url="file://$MODULE_DIR$/../../plugins/com.gridnine.jasmine.web.demo.test/resources/webapp-demo-test"/>
-      <output-test url="file://$MODULE_DIR$/../../plugins/com.gridnine.jasmine.web.demo.test/resources/webapp-demo-test"/>
-      <content url="file://$MODULE_DIR$/../../plugins/com.gridnine.jasmine.web.demo.test">
-         <sourceFolder url="file://$MODULE_DIR$/../../plugins/com.gridnine.jasmine.web.demo.test/source" isTestSource="false"/>
-         <excludeFolder url="file://$MODULE_DIR$/../../plugins/com.gridnine.jasmine.web.demo.test/resources/webapp-demo-test"/>
-      </content>
-      <orderEntry type="sourceFolder" forTests="true"/>
-      <orderEntry type="inheritedJdk"/>
-      <orderEntry type="library" name="web_js" level="project"/>
-      <orderEntry type="module" module-name="com.gridnine.jasmine.web.core"/>
-      <orderEntry type="module" module-name="com.gridnine.jasmine.web.core.test"/>
-      <orderEntry type="module" module-name="com.gridnine.jasmine.web.easyui"/>
-      <orderEntry type="module" module-name="com.gridnine.jasmine.web.demo"/>
-      <orderEntry type="module" module-name="com.gridnine.jasmine.web.standard"/>
-   </component>
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="4" platform="JavaScript " allPlatforms="JS []" useProjectSettings="false" isTestModule="true" pureKotlinSourceFolders="$MODULE_DIR$/../../plugins/com.gridnine.jasmine.web.demo.test/source">
+        <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
+        <compilerSettings />
+        <compilerArguments>
+          <option name="sourceMap" value="true" />
+          <option name="sourceMapEmbedSources" value="always" />
+          <option name="moduleKind" value="umd" />
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../plugins/com.gridnine.jasmine.web.demo.test/resources/webapp-demo-test" />
+    <output-test url="file://$MODULE_DIR$/../../plugins/com.gridnine.jasmine.web.demo.test/resources/webapp-demo-test" />
+    <content url="file://$MODULE_DIR$/../../plugins/com.gridnine.jasmine.web.demo.test">
+      <sourceFolder url="file://$MODULE_DIR$/../../plugins/com.gridnine.jasmine.web.demo.test/source" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/../../plugins/com.gridnine.jasmine.web.demo.test/resources/webapp-demo-test" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="library" name="web_js" level="project" />
+    <orderEntry type="module" module-name="com.gridnine.jasmine.web.core" />
+    <orderEntry type="module" module-name="com.gridnine.jasmine.web.core.test" />
+    <orderEntry type="module" module-name="com.gridnine.jasmine.web.antd" />
+    <orderEntry type="module" module-name="com.gridnine.jasmine.web.demo" />
+    <orderEntry type="module" module-name="com.gridnine.jasmine.web.standard" />
+  </component>
 </module>

@@ -8,6 +8,9 @@
       <module name="jasmine-demo-master.submodules.jasmine.build-scripts" target="14" />
       <module name="jasmine-demo-master.submodules.jasmine.build-scripts.main" target="14" />
       <module name="jasmine-demo-master.submodules.jasmine.build-scripts.test" target="14" />
+      <module name="jasmine-demo.submodules.jasmine.build-scripts" target="14" />
+      <module name="jasmine-demo.submodules.jasmine.build-scripts.main" target="14" />
+      <module name="jasmine-demo.submodules.jasmine.build-scripts.test" target="14" />
     </bytecodeTargetLevel>
   </component>
 </project>

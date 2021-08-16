@@ -1,24 +1,17 @@
 package com.gridnine.jasmine.web.demo.test
 
+import com.gridnine.jasmine.web.antd.activator.AntdWebActivator
 import com.gridnine.jasmine.web.core.common.ActivatorJS
-import com.gridnine.jasmine.web.core.remote.launch
 import com.gridnine.jasmine.web.core.test.WebCoreTestBase
-import com.gridnine.jasmine.web.core.test.before
-import com.gridnine.jasmine.web.core.test.describe
-import com.gridnine.jasmine.web.core.test.it
 import com.gridnine.jasmine.web.demo.activator.WebDemoActivator
-import com.gridnine.jasmine.web.easyui.activator.WebEasyUiActivator
 import com.gridnine.jasmine.web.standard.activator.WebStandardActivator
-import kotlinx.browser.window
-import kotlinx.coroutines.await
-import kotlin.js.Promise
 
 open class WebDemoTestBase:WebCoreTestBase(){
 
     override fun getActivators(): MutableList<ActivatorJS> {
         return super.getActivators().also {
             it.add(WebStandardActivator())
-            it.add(WebEasyUiActivator())
+            it.add(AntdWebActivator())
             it.add(WebDemoActivator())
             it.add(WebDemoTestActivator())
         }
