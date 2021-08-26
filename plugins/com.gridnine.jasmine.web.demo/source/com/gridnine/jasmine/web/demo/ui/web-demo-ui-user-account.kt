@@ -45,7 +45,7 @@ class WebDemoCreateNewUserAccountListButtonHandler: ListLinkButtonHandler<BaseId
     fun invokeAndReturnResult():Dialog<DemoUserNewAccountEditor> {
         val editor = DemoUserNewAccountEditor()
         return WebUiLibraryAdapter.get().showDialog(editor){
-            title = "Создание нового пользователя"
+            title = "Новый пользователь"
             button {
                 displayName = WebMessages.apply
                 handler = {

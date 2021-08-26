@@ -52,7 +52,7 @@ fun main() {
             }
         }
         val mainFrame = MainFrame {
-            title = ""
+            title = "jasmine"
             navigationWidth = 200
             tools.addAll(mainFrameTools)
         }

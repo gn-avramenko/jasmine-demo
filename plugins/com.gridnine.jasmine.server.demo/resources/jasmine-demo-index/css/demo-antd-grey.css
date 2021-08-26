@@ -1,6 +1,14 @@
 .jasmine-logo {
-    background-image: url("t-venzel.png");
-    height: 50px;
+    background: #182444;
+    height: 60px;
+    font-size: 24px;
+    font-weight: bold;
+    color: whitesmoke;
+    border-right: 1px solid #f0f0f0;
+    text-align: center;
+    background-image: url("logo.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
+    line-height: 60px;
 }
+

@@ -37,7 +37,7 @@ class DemoComplexDocumentNestedDocumentTileSpaceEditorInterceptor : WebEditorInt
     override fun onInit(editor: DemoComplexDocumentNestedDocumentsEditor) {
         editor.setRemoveHandler { item ->
             val data = item.getData() as BaseNavigatorVariantVMJS
-            StandardUiUtils.confirm("${WebMessages.areYouSureToDelete} ${data.title}?") {
+            StandardUiUtils.confirm("Вы действительно хотите удалить ${data.title}?") {
                 editor.removeTab(data.uid)
             }
         }

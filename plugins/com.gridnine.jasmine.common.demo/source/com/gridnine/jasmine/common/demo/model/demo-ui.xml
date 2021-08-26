@@ -153,17 +153,17 @@
     </actions-group>
     <actions-group id="com.gridnine.jasmine.common.demo.model.domain.DemoUserAccountIndex">
         <action-ref id="deleteSelectedListItems"/>
-        <action id="createNewUserAccount" action-handler="com.gridnine.jasmine.web.demo.ui.WebDemoCreateNewUserAccountListButtonHandler"/>
+        <action id="createNewUserAccount" action-handler="com.gridnine.jasmine.web.demo.ui.WebDemoCreateNewUserAccountListButtonHandler" icon="core:plus"/>
     </actions-group>
     <actions-group id="com.gridnine.jasmine.common.demo.model.domain.DemoUserAccount">
         <action-ref id="standard.saveObject"/>
-        <group id="demo.user.account.additional">
+        <group id="demo.user.account.additional"  icon="core:menu">
             <action-ref id="standard.showVersions"/>
         </group>
     </actions-group>
     <actions-group id="com.gridnine.jasmine.common.demo.model.domain.DemoComplexDocument">
         <action-ref id="standard.saveObject"/>
-        <group id="demo.complex.document.additional">
+        <group id="demo.complex.document.additional"  icon="core:menu">
             <action-ref id="standard.showVersions"/>
         </group>
     </actions-group>
